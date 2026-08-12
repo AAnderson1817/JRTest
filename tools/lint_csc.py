@@ -102,6 +102,26 @@ if declared:
 else:
     check(False, "§10 screen statement parseable")
 
+# --- §4.2 / §3.3 corpus arithmetic ------------------------------------------
+# The hapax share claimed in §3.3 prose must follow from the §4.2 table.
+t3   = re.search(r"\| Distinct types \| (\d+) \| ~(\d+) corpus-wide \|", text)
+hap  = re.search(r"\| Types occurring in exactly one sequence \| \*\*(\d+) \((\d+)%\)\*\* \| ~(\d+)% \|", text)
+if t3 and hap:
+    iii_types, fn_types = int(t3.group(1)), int(t3.group(2))
+    iii_hapax, iii_pct, fn_pct = int(hap.group(1)), int(hap.group(2)), int(hap.group(3))
+    check(abs(iii_hapax / iii_types * 100 - iii_pct) < 1,
+          f"§4.2 hapax rate {iii_hapax}/{iii_types} matches printed {iii_pct}%")
+    fn_hapax = fn_types * fn_pct / 100
+    share = iii_hapax / (iii_hapax + fn_hapax) * 100
+    claimed = re.search(r"holds about ([a-z-]+|\d+%) of the whole corpus's hapax units", text)
+    word = {"two-thirds": 66.7, "half": 50.0, "a third": 33.3}
+    got = claimed.group(1) if claimed else None
+    val = word.get(got, float(got[:-1]) if got and got.endswith("%") else None)
+    check(val is not None and abs(val - share) < 5,
+          f"§3.3 hapax share claim matches computed {share:.0f}%", f"prose says {got!r}")
+else:
+    check(False, "§4.2 corpus-arithmetic rows parseable")
+
 print()
 if fails:
     print(f"FAILED — {len(fails)} check(s): " + "; ".join(fails))

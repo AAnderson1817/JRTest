@@ -254,7 +254,9 @@ meaning. That method needs repetition *between* records.
 
 Stratum III repeats *within* records and almost never between them (§4.2). Of 412
 distinct Stratum III types, **301 occur in exactly one sequence** — and Stratum III
-holds about 40% of the whole corpus's hapax units in 17% of its tokens. There is no
+holds about two-thirds of the whole corpus's hapax units in 17% of its tokens. (301
+against roughly 146 in the functional strata, which is ~24% of their ~610 types: 301 of
+about 450, or 67%. §4.2 carries both figures.) There is no
 paradigm to build, because there are no minimal pairs across contexts to build one from.
 
 ### 3.4 The fourth method HEL does not have
