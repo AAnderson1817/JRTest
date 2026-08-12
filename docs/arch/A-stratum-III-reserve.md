@@ -814,18 +814,25 @@ catalogue is empty here, and is printed empty rather than omitted.
 
 **Transliteration (layer 2), as it stands on the object:**
 
-> wistalen · penhalsar · tesnalur
-> pesulnar · harsulen · tesnalur
-> wistalen · nelsar · tesnalur
+> walnisen · pehisar · tirakur
+> pekalar · munlisen · tirakur
+> walnisen · nusar · tirakur
 
 **Field pronunciation (layer 3 — HEL's convention, stress final, no reduction, ever):**
 
-> wis-ta-**LEN** · pen-hal-**SAR** · tes-na-**LUR**
-> pe-sul-**NAR** · har-su-**LEN** · tes-na-**LUR**
-> wis-ta-**LEN** · nel-**SAR** · tes-na-**LUR**
+> wal-ni-**SEN** · pe-hi-**SAR** · ti-ra-**KUR**
+> pe-ka-**LAR** · mun-li-**SEN** · ti-ra-**KUR**
+> wal-ni-**SEN** · nu-**SAR** · ti-ra-**KUR**
 
-Chicago Reading Room gives the `e` of `-len` as [eɪ]; the 1949 Standard gives [e]. Both
+Chicago Reading Room gives the `e` of `-sen` as [eɪ]; the 1949 Standard gives [e]. Both
 are heard, in the same room, on the same night, and nothing rides on it.
+
+**Every syllable above is on the 1908 sanctioned list** (A §6.1b) and the sequence is
+checkable against it unit by unit — which is the whole point of closing the list, and
+which matters more here than anywhere else in the corpus, because this is the one text
+with no gloss to check it against instead. The terminal `-ur` of the refrain is `kur`
+because `kur` is the only `-ur` syllable the committee licensed; the refrain's ending was
+not chosen, it was the only one available.
 
 **Gloss:** *(none — Stratum III; see §7.1)*
 **Grade:** *(none — the grade system grades readings; there is no reading)*
@@ -838,28 +845,44 @@ signed 1976, re-signed 1998 and 2019.
 | --- | --- | --- |
 | Tokens | 9 | ÷3 ✓ (§4.1) |
 | Types | 6 | — |
-| Recurring type | `tesnalur` ×3, at positions 3, 6, 9 — group-final, without exception | §4.1 triadic partition |
-| Second recurring type | `wistalen` ×2, positions 1 and 7 | §4.2 within-record repetition |
+| Recurring type | `tirakur` ×3, at positions 3, 6, 9 — group-final, without exception | §4.1 triadic partition |
+| Second recurring type | `walnisen` ×2, positions 1 and 7 | §4.2 within-record repetition |
 | Within-record recurrence rate | 0.33 of types recur internally | §4.2 (class 0.61) |
 | Between-record recurrence | **4 of 6 types occur in no other sequence in the CSC** | §4.2 (class hapax rate 73%) |
-| Terminal syllables by group | `-en · -ar · -ur` ‖ `-ar · -en · -ur` ‖ `-en · -ar · -ur` | groups 1 and 3 identical; group 2 a transposition of the first two |
+| Terminal syllables by group | `-sen · -sar · -kur` ‖ `-lar · -sen · -kur` ‖ `-sen · -sar · -kur` | groups 1 and 3 identical; group 2 a transposition of the first two |
 | Tokens ending in a coda | 9 of 9 | §4.6 (class 84%; functional 11%) |
-| Mean syllables per unit | 2.8 | §4.6 (class 3.1; functional 2.0) |
-| Shared first CV | `pesulnar` / `penhalsar` both `pe-` | §4.6 — violates the 1908 distinctness rule, which no functional unit does |
+| Mean syllables per unit | 2.9 (26 syllables ÷ 9) | §4.6 (class 3.1; functional 2.0) |
+| Shared first syllable | `pehisar` / `pekalar` both `pe-` | §4.6 — violates the 1908 distinctness rule, which no functional unit does |
+| Segmentation ambiguity | `pekalar` alone admits two legal readings — `pe-ka-lar` and `pe-kal-ar` | the 1971 proposal's only real foothold — see below |
 | Assignable units | **0** | Condition 1 ✓ |
 | Contact with functional material | **0** | Condition 2(b) ✓ |
 | Field condition | intact, certified 1952, re-certified 1998 | Condition 2(a) ✓ |
 
 **The 1971 extraction attempt, and why it failed — this is the classifier working.**
 Three of the six types contain the string `ar`, which is also the incidence marker `-ar`
-JCT. A 1971 resegmentation proposal extracted it from `harsulen`, `pesulnar` and
-`penhalsar` and claimed the sequence for Stratum I. **The proposal fails Condition 1 as
-written**, because assignment is *positional*, not string-matching: an incidence marker
-is by definition what stands between a root and an edge tail, and there is no edge tail
+JCT. A 1971 resegmentation proposal extracted it from `pehisar`, `pekalar` and `nusar`
+and claimed the sequence for Stratum I. **The proposal fails Condition 1 as written**,
+because assignment is *positional*, not string-matching: an incidence marker is by
+definition what stands between a root and an edge tail, and there is no edge tail
 anywhere in the sequence for it to stand before. Extracting `ar` produces a marker with
-no address. The attempt is retained in the catalogue as a worked demonstration of the
-difference between the two tests, and its author's rejoinder — that a paradigm which can
-only find itself where it already is has not been tested — is printed with it.
+no address.
+
+**And the proposal is better than it is usually given credit for, which is why it is
+kept.** In two of the three types the extraction is illegal on the face of it: `pehisar`
+and `nusar` segment only as `pe-hi-sar` and `nu-sar`, and getting `ar` out of either
+requires splitting the sanctioned syllable `sar`, which the code book does not permit.
+But `pekalar` genuinely admits two legal segmentations — `pe-ka-lar` and `pe-kal-ar` —
+and the second yields a licensed onsetless `ar` without breaking a single syllable. On
+that one unit the 1971 author was not misreading the code; he was reading it correctly,
+and the code was ambiguous. **He still fails, and he fails on position rather than on
+spelling** — `pe-kal-ar` puts a legal incidence marker at the end of a unit with nothing
+after it to be incident *to*. That the strongest available attack on this sequence is
+defeated by where the marker sits and not by what it is spelled like is the cleanest
+statement in the file of what Condition 1 actually tests.
+
+The attempt is retained in the catalogue as a worked demonstration of the difference
+between the two tests, and its author's rejoinder — that a paradigm which can only find
+itself where it already is has not been tested — is printed with it.
 
 ### 8.3 Provenance
 
@@ -909,9 +932,11 @@ and has never claimed to.** This is the forgery problem (§6.4) at the one place
 corpus where it costs the most, and it cannot be closed.
 
 **The variation.** The three recitations differ in exactly one unit — position 8,
-`nelsar`, the shortest in the sequence. 1931 and the object agree. The 1934 cylinder is
-damaged across precisely that unit. The 1939 disc has a form the Archive transcribes as
-`nelisar`, one syllable longer. **That the sole variant is the shortest and least
+`nusar`, the shortest in the sequence and the only one of two syllables. 1931 and the
+object agree. The 1934 cylinder is damaged across precisely that unit. The 1939 disc has
+a form the Archive transcribes as `nulisar`, one syllable longer — and `nu-li-sar` is
+itself well formed under the 1908 list, so the variant cannot be dismissed as a
+mishearing that produced a non-word. **That the sole variant is the shortest and least
 stressed unit is what the attrition model predicts of oral transmission**, which one
 school reads as confirmation that the sequence was transmitted rather than composed, and
 another reads as confirmation of nothing except that people misremember short words.
@@ -929,13 +954,13 @@ back. The roll records the other two, and this file does not.
 
 **Utterance.** A composed text of nine units in three groups, with a refrain in
 group-final position and an envelope structure — the first group's opening returns at
-the head of the third. The terminal-syllable pattern is a scheme. `nelsar` is short
+the head of the third. The terminal-syllable pattern is a scheme. `nusar` is short
 because the penultimate position is where a line catches before its last return. It was
 carried out of L-9 in somebody's mouth because that is what people do with texts that
 matter to them, and the fact that the mouth and the object agree across thirty-four years
 and two loci is the strongest evidence in the corpus that something was **transmitted**.
 
-**Instrument.** Nine slots in three frames of three. `tesnalur` is not a refrain, it is a
+**Instrument.** Nine slots in three frames of three. `tirakur` is not a refrain, it is a
 frame delimiter, occurring at frame boundaries because that is where delimiters occur.
 The terminal-syllable regularity is a parity or alignment property of the encoding. The
 envelope is a repeated field, not a poetic return. The object and the recitation agree
@@ -1004,6 +1029,7 @@ document. No Authority D question is resolved here.
 | **S12** | Ada Sowerby: the 1931 debrief and its annotation, the 1934 and 1939 recordings, the contradiction between them, the 1947 death date | C |
 | **S13** | The unauthorised recitation practice and the 1958 and 1981 instructions against it | C |
 | **S14** | The sealed-register rule for Stratum III (§6.6): compositional rule recorded, translation **not** recorded | C |
+| **S15** | The nine units of CSC-1146 as spelled at §8.1, and the claim that `pekalar` is the sole segmentation-ambiguous unit in the sequence — which is what makes the 1971 proposal a real reading of the code rather than a misreading, and is therefore load-bearing for §8.2 | C |
 
 ### 9.3 Deliberately not resolved, and to stay that way
 
@@ -1022,9 +1048,18 @@ Per the standing rule at Phase 1 recommendation §4.5. **The certification is a 
 of what was done, not a claim of purity** — a process claim is falsified by one hit,
 which is how a compliance statement becomes an aggravating factor.
 
-**Screen run:** 11 August 2026, on the seven forms coined in this file — `wistalen`,
-`penhalsar`, `tesnalur`, `pesulnar`, `harsulen`, `nelsar`, `nelisar` — plus the
-in-world proper names `Hessell` and `Sowerby`.
+**Screen run:** 12 August 2026, on the seven forms coined in this file — `walnisen`,
+`pehisar`, `tirakur`, `pekalar`, `munlisen`, `nusar`, `nulisar` — plus the in-world
+proper names `Hessell` and `Sowerby`.
+
+**List check, run first and mechanically.** All seven forms segment into syllables drawn
+only from the 1908 sanctioned list at §6.1b, verified with `tools/syllabary.py` rather
+than by eye. This check is run *before* the collision screen, because a form that fails
+it is not a candidate to be screened — under §6.1b it is not a transliteration at all.
+An earlier draft of this section failed exactly here: its seven forms used **twelve
+syllables that are not on the list** (`wis`, `ta`, `len`, `pen`, `hal`, `tes`, `na`,
+`lur`, `sul`, `nar`, `su`, `nel`), which the prose did not catch because the forms were
+pronounceable and looked like the rest of the corpus. Pronounceability is not the test.
 
 **Screened against:** English (including British and North American slang), Spanish,
 Mandarin, Hindi, Arabic, French, for obscene, comic, brand, and real-person-name
@@ -1046,15 +1081,37 @@ on inspection during coining, with the reason: *pehalsar* (Hindi **पहल** *
 Sepultura, and a burial semantic that would read as cheating); *natsuriel* (Japanese
 *natsu* — the specific drift the audit caught in `otera` and `hemasu`).
 
+**Excluded during this run specifically**, all of which are legal under §6.1b and were
+rejected on collision alone — which is the distinction the two-stage screen exists to
+draw: *pelusar* (Spanish *pelusa*, "lint" — the same hit that had already retired
+*pelusan*); *penisar* (English obscenity, unambiguous); *pehalar* (Hindi **पहल**
+*pehal*, as with the retired *pehalsar*); *pelunar* (contains the English word *lunar*,
+and a celestial semantic that would read as cheating); *walniken* (contains the brand
+string *Nike*); *munkisen* (`mun-ki-` reads as English *monkey* — comic); *lusakur*
+(Lusaka, a national capital).
+
 **Residuals found and accepted, disclosed rather than hidden:**
 
-- `wistalen` — contains the English letter-string *stale*. Not audible under the stress
-  rule (`wis-ta-LEN`), but present in print. Flagged for the respelling stage.
-- `penhalsar` — *pen* is an English word; *Penh* occurs as a toponym element. Both weak.
-- `pesulnar` — final `-nar`: Hindi **नर** *nar*, "male". Weak; not obscene or comic.
-- `harsulen` — initial `har-`: Arabic root ح-ر-س (*ḥaras*, "to guard") is adjacent but
-  not matched. Weak.
-- `nelsar` — no hit found; *Nels* is a Scandinavian given name (not a screened language).
+- `pekalar` — Turkish **pekâlâ** ("very well") is adjacent, and `-lar` is the Turkish
+  plural suffix, so the form reads as a plausible Turkish word to a Turkish speaker.
+  Turkish is not on the screened list; this was found incidentally and is disclosed
+  rather than dropped, and it is the strongest residual in the set.
+- `tirakur` — *Thakur*, a South Asian surname and title, is adjacent. Not matched: three
+  syllables against two, different onset, and the stress falls differently
+  (`ti-ra-KUR` against *THA-kur*). Weak, but it is a real-person-name class hit and is
+  named here for that reason.
+- `pehisar` — *Hisar* is a city in Haryana and a Turkish common noun ("fortress"). The
+  string is present but the boundary falls inside it (`pe-hi-sar`), so it is not a
+  syllable of the form. Weak.
+- `walnisen` — adjacent to the Scandinavian surnames *Nissen* and *Nielsen*. Neither is
+  a screened language. Weak; disclosed for the same reason as `tirakur`.
+- `nusar`, `nulisar`, `munlisen` — no hit found in any screened language.
+- **Turkish and the Scandinavian languages were not on the screened list**, and two of
+  the five residuals above are Turkish-adjacent — which is evidence that the list is too
+  short rather than that these forms are unusually unlucky. German was already flagged as
+  missing in the previous run and still is. **The screened list should be extended to
+  German, Turkish, Portuguese and the mainland Scandinavian languages in Phase 2, and
+  this file re-run against it.** That is a known gap, stated as a gap.
 - **German was not on the screened list and is not screened here.** Two coinages in
   earlier drafts hit German words and were dropped; the list should be extended in Phase
   2 and this file re-run against it.
@@ -1066,7 +1123,7 @@ established holds for these forms specifically: the profile is *actively incompa
 with Algonquian, Anishinaabe, Potawatomi and Miami-Illinois — **no phonemic vowel
 length** (central to all four), **no onset or coda clusters** (pervasive there: `-shk-`,
 `-nd-`, `-mb-`, `-ng-`), **no /tʃ/ or /ʃ/** (present and characteristic there), **/r/
-present in six of seven forms** (absent from all four), and **short `(C)V(C)` units
+present in five of seven forms** (absent from all four), and **short `(C)V(C)` units
 rather than polysynthetic verb complexes**. The Chicago anchor supplies HEL's
 institutional history and supplies no linguistic material of any kind, here or anywhere
 in this design.
