@@ -1156,13 +1156,39 @@ vowel-final and the resulting hiatus is itself a boundary cue:
 Three properties of the list are engineering decisions with minutes behind them,
 and all three do work elsewhere in this document.
 
-- **Each consonant is licensed with a contiguous vowel band, and no two consonants
-  share the same band.** /h/ and /k/ take {a e i}; /l/ takes {e i u}; /r/ takes
-  {a o u}; /t/ takes {i o u}; /n/ {i u}; /p/ {e u}; /s/ {a i}; /y/ only {u}. A
-  mis-heard onset therefore usually lands on a syllable that is *not on the list* —
-  so the commonest channel error produces a detectable non-syllable rather than a
-  different real word. **The list is a checkable code, which is the whole reason to
-  close it.**
+- **Each consonant is licensed with a restricted vowel band.** /h/ and /k/ take
+  {a e i}; /l/ takes {e i u}; /r/ takes {a o u}; /t/ takes {i o u}; /n/ {i u};
+  /p/ {e u}; /s/ {a i}; /y/ only {u}. A mis-heard onset therefore *usually* lands
+  on a syllable that is not on the list, so the commonest channel error tends to
+  produce a detectable non-syllable rather than a different real word. **The list
+  is a checkable code, which is the whole reason to close it.**
+
+  **Two things an earlier draft claimed here were false, and the correction is
+  worth more than the claim was.** It asserted that every band is *contiguous* and
+  that *no two consonants share a band*. Neither holds: /h/ and /k/ take the
+  identical band {a e i} — the draft's own example sentence said so in the clause
+  after the claim — and there is no ordering of the five vowels, among all 120,
+  under which all nine bands come out contiguous. The bands are restricted, which
+  is what does the work; they are not systematic, and the committee's minutes are
+  not evidence that they were meant to be.
+
+  **What the list actually achieves, measured rather than asserted.** Substituting
+  every other licensed onset into every listed syllable gives 440 single-onset
+  confusions. **334 of them (76%) land off the list and are detectable.** The
+  figure is not uniform, and the non-uniformity is the interesting part:
+
+  | | Confusions | Detectable | Rate |
+  | --- | --- | --- | --- |
+  | Open syllables | 220 | 134 | **61%** |
+  | Closed syllables | 220 | 200 | **91%** |
+
+  **A coda is worth thirty points of error detection.** That is a quantitative
+  vindication of the next bullet and of §6.1c's minimum coda rate, both of which
+  were argued on the ear alone; and it is the strongest available answer to why a
+  route command should be built from closed syllables wherever the template allows.
+  The undetectable residue is concentrated where the bands overlap — `ha`/`ka`,
+  `he`/`ke`, `hi`/`ki` are mutually undetectable in both directions, which is the
+  direct operational cost of the /h/–/k/ collision above.
 - **/m/ and /w/ are licensed only in closed syllables.** A nasal or glide onset
   before an open vowel is the least recoverable shape on a noisy line; the coda
   gives the ear an edge to find. This is why `mun` and `wal` exist and no open
