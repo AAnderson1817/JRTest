@@ -449,14 +449,58 @@ Decisions of record. The table below is retained as the rationale, not as an ope
 | **Q1** | **Correct interpretation affects route navigation.** Reading is a gate, not atmosphere. | As recommended |
 | **Q2** | **Tolkien's construction standard, not his disclosure standard.** The build rises to full diachronic depth — proto-forms, regular sound laws, every modern form derived and motivated. The player still receives no key: the Etruscan condition governs what is disclosed. Tolkien's own delivery vector, transparent etymology in place and personal names, is structurally unavailable here — the substrate cannot name a place — so the depth arrives through paradigms and transmission history instead. | **Amended upward.** Recommendation asked only for the Etruscan condition; this raises the construction bar and adds §5 item 3b |
 | **Q3** | **Yes to node loci and recovered portable objects.** Casing unasserted in both directions. | As recommended |
-| **Q4** | **No semantic verification, ever.** Operational correlation only, denominator published, selection-bias objection printed in-world. | As recommended |
+| **Q4** | **Amended — see §6.1.** At ship, unchanged: no verified reading, operational correlation only, denominator published, selection-bias objection in-world. What is struck is the word *ever*. A Rosetta object exists, is held by the author, and enters the world as a dated event several years out. | **Amended.** The in-world epistemic state at ship is exactly as recommended; the modal claim that no bilingual is *possible* is withdrawn |
 | **Q5** | **Yes** — HEL personnel speaking transliterated substrate, recitation and field procedure. Alien-to-alien dialogue stays out of scope; it needs a speaker community, and Q2's diachrony is a *reconstruction*, not a spoken history. | As recommended, scoped |
 | **Q6** | **Design the chamber now, ship it sealed, decide the reveal later.** | As recommended |
 
 Q2 and Q4 constrain each other and the pairing is deliberate: the language is built to
-a standard that *would* support a dictionary, and the dictionary is never published.
-That gap is the product. It is also the reason the G0–G5 grades stay load-bearing —
-every gloss remains a hypothesis about material that has a real answer we withhold.
+a standard that *would* support a dictionary, and the dictionary is not published *yet*.
+That gap is the product.
+
+### 6.1 The Rosetta object — Q4 as amended
+
+**Decision.** A Rosetta object exists. It is held by the author, not by the fiction. For
+several years the language is undecipherable; then the object is placed into the world
+as a dated event.
+
+**What does not change.** Every in-world claim survives intact. HEL still holds no
+verified reading, still confirms by operational correlation, still publishes denominators
+and prints the selection-bias objection. Nothing in the grade apparatus moves, and no
+shipped material may assume a key. The only casualty is the *modal* claim — three places
+in A said no bilingual is possible rather than none has been recovered, and those are
+struck (`A-path-primary-notation.md` §2, `A-stratum-III-reserve.md` §2.4 and §3.4). The
+architectures for B and C keep theirs; they are rejected proposals and stand as filed.
+
+**What changes, and it is the whole production order.** Under "never verified", the
+truth behind a gloss could stay undecided indefinitely, because nothing would ever test
+it. Under "verified in year N", every gloss shipped in years 1..N is marked right or
+wrong in public on a known date. So:
+
+1. **The sealed key is now a precondition of the corpus, not a later deliverable.** The
+   semantic truth of the ~90-unit core must be fixed *before* any corpus token ships,
+   and the corpus generated from it. The old plan deferred the lexicon past Phase 2;
+   that ordering is no longer available. Nothing has shipped yet — `corpus/`, `lexicon/`
+   and `script/` are empty — so this costs nothing today and would have been very
+   expensive later.
+2. **The key must be machine-checked, not curated.** Years of content production against
+   a secret will drift, and drift is what the community finds in a weekend. Every corpus
+   item generated from the sealed truth and validated against it by `tools/`.
+3. **Q2's construction standard stops being a craft preference.** Full diachronic depth
+   was chosen as a quality bar. It is now load-bearing: the sound laws will be checked
+   against the key by people with years of practice.
+4. **HEL's error rate becomes a design parameter that must be set now.** If the reveal
+   confirms every published reading, it is an anticlimax and the century of graded
+   caution reads as theatre. A deliberate distribution is wanted — readings confirmed,
+   readings overturned, and at least one where a minority school was right the whole
+   time and was ignored. Those truth values have to be assigned before the disputes are
+   written, not after.
+
+**Open, and not decided here:** whether the Rosetta object covers Stratum III or only
+the functional strata. Covering everything means the reserve dissolves on reveal day
+and the world runs out of mystery at its loudest moment. Recommend the object resolve
+the functional strata only, leaving Stratum III standing — which also keeps Q6's sealed
+chamber sealed. Also open: what the object *is* in-world, given that a bilingual needs a
+second language and Authority D forbids resolving who wrote the first one.
 
 | # | Question (handoff ref) | Why it changes the design | Recommended default |
 | --- | --- | --- | --- |

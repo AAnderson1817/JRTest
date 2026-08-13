@@ -132,7 +132,10 @@ the confidence grades it assigns itself.
   material with anything resembling prosody.
 
 **Condition:** fragmentary, damaged, mixed provenance, and **without a bilingual.**
-There is no Rosetta object and this architecture does not permit one. Decipherment
+No Rosetta object has been recovered. The architecture supplies none, and no shipped
+material may assume one — but the modal claim is struck deliberately and the difference
+is load-bearing: this is a fact about what HEL holds, never a claim that no such object
+exists. Nothing downstream may reason from the stronger form. Decipherment
 proceeds by **operational correlation**: sequence X is present at loci where
 traversal subsequently succeeded; sequence Y where it did not. HEL therefore holds
 readings it has never verified semantically and has acted on for a century.

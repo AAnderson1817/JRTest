@@ -179,8 +179,9 @@ resolve this. It publishes it.
 A class that can never be wrong is not a finding. The Archive publishes the conditions
 under which Stratum III would cease to exist as a class:
 
-- **a bilingual** — excluded by the architecture; there is no Rosetta object and none
-  will be admitted;
+- **a bilingual** — none has been recovered and the Archive has stopped expecting one.
+  The condition is nonetheless live, and is stated as live: a class whose dissolution
+  conditions are all unreachable by construction is exactly what §2.4 exists to prevent;
 - **a single attested contact** — one Stratum III unit bearing an edge half, taking a
   coordinate, or standing inside a segment would falsify the partition (§4.5) outright;
 - **a resegmentation** that yields exponents across the class rather than in 3–11
@@ -261,9 +262,10 @@ paradigm to build, because there are no minimal pairs across contexts to build o
 
 ### 3.4 The fourth method HEL does not have
 
-There is no bilingual, and this architecture does not permit one. Nothing in the corpus
-is confirmable against a known referent by translation, only by correlation (§3.2), and
-correlation is inapplicable here.
+HEL has no bilingual. Nothing in the corpus is confirmable against a known referent by
+translation, only by correlation (§3.2), and correlation is inapplicable here. The
+Archive's settled position is that no bilingual will ever be found. The Archive's
+settled position is not evidence, and this document does not upgrade it to any.
 
 ### 3.5 The principled statement, for the catalogue front matter
 
