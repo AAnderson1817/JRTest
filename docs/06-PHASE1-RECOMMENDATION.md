@@ -22,9 +22,11 @@ each landing in a slot A already has, and **we explicitly refuse B's nesting syn
 its chancery register, and its phonemic vowel length** (§4.4). **C is out** on canon
 score, cost, and its own admission that it is weakest if players must solve it; we
 salvage its documentation standard. **Two hard preconditions before Phase 2:** A has
-never been canon-audited and must be (§5 item 0), and the transliteration layer must
-pass a collision screen — `kum` and `we` in particular are unshippable (§4.5). **Six
-questions need your answer** (§6 Tier 1); everything else has a recommended default.
+never been canon-audited and must be (§5 item 0) — **done**, `critique/A1` — and the
+transliteration layer must pass a collision screen; `kum` and `we` are unshippable
+(§4.5) and **this one is still open**, no screen exists in `tools/`. **The six Tier 1
+questions are answered** (§6); five took the recommended default and Q2 was amended
+upward, which adds §5 item 3b.
 
 ---
 
@@ -389,6 +391,24 @@ the units carrying no assigned value.
 specified vowel qualities, no-reduction rule, two branch traditions as an audible and
 coachable contrast, 1+ contested unit.
 
+**3b. The diachronic layer — new, forced by the Q2 answer.** The ~90-unit core gets
+proto-forms and an ordered set of regular sound laws, with relative chronology, such
+that every modern unit is derivable and every irregular is accounted for by analogy,
+borrowing, or scribal error rather than left as noise. This is the single largest
+addition to the plan and it is what the Tolkien standard actually costs.
+
+**The Authority D constraint on it, and the resolution.** Sound change is the history
+of a speech community, so a proto-substrate asserted as fact would resolve the makers —
+prohibited. Therefore the proto-layer is **HEL's comparative reconstruction, carried at
+a confidence grade and contested between the schools**, never a canon fact: starred
+forms, competing reconstructions, at least one law only two of the three schools accept.
+This is not a dodge — reconstruction without living speakers is exactly the discipline
+Tolkien practiced, and putting the depth in HEL's hands means a century of analysts can
+be shown *building* it, which is more legible on a prop than a finished family tree.
+Where change can be located in the human record instead — the 1908 standardization
+overwriting earlier practice, branch spellings, school traditions — it goes there first,
+because that material is Authority C and costs nothing.
+
 **4. The complete internal grammar as a sealed file** — morphology, syntax, coordinate,
 traversal, four negations, evidentiality and confidence, register differences (archive /
 laboratory / field), with H1–H3 fully specified including attestation counts, stratum
@@ -420,7 +440,23 @@ item types; Phase 4 is the production package.
 Prioritized. **Tier 1 changes the design and cannot be defaulted. Tiers 2 and 3 have
 recommended defaults — approve by exception.**
 
-### Tier 1 — answer these
+### Tier 1 — ANSWERED 2026-08-13
+
+Decisions of record. The table below is retained as the rationale, not as an open ask.
+
+| # | Decision | Against recommendation |
+| --- | --- | --- |
+| **Q1** | **Correct interpretation affects route navigation.** Reading is a gate, not atmosphere. | As recommended |
+| **Q2** | **Tolkien's construction standard, not his disclosure standard.** The build rises to full diachronic depth — proto-forms, regular sound laws, every modern form derived and motivated. The player still receives no key: the Etruscan condition governs what is disclosed. Tolkien's own delivery vector, transparent etymology in place and personal names, is structurally unavailable here — the substrate cannot name a place — so the depth arrives through paradigms and transmission history instead. | **Amended upward.** Recommendation asked only for the Etruscan condition; this raises the construction bar and adds §5 item 3b |
+| **Q3** | **Yes to node loci and recovered portable objects.** Casing unasserted in both directions. | As recommended |
+| **Q4** | **No semantic verification, ever.** Operational correlation only, denominator published, selection-bias objection printed in-world. | As recommended |
+| **Q5** | **Yes** — HEL personnel speaking transliterated substrate, recitation and field procedure. Alien-to-alien dialogue stays out of scope; it needs a speaker community, and Q2's diachrony is a *reconstruction*, not a spoken history. | As recommended, scoped |
+| **Q6** | **Design the chamber now, ship it sealed, decide the reveal later.** | As recommended |
+
+Q2 and Q4 constrain each other and the pairing is deliberate: the language is built to
+a standard that *would* support a dictionary, and the dictionary is never published.
+That gap is the product. It is also the reason the G0–G5 grades stay load-bearing —
+every gloss remains a hypothesis about material that has a real answer we withhold.
 
 | # | Question (handoff ref) | Why it changes the design | Recommended default |
 | --- | --- | --- | --- |
