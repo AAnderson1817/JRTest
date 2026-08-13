@@ -495,6 +495,14 @@ wrong in public on a known date. So:
    time and was ignored. Those truth values have to be assigned before the disputes are
    written, not after.
 
+**Superseded in part by `07-ROSETTA-OPTIONS.md` §6.** A later decision established that a
+Rosetta object's narrator is not authoritative. That makes "marked right or wrong in
+public on a known date" too strong: a testimonial object contradicting a HEL reading
+opens a dispute rather than settling one. Requirement 1 above survives unchanged and in
+fact hardens — making objects disagree in *controlled* ways requires knowing exactly what
+is true. Point 4 relaxes: the error rate is still designed, but it is adjudicated slowly
+and perhaps never, rather than scored on reveal day.
+
 **Open, and not decided here:** whether the Rosetta object covers Stratum III or only
 the functional strata. Covering everything means the reserve dissolves on reveal day
 and the world runs out of mystery at its loudest moment. Recommend the object resolve
