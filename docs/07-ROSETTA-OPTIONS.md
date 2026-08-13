@@ -1,7 +1,8 @@
 # Rosetta Objects — Options Paper
 
-**Status:** for decision. Authority C throughout; nothing here is canon. Follows the Q4
-amendment at `06-PHASE1-RECOMMENDATION.md` §6.1.
+**Status:** the three open questions are answered and recorded at §7 (2026-08-13). **The
+slate at §5 is still for decision.** Authority C throughout; nothing here is canon.
+Follows the Q4 amendment at `06-PHASE1-RECOMMENDATION.md` §6.1.
 
 ---
 
@@ -218,11 +219,98 @@ carefully, at which point they are very distinguishable indeed.
 
 ---
 
-## 7. Open
+## 7. Resolutions — ANSWERED 2026-08-13
 
-- **Does the slate touch Stratum III?** Recommend no. The reserve should survive every
-  reveal, or the world spends its mystery at the loudest possible moment.
-- **How many R3/R4/R5 objects, and do any two share a source?** A copied annotation
-  inheriting a primer's errors is the best available lesson in what corroboration is not.
-- **Does HEL's Archive possess any of these at ship, unrecognised?** A misfiled R2 sitting
-  in the published corpus the whole time is nearly free and rewards rereading.
+| # | Question | Decision | Against recommendation |
+| --- | --- | --- | --- |
+| **R-a** | Does the slate touch Stratum III? | **No.** The reserve survives every reveal. | As recommended |
+| **R-b** | How many R3/R4/R5 objects, and do any two share a source? | **Deferred.** Testimonial objects are not excluded — some are wanted; count and stemma undecided. | Deferred, not defaulted |
+| **R-c** | Does HEL's Archive possess any at ship, unrecognised? | **Possible, and blocked.** There is no HEL Archive of works yet. | Blocked on a missing prerequisite |
+
+### 7.1 Stratum III is out of the slate
+
+**Binding absolutely on the checkable objects.** No R1 or R2 may take Stratum III
+material as its subject. A checkable object that touched Stratum III would confirm
+something about it, and the class is *defined* by resisting confirmation —
+`A-stratum-III-reserve.md` §3 walks three decipherment methods failing in turn, and each
+fails in principle rather than in practice. One ostensive pair sited on Stratum III
+material would dissolve that in a sentence.
+
+**One edge worth naming, because unreliable narration creates it.** A *testimonial*
+narrator can still overreach into Stratum III — assert a reading nothing supports. That
+does not breach the decision: nothing is confirmed, and the reserve is untouched.
+Recommend allowing at most one such overreach, and only inside an object whose checkable
+fraction is already published, so users can discount the claim on evidence rather than on
+taste. An overreach with no calibration attached is a Voynich seed — an unfalsifiable
+assertion with nothing to grade it against.
+
+**This also closes the first open paragraph at `06-PHASE1-RECOMMENDATION.md` §6.1**,
+which asked the same question and recommended the same answer. Q6's sealed chamber stays
+sealed.
+
+### 7.2 The testimonial count is deferred, and deferring costs nothing — with one exception
+
+Nothing about the count touches the ordering requirement at §6. Author-side ground truth
+must exist before any corpus ships regardless of how many objects later cite it, so the
+number can be set late without re-work.
+
+**The exception is the stemma, and it is an ordering constraint rather than a count.** If
+any two objects are ever to share a source, the source must be authored first and the
+copying object's errors derived from it. Inherited error cannot be retrofitted: writing
+two documents that happen to agree produces agreement, not descent, and the whole lesson
+of R5's shared-source case is that those are different things. So the decision can wait,
+but **if the answer is ever "yes, some share a source," R3 must be the first testimonial
+object drafted** — everything that copies it comes after.
+
+**Floor, not target:** the stemma lesson requires exactly two testimonial objects, one
+deriving from the other. Anything above two is yield, not mechanism.
+
+### 7.3 The Archive of works does not exist, and is already load-bearing
+
+Correct on the blocker: the R-c device needs a published corpus with a filing system to
+be misfiled *in*, and there is none.
+
+**But the dependency is much wider than R-c, and that is the finding.** §5's apparatus
+item 4 — checkable yield published as a fraction — requires a venue that publishes.
+So does "HEL's published readings," so does the denominator discipline, and so does every
+grade in the G0–G3 apparatus, which is a *published* judgement by a named body with a
+style manual. The design has been citing an institution's output continuously without
+that output existing as an object.
+
+**The gap is smaller than it looks.** Canon already carries **272 dated in-world
+citations** across the architecture documents and the handoff — excluding document
+metadata — and they name **at least fourteen distinct works**, not merely years:
+
+| Date | Work already named in canon |
+| --- | --- |
+| 1874 | Branch notebooks first recording the recitations |
+| 1883 | The Table, and the committee that compiled it from the recitation |
+| 1908 | The Standard / Transcription: consolidation of the branch registers, the committee cut, the sanctioned syllabary, the Chicago manual |
+| 1911 | The Remission Protocol |
+| 1938 | Board minutes |
+| 1948 | The revision that secured orientation against IMP |
+| 1949 | The Standard, the Archive revision, and the policy barring citation |
+| 1952 | A review; the route table's magnitude column printed from this year |
+| 1961 | The Fusion Revision; the Quiet Sixteen incident |
+| 1963 | Keele bound-pair review; field manual double printing (1963–67) |
+| 1969 | Adoption |
+| 1979 | The Archive's reply, still the standing position |
+| 1984 | Ashcroft segmentation reading and the register re-collation behind it |
+| 1988 | The Reformed List, and the minimum coda rate it introduced |
+
+**So the Archive of works is largely written already, in fragments, as citations.**
+Building it is mostly extraction and reconciliation — and the reconciliation is the
+valuable half. 285 dates asserted across documents that have never been checked against
+each other is a consistency hazard of precisely the kind §6 warns about: contradictions
+arising from drift are indistinguishable from contradictions that were designed, right up
+until someone checks.
+
+**Recommend it as a Phase 2 workstream**, sequenced before any Rosetta object is sited in
+the corpus. It is cheap, it is mostly already determined, and it converts R-c from
+blocked to nearly free.
+
+### 7.4 Still open — the slate itself
+
+The three answers above shape the slate. **They do not authorize it.** §5's ordering
+recommendation — R2, then R1, then testimony — has not been accepted or rejected, and
+nothing here approves a single object for drafting.

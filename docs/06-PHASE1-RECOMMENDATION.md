@@ -503,12 +503,14 @@ fact hardens — making objects disagree in *controlled* ways requires knowing e
 is true. Point 4 relaxes: the error rate is still designed, but it is adjudicated slowly
 and perhaps never, rather than scored on reveal day.
 
-**Open, and not decided here:** whether the Rosetta object covers Stratum III or only
-the functional strata. Covering everything means the reserve dissolves on reveal day
-and the world runs out of mystery at its loudest moment. Recommend the object resolve
-the functional strata only, leaving Stratum III standing — which also keeps Q6's sealed
-chamber sealed. Also open: what the object *is* in-world, given that a bilingual needs a
-second language and Authority D forbids resolving who wrote the first one.
+**Both items formerly open here are now closed.** Whether the Rosetta object covers
+Stratum III: **answered no, 2026-08-13** — the object resolves the functional strata
+only, the reserve stands, and Q6's sealed chamber stays sealed
+(`07-ROSETTA-OPTIONS.md` §7.1). What the object *is* in-world, given that a bilingual
+needs a second language while Authority D forbids resolving who wrote the first one:
+**answered by the R-slate** at `07-ROSETTA-OPTIONS.md` §3 — the second language is added
+by a later human hand rather than being original to the object (R5), and the true
+bilingual (R6) is rejected on exactly the Authority D ground stated here.
 
 | # | Question (handoff ref) | Why it changes the design | Recommended default |
 | --- | --- | --- | --- |
