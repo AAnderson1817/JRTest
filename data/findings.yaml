@@ -1,0 +1,188 @@
+# What running the language found. Authority C.
+#
+# kind: doc        — the Phase 1 documents contradict themselves, or state a figure their
+#                    own design cannot produce; repaired in the text
+#       self       — this build was wrong about itself; repaired in the build
+#       withdrawn  — first flagged as a contradiction, reclassified on review as a
+#                    calibration difference (the figure is feasible; this build's rates differ)
+# Numbers are stable, like catalogue numbers: a withdrawn finding keeps its number.
+
+findings:
+  - id: F-01
+    kind: doc
+    where: "A §6.1b, §6.1d, §7.1"
+    title: "The ceiling is forty-eight only if a root may begin with a vowel"
+    says: "The four onsetless syllables (ar in is ol) are licensed as \"the incidence markers only\"; the commanded core has stood at forty-eight because a forty-eight-syllable list guarantees distinct initials for at most forty-eight units; and Stratum II loses head halves before vowel-initial roots."
+    finds: "If no root may begin with an onsetless syllable, only 44 syllables can open a commanded unit, so the ceiling is 44, not 48 — and there are no vowel-initial roots for Stratum II's environment to be defined over."
+    repair: "The onsetless syllables are licensed as incidence markers and root-initially (never root-internally, where the hiatus would be unreadable). The ceiling is then 48, and the build's commanded core uses every syllable on the list exactly once as an initial."
+  - id: F-02
+    kind: doc
+    where: "A-reserve §4.6, §8.2"
+    title: "Stratum III is not longer than the functional roots; it ends differently"
+    says: "Functional units average 2.0 syllables and 11% end in a coda, against Stratum III's 3.1 and 84%."
+    finds: "A's shape rule makes every root vowel-final, so functional roots end in a coda 0% of the time; counting every functional token, the closed formatives make it about 54%. No count gives 11%. Roots average 2.9 syllables, the same as Stratum III units; functional tokens average 1.6 only because the bound formatives are short."
+    repair: "The silhouette table now compares like with like: Stratum III units 3.1 syllables and ~85% coda-final; functional roots 2.9 and 0%; all functional tokens 1.6 and ~54%. The difference that survives is the ending, and it is sharper than the table claimed: no functional root ends in a coda, and almost every Stratum III unit does."
+  - id: F-03
+    kind: withdrawn
+    where: "A §6.1c"
+    title: "“Nine of the roughly ninety core units” (withdrawn)"
+    says: "Under the 1908 Standard nine of ~90 core units carried a coda; seventy-one of ninety after 1988."
+    finds: "The after-figure holds (80% of the build's 95-unit analyzable core). The 1908 figure cannot be checked: the build reconstructs the 1908 forms of the 47 roots and ritual units (3 of 47 had a coda) and not those of the formatives, whose 1908 strings the Archive does not reproduce."
+    repair: "None. Listed as calibration."
+  - id: F-04
+    kind: doc
+    where: "A §3 argument 5, §5.3"
+    title: "Orientation-invariant reading needs the head half"
+    says: "Because orientation lives in the attachment of the edge halves and not in linear order, a chain read from either end yields the same directed graph."
+    finds: "True of the trace, where the departure flick points, and of Stratum I, where both halves are written. False of a Stratum II transliteration: with the head half gone, nothing in the transliteration says which neighbour the edge enters, and the Standard supplies it by convention — every chain is transcribed from its first tail-bearer and a reduced edge enters the next word. Read the transliteration backwards and the reduced edge points the other way."
+    repair: "The property is stated for the trace and for Stratum I, and the Standard's origin-first convention is named as what carries orientation in Stratum II transliterations."
+  - id: F-05
+    kind: doc
+    where: "A-reserve §8.2 (against A §4.6b)"
+    title: "The 1971 proposal fails on the register, not on position"
+    says: "The 1971 extraction of ar from pekalar fails “on position”: an incidence marker is by definition what stands between a root and an edge tail, and pe-kal-ar puts one at the end of a unit with nothing after it."
+    finds: "A's own label objects put -ar at the end of a word with nothing after it — that is what the Archive's reply to Hallam rests on (“more than a hundred intact Ch-1 objects”). The positional wording would reject every label in the catalogue."
+    repair: "Condition 1 assigns an incidence marker only when it is incident to a registered root. pekal is not in the register, so the extracted ar has no address. The 1971 author's rejoinder — that a paradigm which can only find itself where it already is has not been tested — is now exactly true of the test, and is printed with it."
+  - id: F-06
+    kind: doc
+    where: "A §10.1a"
+    title: "No bound pair can be in Stratum III"
+    says: "Of the 27 kalsira-ru, “twenty-four are Strata II–III and not one is completed.”"
+    finds: "Stratum III is defined by containing no assignable unit (A-reserve §2.1, §4.5): a kalsira-ru in it would end the partition."
+    repair: "“Twenty-four are Stratum II.” The build reproduces 27, 3 and 24 exactly, all 24 in Stratum II."
+  - id: F-07
+    kind: doc
+    where: "A §4.3, §7.1"
+    title: "The 100% is partly the committee's rule"
+    says: "100% of coordinate-bearing words in the CSC are head-bearing (a distribution fact, G2); and in Stratum II head halves are absent where the destination is vowel-initial."
+    finds: "The two collide on a vowel-initial destination that carries a coordinate. The engine had to choose, and the only choice that keeps the 100% is a tie-break: a cartouche after the cluster proves an edge arrives, so the committee rules the head present."
+    repair: "§4.3 now says so: the 100% figure includes the committee's cartouche tie-break, and is to that extent a fact about the Standard as well as about the corpus."
+  - id: F-08
+    kind: doc
+    where: "A §6.1b, §6.1d, §6.1e; A-reserve §8.1, §10; tools/syllabary.py"
+    title: "The forty-eight-syllable list is the Reformed List of 1988"
+    says: "“The 1908 sanctioned syllable list”; every CSC-1146 syllable “is on the 1908 sanctioned list”."
+    finds: "§6.1e says the 1908 mnemonic strings stayed in service until the Reformed List of 1988 and are held in the deprecated register. None of them can be spelled from the printed list — so the printed list cannot be 1908's. The build's reconstruction of the code's history needs 13 syllables in 1908 that the list does not have."
+    repair: "§6.1b prints the Reformed List of 1988. The commanded core had stood at forty-eight since 1931, and the 1988 committee closed the list at forty-eight so that it still fitted; the ceiling has bound since then. The reserve and the validator say “the sanctioned list (1988)”."
+  - id: F-09
+    kind: doc
+    where: "A §5.2a, §8 Example 1, §12 row 14"
+    title: "419 multi-edge coordinates cannot fit in 4,100 tokens"
+    says: "The Standard and Sturge disagree on “the 419 catalogued segments” whose coordinate sits on a chain of more than one edge."
+    finds: "Each such segment needs at least three roots, two tail halves, the head half that carries the coordinate, the coordinate's three slots and a warrant: nine tokens at the very least (the build's shortest has thirteen; Example 1 has fifteen). 419 of them would need over 3,700 tokens, more than the functional strata hold (~2,700 of the ~4,100). The build finds a dozen."
+    repair: "“On every catalogued segment whose coordinate sits on a chain of more than one edge — a few dozen at most at this scale.”"
+  - id: F-10
+    kind: doc
+    where: "A-reserve §4.2, §3.3, §8.2"
+    title: "73% and 0.04 cannot both be true"
+    says: "Stratum III: 301 of 412 types (73%) occur in exactly one sequence, and the probability that a type recurs in any other sequence is 0.04. Functional: ~24% and 0.58."
+    finds: "If 27% of types occur in two or more sequences, each of those contributes at least two type-in-sequence occurrences, and at least 0.42 of all such occurrences recur elsewhere — ten times 0.04. The functional column fails the same way in the other direction: 24% one-sequence forces at least 0.86, not 0.58. Holding 0.04, which the argument rests on, the engine gets 98% one-sequence types; the functional strata come out at ~45%, 0.14 and 0.94."
+    repair: "The table carries the engine's figures. The conclusion survives with room to spare: Stratum III still holds about two-thirds of the corpus's hapax units, and CSC-1146's two shared types become the unusual thing about it."
+  - id: F-11
+    kind: doc
+    where: "A-reserve §4.1"
+    title: "A six-unit sequence is divisible by three"
+    says: "Of the five sequences not divisible by three, three are “6-unit provisionals with contested unit boundaries”."
+    finds: "Six is divisible by three."
+    repair: "“7-unit provisionals: six under the contested boundary, seven under the Standard.”"
+  - id: F-12
+    kind: doc
+    where: "A-reserve §4.4 (against §4.3)"
+    title: "88 · 9 · 3 does not add up from the reserve's own counts"
+    says: "Channel: 88% Ch-1, 9% Ch-2, 3% Ch-4."
+    finds: "§4.3 counts 41 + 30 on Ch-1 objects, 6 Ch-2 plates and 2 recitations: 71, 6 and 2 of 79, which is 90%, 8% and 3%."
+    repair: "90% · 8% · 3%."
+  - id: F-13
+    kind: doc
+    where: "A §6.1b"
+    title: "The vowel bands describe the open syllables only"
+    says: "Each consonant is licensed with a restricted vowel band: /h/ and /k/ take {a e i}; /l/ takes {e i u}…"
+    finds: "Every stated band holds for the twenty-two open syllables and fails for the closed ones: har and hos give /h/ {a o}; kal, kas, ken, kur give /k/ {a e u}; lan, lar, lun, lus give /l/ {a u}. The confusion figures (440 · 334; 220 · 134; 220 · 200) are right, because they were computed from the list itself."
+    repair: "The bands are stated separately for open and closed syllables."
+  - id: F-14
+    kind: self
+    where: "docs/07-ROSETTA-OPTIONS.md §7.3 (13 Aug 2026)"
+    title: "The Archive-of-works table mixed in the rejected architectures"
+    says: "“272 dated in-world citations … fourteen distinct works.”"
+    finds: "Five of the fourteen came from architectures B and C, which Phase 1 rejected. The A-family alone cites 200 dated events."
+    repair: "Corrected in 07 §7.3, in the Rosetta page, and in data/chronology.yaml, which the verifier checks against the A-family."
+  - id: F-15
+    kind: doc
+    where: "A §2, §12 row 6; A-reserve §3.3, §4.2, §4.5"
+    title: "~610 types with ~180 over five does not fit the template at 4,100 tokens"
+    says: "~610 distinct recurring units; ~180 occur more than five times."
+    finds: "In A's template a root is about a quarter of the functional tokens: ~650 of ~2,700. With ~545 root types among them, at most ~20 roots can occur six times or more; with the ~65 formatives and fillers that is ~85 types, not 180. The build gets 341 types, 53 of them over five, most of them formatives."
+    repair: "~350 distinct units in the functional strata, ~60 occurring more than five times. Corpus scale is Authority D and the user may set it higher; the ratio is what the template fixes."
+  - id: F-16
+    kind: withdrawn
+    where: "A §4.2"
+    title: "“41% of sequences end in a broken half” (withdrawn)"
+    finds: "The build gets about 24%, because every record the documents count exactly is rendered intact. A calls the figure an upper bound on damage; it is feasible with a harder damage model."
+    repair: "None. Listed as calibration."
+  - id: F-17
+    kind: withdrawn
+    where: "A §7.1"
+    title: "212 · 148 · 63 · 85 · 31 (withdrawn)"
+    finds: "The Stratum II environment needs vowel-initial destinations, and the build finds a few dozen. The proportions A argues from — 43% short, 36% cut in the older hand — are the rates the build uses, so the argument's shape survives at any scale."
+    repair: "None. Listed as calibration."
+  - id: F-18
+    kind: withdrawn
+    where: "A §4.6b"
+    title: "214 junction-map nodes, ~60% by -ar alone (withdrawn)"
+    finds: "The build now reproduces the fact the reply to Hallam rests on (-ar on 101 intact Ch-1 objects). Its junction map is ~160 nodes, almost all by -ar alone, because few find loci yield two records about one root."
+    repair: "None. Listed as calibration."
+  - id: F-19
+    kind: withdrawn
+    where: "A §4.6c"
+    title: "87 ADJ-only edges (withdrawn)"
+    finds: "ADJ arises in the build only where erosion leaves an unreadable interval — Redfern's reading. 87 would need several times the erosion the condition rates produce."
+    repair: "None. Listed as calibration."
+  - id: F-20
+    kind: withdrawn
+    where: "A §4.5"
+    title: "34 stacked warrants, 11 reversed (withdrawn)"
+    finds: "First flagged when the build produced 38 and 10. The figure is feasible; the build's stacking rates were tuned and it now reproduces 34 and 11 exactly."
+    repair: "None needed."
+  - id: F-21
+    kind: self
+    where: "hel/corpus.py, hel/poetics.py"
+    title: "The build filed three texts its own classifier had rejected"
+    finds: "The three contested-boundary Stratum III texts were made by splitting one unit in two, and the split left a bare warrant, grade or recurrence formative (nes, lan, kur). The classifier rejected them under Condition 1; the build overrode it and filed them as III."
+    repair: "Both halves of a contested split must be unassignable and pass the screen, and the classifier's verdict is final. The three are now 7-unit provisionals, as F-11 says they must be."
+  - id: F-22
+    kind: self
+    where: "hel/corpus.py, hel/render.py, hel/taphonomy.py"
+    title: "The build did not reproduce four figures the documents state exactly"
+    finds: "No Ch-1 object carried [41] (A: three). Only 30 intact Ch-1 objects carried -ar (A: more than a hundred). A copyist's h/k swap on a hand copy turned one lartuki-halu into something else (19 became 18), and a fracture stranded a -mun tail (23 became 24)."
+    repair: "[41] is placed on three Ch-1 objects, as the sealed placement rule already said; label objects mark junctions; counted records travel on photographic plates; a fracture never strands a -mun tail. All four figures now hold."
+  - id: F-25
+    kind: self
+    where: "hel/diachrony.py"
+    title: "Two drafts of the recitation reconstruction were withdrawn by the Algonquian check"
+    finds: "The first gave the Common Recitation voiced stops, and its daughters grew -nd-, -mb- and -ng-. The second lost intervocalic /h/, which produced doubled vowels that read as Ojibwe double-vowel spelling, and a word-final -kai that reads as Polynesian."
+    repair: "The Common Recitation has /f/ — a labiodental, absent from every Algonquian language — and no cluster, no length, no postalveolar. The check runs on every build."
+  - id: F-26
+    kind: self
+    where: "hel/screen.py; A §6.1f, A-reserve §10"
+    title: "The list can spell sh"
+    finds: "An s-coda before an h-onset (kas-hi) spells sh, and a reader sees a postalveolar in it — the sound the structural argument against Algonquian resemblance says the profile excludes. No core unit does it; 25 forms coined by the first Phase 2 build did."
+    repair: "The structural screen rejects the junction, and doubled vowels, in every coinage. It holds no Indigenous word list and builds none; a lexical screen is work for a reviewer with community-sanctioned resources, recorded as a gap."
+  - id: F-27
+    kind: self
+    where: "hel/diachrony.py"
+    title: "The regular Second-branch form of the closure marker is sin"
+    finds: "Raising unstressed e gives sin for -sen FRB — an English word that supplies exactly the forbidder the Archive's residue warns about. The collision screen caught it."
+    repair: "An irregular with a stated cause: the Second branch says sen. Pellingham (1953) filed it as the branch's one exception — crews heard 'forbidden' in sin and did not say it."
+  - id: F-28
+    kind: doc
+    where: "A §7 (against A-reserve §3.3)"
+    title: "Forty percent or two-thirds"
+    says: "Stratum III “contains ~40% of the corpus's hapax units.”"
+    finds: "The reserve, which A names as the full specification, said about two-thirds (301 of ~450); with its table corrected (F-10) the engine gets 72%."
+    repair: "“About seven in ten” — the reserve's own figure once F-10 corrected its inputs."
+  - id: F-29
+    kind: self
+    where: "data/core.yaml, data/field_english.yaml, sealed/key.yaml"
+    title: "Four of this build's own coinages collided with something"
+    finds: "The ritual unit ropelki contained the brand Opel (and the English rope); the root hitulsa contained Tulsa; two invented scholars shared names with a famous actor and a novel's family. And the Field English reduction of nikur, [ˈnɪkəɹ], sat one voicing feature from an English slur."
+    repair: "ropelki is now rosilpe (still four units with Chicago p against Second f), hitulsa is hitulke, the scholars are Treloar (1926) and Tredgold (1967), and nikur keeps its Standard stress in the field — the one loan that never reduces."

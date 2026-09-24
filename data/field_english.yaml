@@ -1,0 +1,336 @@
+# FIELD ENGLISH — the League's operational register (handoff §5.1 target "HEL
+# operational register"; §9.1 recommended package; Phase 1 Q5).
+#
+# Authority C. A register of English spoken by HEL personnel, carrying substrate units
+# as loanwords. It is the one place in the design with a speech community — a human
+# one — and therefore the one place where the language can drift, joke, grieve,
+# shibboleth and taboo. None of it is evidence about the substrate or its source.
+#
+# Every loan names its source unit, the Archive's gloss and grade, what crews made of
+# it, when, and what the style manual says about that. Dates are Archive events or
+# field documents in the A-family chronology (docs/08-THE-ENGINE.md, the Archive of
+# works). Spelling is ASCII-clean: no apostrophes, ever, including in inflection.
+#
+# `say`: field = canteen English, reduced and English-stressed; standard = the 1949
+# Standard's recitation pronunciation, final stress, no reduction. The distance
+# between the two columns is the register difference, and it is audible.
+
+name: Field English
+crews_call_it: field
+style_manual_calls_it: Field English (operational register)
+
+loans:
+  - loan: hilun
+    pos: [noun, adjective, verb phrase "go hilun"]
+    say: {field: "ˈhɪlən", standard: "hiˈlun"}
+    source: {unit: hilun, archive: "GAP — this slot is unfilled, and the record says so", grade: G2}
+    senses:
+      - "adj. of a member: emergence locus and frame both unknown; not returned, and not known not to have come out"
+      - "n. such a member; the hilun: all of them"
+      - "go hilun: to not come back"
+    history: >-
+      From the readback, where hilun in the LOCUS slot is said aloud as 'locus open'. Debrief transcripts
+      from the 1910s already use the unit itself for a missing colleague. It displaced 'lost', which crews
+      reserve for maps. The memorial in the Reading Room corridor is called the hilun wall by everyone
+      except the Archive, which lists it as Memorial Board 2.
+    first: {year: 1919, where: "field notebook, a party whose fifth member did not return"}
+    manual: >-
+      1949 Standard, style §4: 'hilun is a statement about a record. A person is not a record.' Never
+      enforced. The sentence is quoted at the Wall, deliberately.
+    examples: ["She's hilun.", "We carry him hilun.", "Two went hilun off L-9."]
+
+  - loan: nu
+    pos: [noun, in phrase "on the nu"]
+    say: {field: "nu", standard: "ˈnu"}
+    source: {unit: nu, archive: "PASS.OTHER — another pass, ordering unrecovered", grade: G1}
+    senses: ["on the nu: on some other pass, order unknown"]
+    history: >-
+      The standard crew farewell, 'See you on the nu', answered 'On the nu'. It says: we will meet on a
+      pass the record cannot place in order relative to this one. It is the most-said substrate unit in
+      the League outside the formulae, and the only farewell in the register that promises nothing.
+    first: {year: 1934, where: "the Sowerby cylinder, closing words (the recording's only non-evidentiary line)"}
+    examples: ["See you on the nu.", "On the nu."]
+
+  - loan: lekur
+    pos: [noun]
+    say: {field: "ˈlɛkəɹ", standard: "leˈkuɹ"}
+    source: {unit: lekur, archive: "REP — held on multiple passes", grade: G2}
+    senses: ["a member who keeps coming back"]
+    history: >-
+      Admiring and uneasy at once. The house rule that a segment warranted lekur alone may never be
+      translated with 'because' (A §4.5) became a proverb about luck: Lekur isn't because. Said to anyone
+      with a long run of returns, usually by someone with a longer one.
+    first: {year: 1951, where: "canteen minute book"}
+    proverb: "Lekur isn't because."
+
+  - loan: kalsira
+    pos: [noun, verb]
+    say: {field: "kælˈsiɹə", standard: "kalsiˈɹa"}
+    source: {unit: CSC-0012, archive: "sealed?", grade: G3}
+    senses:
+      - "n. the end of the line; where sanction stops"
+      - "pull a kalsira: to read a stop as a go (after 1963)"
+    history: >-
+      Before 1963 'a kalsira' was a place you went on from. Keele's review reversed the reading of the
+      bound pair kalsira-ru (A §10.1a) and the phrase reversed with it; for four years the field manual
+      printed both, and crews said both. 'Pull a kalsira' — to misread a stop as a go and be confirmed in
+      it by the fact that it worked — is the register's word for fifty-five years of G2.
+    first: {year: 1963, where: "field manual, double-printed edition"}
+
+  - loan: tir
+    pos: [adjective, verb]
+    say: {field: "tɪəɹ", standard: "ˈtiɹ"}
+    source: {unit: tir, archive: "WIT — attested at the locus", grade: G2}
+    senses: ["adj. seen on site", "v. tir it: go and look yourself"]
+    history: "The register's highest evidential praise. Opposite: nes."
+
+  - loan: nes
+    pos: [adjective]
+    say: {field: "nɛs", standard: "ˈnes"}
+    source: {unit: nes, archive: "REG — entered without a human attestor", grade: G2}
+    senses: ["secondhand; from somewhere else; on paper only"]
+    history: >-
+      Senior crews still gloss it the way the field manual did before 1949 — 'registered by the system
+      itself' — and a canteen folk etymology holds that nes is 'the Box talking'. The Archive struck the
+      old gloss because it presupposed a registrar. The folk etymology presupposes more, and is told as a
+      joke by people who do not entirely tell it as one.
+    manual: "Style §7: the folk reading of nes is not to appear in any document. It appears in this one as a report of usage."
+
+  - loan: wal
+    pos: [noun]
+    say: {field: "wɔl", standard: "ˈwal"}
+    source: {unit: wal, archive: "UNW — no source carried", grade: G1}
+    senses: ["rumour; wal says: rumour has it"]
+    history: >-
+      Personified: 'Wal says the Ladder's open.' The compound lus-and-wal — unverified hearsay, a
+      bureaucratic muddle — commemorates the conflation the 1948 revision corrected (A §4.4).
+    examples: ["Wal says we're going out in March.", "That's lus-and-wal."]
+
+  - loan: hos
+    pos: [adjective]
+    say: {field: "hɔs", standard: "ˈhos"}
+    source: {unit: hos, archive: "INF — derived structurally from other edges", grade: G1}
+    senses: ["worked out from the shape of things; a hos route"]
+
+  - loan: pukal
+    pos: [adjective, "come out pukal"]
+    say: {field: "ˈpukəl", standard: "puˈkal"}
+    source: {unit: pukal, archive: "PHASE.AHEAD.MEAS — displaced ahead, measured; magnitude not in the record", grade: G3}
+    senses: ["came out later than you left; how much later, nobody can say"]
+
+  - loan: rolun
+    pos: [adjective]
+    say: {field: "ˈɹoʊlən", standard: "ɹoˈlun"}
+    source: {unit: rolun, archive: "PHASE.BEHIND.MEAS", grade: G3}
+    senses: ["came out before you left"]
+    history: >-
+      The register's word for the case the Archive style manual forbids translators to name (A §5.5:
+      consequence preceding departure). Rolun mail — a letter that arrives before it is sent — is canteen
+      folklore. There is no documented case. The manual forbids the phrase, which is how everyone knows it.
+    manual: "Style §9: 'rolun mail' is not an operational term."
+
+  - loan: nikur
+    pos: [noun, adjective]
+    say: {field: "nɪˈkʊɹ", standard: "niˈkuɹ"}
+    source: {unit: nikur, archive: "PHASE.DISP.UNMEAS", grade: G3}
+    senses: ["an emergence nobody can place; somewhere, no idea how far"]
+    history: "The one loan that never took English stress. Crews say it the Standard way, even in the canteen, and newcomers who reduce it are corrected once, quietly."
+
+  - loan: "the second column"
+    pos: [idiom]
+    source: {unit: pukal, archive: "the route table's magnitude column, printed empty since 1952 (A §5.2b)"}
+    senses: ["a quantity everyone knows exists and nobody has", "second-column (adj.): unmeasurable in practice"]
+    history: "Where the League's standing joke about the Archive lives (A §5.2b). It is also, at the Wall, how far they went."
+    first: {year: 1952, where: "the first route table printed with the empty column"}
+
+  - loan: forty-one
+    pos: [noun, verb]
+    say: {field: "ˈfɔɹti ˈwʌn", standard: "ˈfɔɹti ˈwʌn"}
+    source: {unit: "[41]", archive: "warrant slot; no value assigned", grade: G5}
+    senses: ["v. to say the formula through to the end", "he didn't forty-one: he cut the formula short"]
+    history: >-
+      The last word of every formula, said by every crew, meaning nothing anyone can state. 'He didn't
+      forty-one' is the gravest thing one crew member says of another, because the Archive publishes the
+      margin by which deviation from formula correlates with failure (A §5.8) and declines to interpret it.
+    manual: "Nothing. The Archive has never written a sentence about [41] it did not later withdraw."
+
+  - loan: pel
+    pos: [noun, verb]
+    say: {field: "pɛl", standard: "ˈpel", second_branch: "fɪl"}
+    source: {unit: pel, archive: "BAR.TAIL — present, not traversable in this orientation", grade: G2}
+    senses: ["n. a one-way door", "v. pel it: to cross knowing you cannot come back that way"]
+    history: >-
+      The register's shibboleth. Chicago says pel, as printed; the Second branch says fil, as recited.
+      A crew member who says fil in a Chicago room is from the Second branch or wants to be taken for it.
+      Nobody says either at the Ladder.
+
+  - loan: tul
+    pos: [verb]
+    say: {field: "tʌl", standard: "ˈtul"}
+    source: {unit: tul, archive: "SHUNT — arrival displaced from intent", grade: G3}
+    senses: ["to come out somewhere else than meant: we got tulled into Los Angeles"]
+    history: >-
+      The canonical case — a return to a familiar year, emerging in another city — is the canteen's
+      example sentence for this verb, and has been since before anyone can date it.
+    examples: ["We got tulled.", "Tulled into LA, fourteen months pukal."]
+
+  - loan: halu
+    pos: [noun, adjective]
+    say: {field: "ˈhælu", standard: "haˈlu"}
+    source: {unit: halu, archive: "RECUR.TAIL — return to a similar but non-identical coordinate", grade: G3}
+    senses: ["the halu: the difference a returner brings back", "came back halu: came back not quite the same"]
+    history: >-
+      Nobody in the register uses halu of a place. It is said of people, quietly, and never to their face.
+
+  - loan: sen
+    pos: [adjective]
+    say: {field: "sɛn", standard: "ˈsen", second_branch: "sɪn"}
+    source: {unit: sen, archive: "FRB — the edge exists and is closed; by what, not stated", grade: G3}
+    senses: ["closed"]
+    history: "Almost always followed by the question 'Sen which way?' — the eighty-year scope dispute (A §8 Example 2) as small talk."
+
+  - loan: mun
+    pos: [adjective, verb]
+    say: {field: "mʌn", standard: "ˈmun"}
+    source: {unit: mun, archive: "IMP — the edge does not exist", grade: G2}
+    senses: ["impossible, there is no such thing", "mun it: forget it"]
+
+  - loan: nir
+    pos: [adjective]
+    say: {field: "nɪəɹ", standard: "ˈniɹ"}
+    source: {unit: nir, archive: "UNA — not available at this coordinate", grade: G2}
+    senses: ["not now; nir season: the months a route is dormant"]
+
+  - loan: ti
+    pos: [noun]
+    say: {field: "ti", standard: "ˈti"}
+    source: {unit: ti, archive: "SIM — modeled; no commitment", grade: G1}
+    senses: ["a dry run; run a ti"]
+
+  - loan: kas
+    pos: [noun]
+    say: {field: "kæs", standard: "ˈkas"}
+    source: {unit: kas, archive: "EXEC — executed or executing", grade: G2}
+    senses: ["the go signal; on kas"]
+
+  - loan: ladder
+    pos: [verb]
+    source: {unit: CSC-0007, archive: "the Ladder plaque (A §8 Example 2)"}
+    senses: ["to ladder: to act as though two incompatible readings both hold, to be safe"]
+    history: >-
+      Field Protocol treats the Ladder plaque as though the Long and the Cardwell readings both hold —
+      institutionally characteristic and scientifically incoherent (A §8). 'Laddering' is the register's
+      word for exactly that, and for most committee decisions.
+    first: {year: 1951, where: "canteen minute book"}
+
+  - loan: ar
+    pos: [noun]
+    say: {field: "ɑɹ", standard: "ˈaɹ"}
+    source: {unit: ar, archive: "JCT? — other edges attach here, not stated", grade: G3}
+    senses: ["a junction"]
+    history: "After Hallam (1976), a joke with a sharp edge: 'An ar is where the page ends.'"
+
+  - loan: yun
+    pos: [noun]
+    say: {field: "jʌn", standard: "ˈjun"}
+    source: {unit: yun, archive: "ADJ? — adjacency, orientation unrecovered", grade: G3}
+    senses: ["a hole in the map; that's a yun: there is nothing there"]
+    history: "Post-1993 (Redfern). Crews took his reading long before the Archive had an answer to it."
+
+  - loan: sil
+    pos: [noun]
+    say: {field: "sɪl", standard: "ˈsil", second_branch: "sil"}
+    source: {unit: sil, archive: "BIND — same coordinate under two descriptions; not motion", grade: G1}
+    senses: ["two catalogue entries that turn out to be one place"]
+
+  - loan: sa
+    pos: [interjection]
+    say: {field: "sɑ", standard: "ˈsa"}
+    source: {unit: sa, archive: "PASS.SAME", grade: G2}
+    senses: ["Sa? — still with me? same pass?", "Sa. — yes, still here."]
+    history: "The radio check-in. The shortest complete exchange in the register."
+
+  - loan: to-and-hilun
+    pos: [idiom]
+    source: {unit: "hilun-to-hilun", archive: "the departure formula's coordinate: locus open, a later pass, phase open"}
+    senses: ["sometime, somewhere: I'll see you when I see you"]
+    history: "Lifted whole from the departure formula, which every crew says at every departure."
+
+  - loan: tirakur
+    pos: [verb]
+    say: {field: "ˌtɪɹəˈkʊɹ", standard: "tiɹaˈkuɹ"}
+    source: {unit: "CSC-1146 (Stratum III; no gloss, no grade)", archive: "none — the Archive holds no reading"}
+    senses: ["to say the threshold text before entering a locus the map shows with no way out"]
+    history: >-
+      From the refrain of the one Stratum III text the League says aloud (A-reserve §8). The practice is
+      unauthorised; the Archive issued instructions against it in 1958 and 1981 and enforced neither. The
+      verb carries no gloss of the text, and the register has never supplied one.
+    manual: "Not an operational term. Never glossed."
+
+  - loan: "under attendance"
+    pos: [idiom]
+    source: {unit: "the custodial attestation (Ch-4)", archive: "field paraphrase, printed with a warning"}
+    senses: ["in someone's care, without being theirs", "who's attending? — the register's 'whose is it?'"]
+    history: >-
+      The substrate has no possessive construction (A §5.6) and the custodial ethic made a slogan of it.
+      Crews do not say 'my ward'. They say who is attending. Authority B dependency: if custodianship is
+      not ratified, this entry survives as usage and loses its institutional warrant.
+    b_dependent: true
+
+  - loan: G2
+    pos: [adjective]
+    senses: ["acted on for a century and never proven; works, nobody knows why"]
+    history: "Archive grade as everyday judgement. 'It's G2' is praise in the field and a warning in the Reading Room."
+
+  - loan: double
+    pos: [verb]
+    senses: ["double it: read it back"]
+    history: "From the double return (A §6.2), which is three turns and has always been called double."
+
+  - loan: "a quiet sixteen"
+    pos: [idiom]
+    senses: ["a trip that went wrong because the map said something the record never did"]
+    history: "From the Quiet Sixteen approach, 1961 (A §10.1a)."
+
+  - loan: "I came back with it"
+    pos: [formula]
+    senses: ["said of something brought back and not explained — a word, an object, a habit"]
+    history: >-
+      Ada Sowerby's words at debrief, 1931 (A-reserve §8.3). She withdrew them. The register did not.
+      Said quietly, and never as a joke.
+
+euphemism_cycle:
+  target: "lan (AUTH), which Field Protocol forbids speaking within the stated distance of an active locus (A §4.3)"
+  stages:
+    - {years: "before 1926", form: "the permission", fate: "became as marked as the word it replaced"}
+    - {years: "1926–1957", form: "the third", note: "grade three in the readback; Treloar's discharge paper of 1926 made the grade a topic"}
+    - {years: "1957–1979", form: "green", note: "retired when Thaxter's unentitled marker (1957) made 'green' mean 'green without the right to be'"}
+    - {years: "1979–", form: "the long word", note: "also the name of the one formula that carries it, which crews have not heard"}
+
+shibboleths:
+  - {feature: "e and o", chicago: "eɪ, oʊ", standard_1949: "e, o", note: "A §6.2: you can tell where someone trained within one sentence."}
+  - {feature: "p / f in four recited units", chicago: "pel, pe, rosilpe, inpelu", second: "fil, fi, rosilfi, infilu",
+     note: "Pellingham's correspondence (1953). Print against memory."}
+  - {feature: "recitation stress", chicago: "final (the Standard)", second: "initial"}
+  - {feature: "old words", note: "Senior crews still say some retired 1908 strings. The Archive does not print them; crews do not write them down."}
+
+proverbs:
+  - "Lekur isn't because."
+  - "The record is reversible. The network is not."
+  - "Every map has a second column."
+  - "The map is not the itinerary."
+  - "Hilun is a word for a record."
+  - "Say forty-one."
+  - "Sen which way?"
+  - "An ar is where the page ends."
+
+naming:
+  rules:
+    - {rule: "from a deprecated reading of a trace's shape", example: "the Ladder", note: "unrenameable: the routes are catalogued under it (A §8)"}
+    - {rule: "from a find circumstance", example: "the 1897 underside"}
+    - {rule: "from an interval", example: "the Long Wait", note: "L-31, named for the wait between arrival and recovery of a way out"}
+    - {rule: "from a failure", example: "Quiet Sixteen"}
+    - {rule: "catalogue form, always available", example: "CSC-1146"}
+  forbidden:
+    - "evocative English titles for Stratum III (A-reserve §7.1): never 'The Lament of the Nine'"
+    - "names of the missing as place names"

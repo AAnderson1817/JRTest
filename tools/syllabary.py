@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Validate CSC transliterated units against the 1908 sanctioned list (A §6.1b)
+"""Validate CSC transliterated units against the sanctioned list (A §6.1b — the
+Reformed List of 1988; engine finding F-08 corrected the date)
 and the shape rules (A §6.1c-e). Greedy-longest segmentation with backtracking."""
 import sys, re, json
 

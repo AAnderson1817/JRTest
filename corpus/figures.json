@@ -1,0 +1,102 @@
+{
+ "figures": {
+  "tokens": 4016,
+  "channel_share": {
+   "Ch-1": 0.634,
+   "Ch-2": 0.183,
+   "Ch-3": 0.153,
+   "Ch-4": 0.029
+  },
+  "stratum_share": {
+   "I": 0.23,
+   "II": 0.441,
+   "III": 0.176,
+   "IV": 0.153
+  },
+  "stratum_tokens": {
+   "I": 922,
+   "III": 707,
+   "II": 1772,
+   "IV": 615
+  },
+  "sequences": 560,
+  "tokens_in_seq_ge3": 4012,
+  "longest_sequence": 25,
+  "sequences_over_30": 0,
+  "functional_types": 341,
+  "functional_types_gt5": 53,
+  "functional_seq_hapax": 146,
+  "functional_segments": 417,
+  "segments_ending_in_broken_half": 101,
+  "broken_share": 0.242,
+  "stacked_warrants": 34,
+  "stacked_reversed": 11,
+  "tail_only_mun": 23,
+  "kalsira_ru": {
+   "total": 27,
+   "completed_I": 3,
+   "uncompleted": 24,
+   "uncompleted_by_stratum": {
+    "II": 24
+   }
+  },
+  "lartuki_halu": 19,
+  "multi_edge_coordinate_segments": 12,
+  "shunt_recur_edges": 54,
+  "adj_halves": 18,
+  "adj_pairs": 0,
+  "junction_map_nodes": 157,
+  "junction_by_ar_only": 153,
+  "stratum_II_env": {
+   "total": 24,
+   "ch1": 13,
+   "ch1_short": 4,
+   "ch1_undetermined": 9,
+   "ch1_undetermined_with_register": 3,
+   "older_branch_cut_present": 2
+  },
+  "profile_functional": {
+   "coda_final_share": 0.546,
+   "mean_syllables": 1.61
+  },
+  "profile_III": {
+   "coda_final_share": 0.85,
+   "mean_syllables": 3.06
+  },
+  "open_register": 4,
+  "unentitled": 2,
+  "shadow_parses": 12,
+  "imports": {
+   "H1_discharge": 29,
+   "H2_unent": 2,
+   "H3_rscope": 13
+  }
+ },
+ "iii": {
+  "sequences": 79,
+  "tokens": 707,
+  "mean_length": 8.9,
+  "length_range": [
+   6,
+   21
+  ],
+  "divisible_by_three": 74,
+  "types": 387,
+  "types_in_one_sequence": 381,
+  "p_recur_within": 0.58,
+  "p_recur_elsewhere": 0.04,
+  "channel": {
+   "Ch-4": 2,
+   "Ch-1": 71,
+   "Ch-2": 6
+  },
+  "position": {
+   "recitation": 2,
+   "no trace": 30,
+   "after completed segment": 41,
+   "whole record": 6
+  },
+  "find_loci": 31,
+  "provisional": 24
+ }
+}

@@ -1,0 +1,49 @@
+# The Archive of works — HEL's own record, in order.
+#
+# Authority C. Every entry is an in-world event or document cited somewhere in the
+# A-family (A = docs/arch/A-path-primary-notation.md, R = A-stratum-III-reserve.md),
+# or is new in the Phase 2 build and marked `new: true` with the file that
+# introduces it. Nothing here comes from the rejected architectures B or C — an
+# earlier table (07 §7.3, 13 Aug 2026) mixed in five of theirs and is corrected.
+# The verifier (hel/verify.py) checks that every dated event quoted in the A-family
+# appears here.
+
+events:
+  - {year: null, event: "Branch registers kept at Chicago and at the Second branch; years not recorded", src: "A §2.3"}
+  - {year: 1897, event: "CSC-1146 accessioned at L-31 and filed 'ornament, non-linguistic'; L-31 named the Long Wait", src: "R §8.3"}
+  - {year: 1908, event: "Consolidation of the branch registers; the Transcription Standard (open code; the mnemonic leak; the committee cut; the notch-to-syllable stipulation)", src: "A §2.3, §6.1, §6.1e, §7.1"}
+  - {year: 1911, event: "The Long Reading of the Ladder plaque becomes the Archive standard", src: "A §8 Ex. 2"}
+  - {year: 1919, event: "First attested Field English use of hilun for a person, in a field notebook", src: "data/field_english.yaml", new: true}
+  - {year: 1926, event: "Treloar identifies discharge on graded edges; the Open Register is opened", src: "sealed key imports H1", new: true}
+  - {year: 1931, event: "Ada Sowerby returns from L-9 (four departed, two returned) and recites nine units at her debrief", src: "R §8.3"}
+  - {year: 1931, event: "The commanded core reaches forty-eight, where it has stood since", src: "A §6.1d"}
+  - {year: 1934, event: "The Sowerby cylinder recording", src: "R §8.3"}
+  - {year: 1939, event: "The Sowerby disc recording, with the variant nulisar", src: "R §8.3"}
+  - {year: 1947, event: "Ada Sowerby dies", src: "R §8.3"}
+  - {year: 1948, event: "The Cardwell revision (the Ladder read edge-scoped); BAR secured against IMP; the lus/wal conflation corrected", src: "A §4.2, §4.4, §8"}
+  - {year: 1949, event: "The Archive revision and re-catalogue (every accession renumbered in accession order); REG restyled; Rowntree's mnemonic revision defeated 11–7; the 1949 Standard pronunciation; citation forms barred from the CSC; ~30 units found consonant-final", src: "A §2.3, §4.5, §5.7, §6.1, §6.1e, §6.2"}
+  - {year: 1949, event: "Style manual §4: 'hilun is a statement about a record. A person is not a record.'", src: "data/field_english.yaml", new: true}
+  - {year: 1951, event: "The canteen minute book records 'lekur' and 'laddering'", src: "data/field_english.yaml", new: true}
+  - {year: 1952, event: "The route table first printed with its magnitude column empty; the post-Cardwell review of unlisted accessions matches CSC-1146 to the Sowerby recitation; the field certified intact", src: "A §5.2a, §5.2b; R §8.2–8.3"}
+  - {year: 1953, event: "Pellingham states the p/f correspondence between the Chicago and Second-branch recitations", src: "hel/diachrony.py", new: true}
+  - {year: 1954, event: "First Stratum III correlation run: no association above chance", src: "R §3.2"}
+  - {year: 1957, event: "Thaxter identifies the unentitled-grade marker", src: "sealed key imports H2", new: true}
+  - {year: 1958, event: "Sturge argues chain-initial anchoring; the first instruction against the threshold practice", src: "A §5.2a; R §8.3"}
+  - {year: 1961, event: "The Quiet Sixteen approach: an onward leg from a pair-marked node, arrival displaced, return fourteen months later", src: "A §10.1a"}
+  - {year: 1963, event: "Keele's review reassigns 24 breaks on CSC-0012 and reverses kalsira-ru; the field manual prints both readings until 1967", src: "A §4.2, §10.1a"}
+  - {year: 1967, event: "Tredgold's relative chronology of the Second-branch laws; the double printing ends", src: "hel/diachrony.py; A §10.1a", new: true}
+  - {year: 1969, event: "The lartuki-halu paraphrase adopted", src: "A §10.1b"}
+  - {year: 1971, event: "Onslow proposes the SHUNT/RECUR merger; the resegmentation attempt on CSC-1146; the second Stratum III correlation run", src: "A §4.6a; R §8.2, §3.2"}
+  - {year: 1972, event: "Merrow identifies recurrence scope on polarity", src: "sealed key imports H3", new: true}
+  - {year: 1976, event: "Hallam reads -ar as record-incompleteness; the Hessell redefinition of Stratum III; the third correlation run", src: "A §4.6b; R §1, §3.2"}
+  - {year: 1979, event: "The Archive's reply to Hallam, still the standing position", src: "A §4.6b"}
+  - {year: 1981, event: "The second instruction against the threshold practice", src: "R §8.3"}
+  - {year: 1984, event: "Ashcroft's segmentation reading of the Stratum II environment", src: "A §7.1"}
+  - {year: 1988, event: "The Reformed List: the closed forty-eight-syllable list, the minimum coda rate, the retirement of the mnemonic strings, the heels", src: "A §6.1b–e; hel/diachrony.py (F-08)"}
+  - {year: 1993, event: "Redfern reads ADJ as a nineteenth-century damage convention", src: "A §4.6c"}
+  - {year: 1994, event: "The field manual stops printing both spellings", src: "A §6.1e"}
+  - {year: 1998, event: "CSC-1146 re-certified intact; its worksheet re-signed", src: "R §8.1–8.2"}
+  - {year: 2003, event: "The fourth Stratum III correlation run", src: "R §3.2"}
+  - {year: 2004, event: "Vance re-collates every Ch-1 object against the registers", src: "A §4.6a"}
+  - {year: 2007, event: "Aubrey's defence of the two-class reading", src: "A §4.6a"}
+  - {year: 2019, event: "CSC-1146's worksheet re-signed", src: "R §8.1"}

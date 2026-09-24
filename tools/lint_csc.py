@@ -27,7 +27,7 @@ def check(cond, label, detail=""):
 
 print(f"sequence read from {DOC.name} §8.1:\n  " + " · ".join(seq) + "\n")
 
-# 1. every syllable on the 1908 sanctioned list
+# 1. every syllable on the sanctioned list (the Reformed List of 1988, A §6.1b; F-08)
 segs = {}
 for u in seq:
     s = segment(u)
@@ -36,7 +36,7 @@ for u in seq:
         print(f"  FAIL {u}: not built from the §6.1b list")
     else:
         segs[u] = s
-check(len(segs) == len(set(seq)), "all units segment under the 1908 sanctioned list (§6.1b)")
+check(len(segs) == len(set(seq)), "all units segment under the sanctioned list (§6.1b, 1988)")
 
 types = list(dict.fromkeys(seq))
 syl = sum(len(segs[u][0]) for u in seq)
@@ -103,24 +103,35 @@ else:
     check(False, "§10 screen statement parseable")
 
 # --- §4.2 / §3.3 corpus arithmetic ------------------------------------------
-# The hapax share claimed in §3.3 prose must follow from the §4.2 table.
-t3   = re.search(r"\| Distinct types \| (\d+) \| ~(\d+) corpus-wide \|", text)
-hap  = re.search(r"\| Types occurring in exactly one sequence \| \*\*(\d+) \((\d+)%\)\*\* \| ~(\d+)% \|", text)
-if t3 and hap:
-    iii_types, fn_types = int(t3.group(1)), int(t3.group(2))
-    iii_hapax, iii_pct, fn_pct = int(hap.group(1)), int(hap.group(2)), int(hap.group(3))
-    check(abs(iii_hapax / iii_types * 100 - iii_pct) < 1,
-          f"§4.2 hapax rate {iii_hapax}/{iii_types} matches printed {iii_pct}%")
-    fn_hapax = fn_types * fn_pct / 100
-    share = iii_hapax / (iii_hapax + fn_hapax) * 100
-    claimed = re.search(r"holds about ([a-z-]+|\d+%) of the whole corpus's hapax units", text)
-    word = {"two-thirds": 66.7, "half": 50.0, "a third": 33.3}
-    got = claimed.group(1) if claimed else None
-    val = word.get(got, float(got[:-1]) if got and got.endswith("%") else None)
-    check(val is not None and abs(val - share) < 5,
-          f"§3.3 hapax share claim matches computed {share:.0f}%", f"prose says {got!r}")
+# Each column of the §4.2 table must be consistent with itself: if a share h of types
+# occurs in exactly one sequence, every other type contributes at least two
+# type-in-sequence occurrences, so P(recurs elsewhere) >= 2(1-h) / (h + 2(1-h)).
+# (The check this lint lacked until Phase 2: engine finding F-10.)
+hap = re.search(r"\| Types occurring in exactly one sequence \| \*\*~?(\d+)%\*\* \| ~?(\d+)% \|", text)
+els = re.search(r"\| Probability a type recurs in \*any other\* sequence \| \*\*([0-9.]+)\*\* \| ([0-9.]+) \|", text)
+if hap and els:
+    for name, h, pe in (("Stratum III", int(hap.group(1)) / 100, float(els.group(1))),
+                        ("functional", int(hap.group(2)) / 100, float(els.group(2)))):
+        lb = 2 * (1 - h) / (h + 2 * (1 - h))
+        check(pe >= lb - 0.01, f"§4.2 {name} column consistent: P(elsewhere) {pe} >= bound {lb:.2f}")
 else:
     check(False, "§4.2 corpus-arithmetic rows parseable")
+# The hapax share claimed in §3.3 prose must follow from the counts printed with it.
+m33 = re.search(r"(\d+) of (\d+) Stratum III types, against (\d+) of (\d+) in the\s+functional strata — (\d+) of"
+                r" (\d+), or (\d+)%", text)
+if m33:
+    a, at, b, bt, a2, tot, pct = map(int, m33.groups())
+    check(a == a2 and a + b == tot, f"§3.3 hapax counts add up ({a} + {b} = {tot})")
+    share = a / tot * 100
+    check(abs(share - pct) < 1, f"§3.3 printed {pct}% matches computed {share:.0f}%")
+    claimed = re.search(r"holds about ([a-z -]+?|\d+%) of the whole corpus's hapax units", text)
+    word = {"two-thirds": 66.7, "half": 50.0, "a third": 33.3, "seven in ten": 70.0, "three-quarters": 75.0}
+    got = claimed.group(1) if claimed else None
+    val = word.get(got, float(got[:-1]) if got and got.endswith("%") else None)
+    check(val is not None and abs(val - share) < 4,
+          f"§3.3 hapax share claim matches computed {share:.0f}%", f"prose says {got!r}")
+else:
+    check(False, "§3.3 hapax counts parseable")
 
 print()
 if fails:

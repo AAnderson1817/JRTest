@@ -2,6 +2,10 @@
 
 **Proposal ID:** A / S-III. **Phase:** 1 (canon alignment).
 **Nothing here is approved. Nothing here is canon. The user has approved nothing.**
+**Phase 2, 24 September 2026:** the engine built from this file and A
+(`docs/08-THE-ENGINE.md`) found figures here that contradicted each other or the
+design; each is repaired in place and marked **engine finding F-nn**. The screen
+statement (§10) has been re-run against the extended lists this file asked for.
 **Every claim in this file is Authority C — this document's synthesis, submitted for
 approval — unless it is explicitly cited to Authority A canon or flagged as an
 Authority B dependency. There are no A or B claims created here, and no Authority D
@@ -253,11 +257,12 @@ The method that cracked Linear B is positional: a sign group recurring **in the 
 slot across hundreds of records** can be assigned a function before it is assigned a
 meaning. That method needs repetition *between* records.
 
-Stratum III repeats *within* records and almost never between them (§4.2). Of 412
-distinct Stratum III types, **301 occur in exactly one sequence** — and Stratum III
-holds about two-thirds of the whole corpus's hapax units in 17% of its tokens. (301
-against roughly 146 in the functional strata, which is ~24% of their ~610 types: 301 of
-about 450, or 67%. §4.2 carries both figures.) There is no
+Stratum III repeats *within* records and almost never between them (§4.2). Of ~400
+distinct Stratum III types, **all but a handful occur in exactly one sequence** — and
+Stratum III holds about seven in ten of the whole corpus's hapax units in 17% of its
+tokens. (In the engine's build: 381 of 387 Stratum III types, against 147 of 341 in the
+functional strata — 381 of 528, or 72%. §4.2 carries both columns; an earlier text gave
+301 of 412, which §4.2's own probabilities rule out — engine finding F-10.) There is no
 paradigm to build, because there are no minimal pairs across contexts to build one from.
 
 ### 3.4 The fourth method HEL does not have
@@ -300,7 +305,9 @@ finding. All counts Authority C, production-only.
 
 **74 of the 79 have a unit count divisible by three** (94%), against ~33% expected from
 the corpus's length distribution. Of the remaining five, three are the shortest in the
-class (6-unit provisionals with contested unit boundaries) and two are Ch-2 plates where
+class (7-unit provisionals: six units under the contested boundary, seven under the
+Standard — an earlier text said 6-unit, which is divisible by three; engine finding F-11)
+and two are Ch-2 plates where
 the field's extent is a judgement call.
 
 The internal partition is triadic as well: in the 61 sequences long enough to test, the
@@ -321,10 +328,19 @@ explain away.
 
 | | Stratum III | Functional strata (I–II) |
 | --- | --- | --- |
-| Distinct types | 412 | ~610 corpus-wide |
-| Types occurring in exactly one sequence | **301 (73%)** | ~24% |
-| Probability a type in a sequence recurs *within that same sequence* | **0.61** | 0.09 |
-| Probability a type recurs in *any other* sequence | **0.04** | 0.58 |
+| Distinct types | ~400 | ~350 |
+| Types occurring in exactly one sequence | **~98%** | ~45% |
+| Probability a type in a sequence recurs *within that same sequence* | **0.61** | 0.14 |
+| Probability a type recurs in *any other* sequence | **0.04** | 0.94 |
+
+**Corrected in Phase 2 (engine finding F-10).** An earlier table gave 301 of 412 types
+(73%) in one sequence and, for the functional strata, ~24% with 0.58. Neither column was
+consistent with itself. If 27% of types occur in two or more sequences, each of them
+contributes at least two type-in-sequence occurrences, so at least 0.42 of all such
+occurrences recur elsewhere — ten times 0.04. A functional one-sequence rate of 24%
+forces at least 0.86, not 0.58. The table above keeps 0.04, which the argument rests on,
+and carries the engine's figures for the rest. The argument is untouched; it gets
+stronger.
 
 Read the bottom two rows together. **The functional corpus reuses its vocabulary across
 records and not within them.** That is the profile of a catalogue: a fixed inventory of
@@ -361,7 +377,8 @@ itself a reconstruction. The trace is directional; a field with no trace is not.
 
 ### 4.4 Channel and locus distribution
 
-- **Channel:** 88% Ch-1 incised · 9% Ch-2 standing · 3% Ch-4 human transmission ·
+- **Channel:** 90% Ch-1 incised · 8% Ch-2 standing · 3% Ch-4 human transmission (71,
+  6 and 2 of 79 — §4.3's own counts; an earlier text said 88 · 9 · 3, engine finding F-12) ·
   **0% Ch-3 instrument.** The absence from Ch-3 is doing real work: it is the cleanest
   separation between Stratum III and Stratum IV, which is entirely Ch-3. Whatever the
   Palimpsest school is right about, it is not that these two are the same thing.
@@ -384,7 +401,7 @@ carrying a grade or polarity, occupying a warrant slot, or standing inside a seg
 functional unit has ever been attested inside a Stratum III sequence.**
 
 In ~4,100 tokens, across four channels, over 118 years of cataloguing: zero contact, in
-both directions. Two vocabularies of 412 and ~610 types, sharing nothing.
+both directions. Two vocabularies of ~400 and ~350 types, sharing nothing.
 
 This is the strongest single statistical fact about the corpus and nobody can explain
 it. It is also the class's own falsification condition (§2.4): one attested contact ends
@@ -408,11 +425,19 @@ read the rest.
 
 It does not *sound* like the rest.
 
-| | Stratum III | Functional units |
-| --- | --- | --- |
-| Mean syllables per unit | 3.1 | 2.0 |
-| Tokens ending in a coda | **84%** | 11% |
-| Units sharing their first CV with another unit in the same class | **common** | **zero, by 1908 committee rule** |
+| | Stratum III | Functional roots | All functional tokens |
+| --- | --- | --- | --- |
+| Mean syllables per unit | 3.1 | 2.9 | 1.6 |
+| Tokens ending in a coda | **84%** | **0%** | ~54% |
+| Units sharing their first CV with another unit in the same class | **common** | **zero in the commanded core, by committee rule** | — |
+
+**Corrected in Phase 2 (engine finding F-02).** An earlier table set Stratum III's 3.1
+syllables and 84% against "functional units" at 2.0 and 11%. No count gives those: A's
+shape rule makes every root vowel-final, so functional roots end in a coda 0% of the
+time, and the bound formatives — mostly closed syllables — make all functional tokens
+about 54%. Stratum III units are the **same length** as the functional roots. What
+differs is the ending, and the difference is sharper than the old table said: no
+functional root ends in a coda, and almost every Stratum III unit does.
 
 The third row is the interesting one. The 1908 committee imposed a distinctness rule —
 no two units may share their first CV — because edge halves are spoken unstressed and
@@ -424,7 +449,7 @@ bothered to apply it to material that was not going into anyone's mouth.
 *Deflation, and it is the deepest one available.* **The reason Stratum III is
 pronounceable is that HEL assigned the sounds.** Every property in this table is a
 property of the 1908 assignment procedure operating on recurring shapes. If the
-procedure ran out of short distinct syllables and started issuing longer ones for the
+procedure ran out of vowel-final assignments and started closing the units for the
 material nobody was going to say aloud, the entire silhouette difference is an artifact
 of a stationery decision made in 1908. The Archive cannot rule this out and does not try.
 
@@ -831,7 +856,8 @@ catalogue is empty here, and is printed empty rather than omitted.
 Chicago Reading Room gives the `e` of `-sen` as [eɪ]; the 1949 Standard gives [e]. Both
 are heard, in the same room, on the same night, and nothing rides on it.
 
-**Every syllable above is on the 1908 sanctioned list** (A §6.1b) and the sequence is
+**Every syllable above is on the sanctioned list** (the Reformed List of 1988, A §6.1b;
+engine finding F-08 dates it) and the sequence is
 checkable against it unit by unit — which is the whole point of closing the list, and
 which matters more here than anywhere else in the corpus, because this is the one text
 with no gloss to check it against instead. The terminal `-ur` of the refrain is `kur`
@@ -852,10 +878,10 @@ signed 1976, re-signed 1998 and 2019.
 | Recurring type | `tirakur` ×3, at positions 3, 6, 9 — group-final, without exception | §4.1 triadic partition |
 | Second recurring type | `walnisen` ×2, positions 1 and 7 | §4.2 within-record repetition |
 | Within-record recurrence rate | 0.33 of types recur internally | §4.2 (class 0.61) |
-| Between-record recurrence | **4 of 6 types occur in no other sequence in the CSC** | §4.2 (class hapax rate 73%) |
+| Between-record recurrence | **4 of 6 types occur in no other sequence in the CSC** (the Sowerby recitation, which is the same text, aside) | §4.2 (class hapax rate ~98% — which makes CSC-1146's two shared types, `tirakur` and `nusar`, the unusual thing about it; F-10) |
 | Terminal syllables by group | `-sen · -sar · -kur` ‖ `-lar · -sen · -kur` ‖ `-sen · -sar · -kur` | groups 1 and 3 identical; group 2 a transposition of the first two |
-| Tokens ending in a coda | 9 of 9 | §4.6 (class 84%; functional 11%) |
-| Mean syllables per unit | 2.9 (26 syllables ÷ 9) | §4.6 (class 3.1; functional 2.0) |
+| Tokens ending in a coda | 9 of 9 | §4.6 (class 84%; functional roots 0%) |
+| Mean syllables per unit | 2.9 (26 syllables ÷ 9) | §4.6 (class 3.1; functional roots 2.9) |
 | Shared first syllable | `pehisar` / `pekalar` both `pe-` | §4.6 — violates the 1908 distinctness rule, which no functional unit does |
 | Segmentation ambiguity | `pekalar` alone admits two legal readings — `pe-ka-lar` and `pe-kal-ar` | the 1971 proposal's only real foothold — see below |
 | Assignable units | **0** | Condition 1 ✓ |
@@ -866,10 +892,15 @@ signed 1976, re-signed 1998 and 2019.
 Three of the six types contain the string `ar`, which is also the incidence marker `-ar`
 JCT. A 1971 resegmentation proposal extracted it from `pehisar`, `pekalar` and `nusar`
 and claimed the sequence for Stratum I. **The proposal fails Condition 1 as written**,
-because assignment is *positional*, not string-matching: an incidence marker is by
-definition what stands between a root and an edge tail, and there is no edge tail
-anywhere in the sequence for it to stand before. Extracting `ar` produces a marker with
-no address.
+because assignment goes through the register, not string-matching: an incidence marker
+is assigned only when it is incident to a registered root, and none of `pehis`, `pekal`
+or `nus` has ever been registered. Extracting `ar` produces a marker with no address.
+
+**Corrected in Phase 2 (engine finding F-05).** An earlier text defeated the proposal on
+*position* — an incidence marker "at the end of a unit with nothing after it to be
+incident to". A's own label objects put `-ar` exactly there, on more than a hundred
+intact Ch-1 objects (A §4.6b), so the positional test would have rejected every label in
+the catalogue. The register test does the same work here without that cost.
 
 **And the proposal is better than it is usually given credit for, which is why it is
 kept.** In two of the three types the extraction is illegal on the face of it: `pehisar`
@@ -878,11 +909,12 @@ requires splitting the sanctioned syllable `sar`, which the code book does not p
 But `pekalar` genuinely admits two legal segmentations — `pe-ka-lar` and `pe-kal-ar` —
 and the second yields a licensed onsetless `ar` without breaking a single syllable. On
 that one unit the 1971 author was not misreading the code; he was reading it correctly,
-and the code was ambiguous. **He still fails, and he fails on position rather than on
-spelling** — `pe-kal-ar` puts a legal incidence marker at the end of a unit with nothing
-after it to be incident *to*. That the strongest available attack on this sequence is
-defeated by where the marker sits and not by what it is spelled like is the cleanest
-statement in the file of what Condition 1 actually tests.
+and the code was ambiguous. **He still fails, and he fails on the register rather than
+on spelling** — `pe-kal-ar` puts a legal incidence marker on a root nobody has ever
+registered. That the strongest available attack on this sequence is defeated by what the
+marker would be attached to, and not by what it is spelled like, is the cleanest
+statement in the file of what Condition 1 actually tests — and it makes the 1971
+author's rejoinder, below, exactly true of the test.
 
 The attempt is retained in the catalogue as a worked demonstration of the difference
 between the two tests, and its author's rejoinder — that a paradigm which can only find
@@ -939,7 +971,7 @@ corpus where it costs the most, and it cannot be closed.
 `nusar`, the shortest in the sequence and the only one of two syllables. 1931 and the
 object agree. The 1934 cylinder is damaged across precisely that unit. The 1939 disc has
 a form the Archive transcribes as `nulisar`, one syllable longer — and `nu-li-sar` is
-itself well formed under the 1908 list, so the variant cannot be dismissed as a
+itself well formed under the list, so the variant cannot be dismissed as a
 mishearing that produced a non-word. **That the sole variant is the shortest and least
 stressed unit is what the attrition model predicts of oral transmission**, which one
 school reads as confirmation that the sequence was transmitted rather than composed, and
@@ -1057,7 +1089,7 @@ which is how a compliance statement becomes an aggravating factor.
 proper names `Hessell` and `Sowerby`.
 
 **List check, run first and mechanically.** All seven forms segment into syllables drawn
-only from the 1908 sanctioned list at §6.1b, verified with `tools/syllabary.py` rather
+only from the sanctioned list at §6.1b (the Reformed List of 1988), verified with `tools/syllabary.py` rather
 than by eye. This check is run *before* the collision screen, because a form that fails
 it is not a candidate to be screened — under §6.1b it is not a transliteration at all.
 An earlier draft of this section failed exactly here: its seven forms used **twelve
@@ -1119,6 +1151,21 @@ string *Nike*); *munkisen* (`mun-ki-` reads as English *monkey* — comic); *lus
 - **German was not on the screened list and is not screened here.** Two coinages in
   earlier drafts hit German words and were dropped; the list should be extended in Phase
   2 and this file re-run against it.
+
+**Re-run, 24 September 2026, against the Phase 2 screen** (`hel/screen.py`; twelve lists
+including German, Dutch, the mainland Scandinavian languages, Turkish and Portuguese —
+the gap stated above, closed). Same nine forms. **No rejection.** Residuals, all below
+rejection weight and all disclosed: `pekalar` — Turkish *pekâlâ*, now on the list and
+confirmed as the strongest residual, exactly as disclosed above; `pehisar` — *Hisar*,
+confirmed; `walnisen` — *Nissen*, *Nisse*, confirmed; `munlisen` — the given name
+*Lise*; `nulisar` — *Lisa*, *Liza*; `tirakur` — *Iraq*, by sound only (the letters are
+`irak` after folding), weak; `Hessell` — Latin *esse* inside the name, weak. `nusar` and
+`Sowerby`: no hit. **The structural screen** (no doubled vowel, no `sh` across a syllable
+boundary, no excluded cluster) passes all seven substrate forms; engine finding F-26
+records that the list *can* spell `sh` across a boundary and that the screen now rejects
+it in every coinage. The Indigenous-material screen remains structural: no Indigenous
+word list was compiled for it, and a lexical screen is recorded as work for a reviewer
+with community-sanctioned resources.
 
 **Indigenous-material screen — result and method.** No form here is drawn from, modelled
 on, or adjacent to any real Indigenous language material, and the screen was run

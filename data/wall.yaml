@@ -1,0 +1,40 @@
+# THE READING AT THE WALL — Field English carrying a lament.
+#
+# Authority C. A human text in the human register (Phase 2 plan item 1: the
+# register must be able to carry grief). It asserts nothing about the network, its
+# source, or the missing: every operational line in it is a statement about a
+# record, which is all the register can make, and that limit is the poem.
+#
+# Line kinds: dir = stage direction; quote = read from the card beside the board;
+# op = said at readback cadence; roll = the roll formula, in the reader's branch
+# (filled from hel/diachrony.py at build); all = said by the room.
+
+title: The Reading at the Wall
+place: Memorial Board 2 · the Reading Room corridor · called the hilun wall by everyone except the Archive
+when: >-
+  Read on the first working day after a member is posted hilun, by whoever last signed the route.
+  The Archive has never authorised it and has never asked anyone to stop.
+
+lines:
+  - {k: dir, t: "The reader first reads the card pinned beside the board, where the style manual’s authors put it."}
+  - {k: quote, t: "Hilun is a statement about a record. A person is not a record."}
+  - {k: line, t: "We read the hilun.\nNot the dead. We do not know that they are dead,\nand in this room not knowing is a thing you say out loud."}
+  - {k: op, t: "Locus open, pass other, phase displaced."}
+  - {k: dir, t: "The names. After each one, the room answers: hilun."}
+  - {k: line, t: "The slot is for where they came out.\nIt is not empty. It is ruled empty.\nA worn slot is a loss. A ruled slot is a statement,\nand it is the only statement we have, so we make it."}
+  - {k: line, t: "The table has a column for how far.\nIt has been empty since nineteen fifty-two."}
+  - {k: line, t: "Lekur isn’t because. I know it.\nMost of us came back, and some of us came back more than once,\nand that was never a reason."}
+  - {k: line, t: "So we carry them hilun. We do not carry them lost.\nLost is a word for a map.\nHilun is a word for a record,\nand a record can be read again, on another pass."}
+  - {k: line, t: "See you on the nu."}
+  - {k: dir, t: "The roll, in the branch the reader learned it in."}
+  - {k: roll, t: "inpelu-in-tul · tu-hasilnu-in=hilun-nu-nikur · lunkani ·"}
+  - {k: all, t: "Forty-one."}
+
+notes:
+  - "The card. The 1949 style manual wrote the sentence to stop crews using hilun of people. It was never enforced. The Wall reads it aloud to keep the usage, and the reading begins with the Archive’s own objection, in the Archive’s own words."
+  - "The operational line is the roll’s own coordinate, read back the way a coordinate is confirmed over a bad line: level, three beats, no feeling put into it. It is the only line of the reading said that way, and it is the line people remember."
+  - "“Nineteen fifty-two” is said in full, never “fifty-two”. It is the year the route table was first printed, with its magnitude column empty (A §5.2b)."
+  - "In the English lines hilun is said the field way, [ˈhɪlən]. In the roll it is said the Standard way, [hiˈlun]. The switch is where the reading stops being about the people and becomes the record."
+  - "The roll is recited in whichever branch the reader learned it in: Chicago, with its diphthongs, or the Second branch, with its f and without its head halves. Nobody corrects anybody at the Wall."
+  - "The reader stops before [41]. The room says it."
+  - "“Lekur isn’t because” is the canteen proverb from the style manual’s rule that a segment warranted lekur alone is never translated with ‘because’ (A §4.5). At the Wall it is said by someone who came back."

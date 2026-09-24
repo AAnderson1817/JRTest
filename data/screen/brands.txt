@@ -1,0 +1,235 @@
+# Collision-screen wordlist (brands, products, drugs). Authority C, author-side tooling.
+# Used ONLY to reject coined forms that collide with real words (hel/screen.py).
+# Nothing in this file is, or may become, material for the language.
+# Format: entry<TAB>category<TAB>gloss. Categories and weights: hel/screen.py SEVERITY.
+
+nike	brand	brand
+adidas	brand	brand
+puma	brand	brand
+reebok	brand	brand
+fila	brand	brand
+asics	brand	brand
+gucci	brand	brand
+prada	brand	brand
+hermes	brand	brand
+chanel	brand	brand
+dior	brand	brand
+fendi	brand	brand
+versace	brand	brand
+armani	brand	brand
+rolex	brand	brand
+omega	brand	brand
+cartier	brand	brand
+tiffany	brand	brand
+lego	brand	brand
+sony	brand	brand
+sega	brand	brand
+nintendo	brand	brand
+atari	brand	brand
+nokia	brand	brand
+samsung	brand	brand
+toshiba	brand	brand
+hitachi	brand	brand
+honda	brand	brand
+toyota	brand	brand
+nissan	brand	brand
+mazda	brand	brand
+suzuki	brand	brand
+subaru	brand	brand
+lexus	brand	brand
+kia	brand	brand
+hyundai	brand	brand
+tesla	brand	brand
+ford	brand	brand
+fiat	brand	brand
+audi	brand	brand
+porsche	brand	brand
+ferrari	brand	brand
+lamborghini	brand	brand
+maserati	brand	brand
+volvo	brand	brand
+saab	brand	brand
+skoda	brand	brand
+opel	brand	brand
+seat	brand	brand
+renault	brand	brand
+peugeot	brand	brand
+citroen	brand	brand
+jaguar	brand	brand
+rover	brand	brand
+mini	brand	brand
+bentley	brand	brand
+rolls	brand	brand
+pepsi	brand	brand
+cola	brand	brand
+coke	brand	brand
+fanta	brand	brand
+sprite	brand	brand
+tango	brand	brand
+kitkat	brand	brand
+mars	brand	brand
+twix	brand	brand
+oreo	brand	brand
+pringles	brand	brand
+heinz	brand	brand
+nestle	brand	brand
+nutella	brand	brand
+kellogg	brand	brand
+danone	brand	brand
+evian	brand	brand
+perrier	brand	brand
+lipton	brand	brand
+nescafe	brand	brand
+starbucks	brand	brand
+costa	brand	brand
+subway	brand	brand
+kfc	brand	brand
+wendys	brand	brand
+denny	brand	brand
+tacobell	brand	brand
+ikea	brand	brand
+aldi	brand	brand
+lidl	brand	brand
+tesco	brand	brand
+asda	brand	brand
+walmart	brand	brand
+target	brand	brand
+costco	brand	brand
+amazon	brand	brand
+alexa	brand	brand
+siri	brand	brand
+google	brand	brand
+yahoo	brand	brand
+bing	brand	brand
+kindle	brand	brand
+apple	brand	brand
+ipad	brand	brand
+iphone	brand	brand
+ipod	brand	brand
+intel	brand	brand
+amd	brand	brand
+nvidia	brand	brand
+dell	brand	brand
+lenovo	brand	brand
+acer	brand	brand
+asus	brand	brand
+canon	brand	brand
+nikon	brand	brand
+kodak	brand	brand
+leica	brand	brand
+xerox	brand	brand
+hoover	brand	brand
+dyson	brand	brand
+philips	brand	brand
+bosch	brand	brand
+siemens	brand	brand
+miele	brand	brand
+sharp	brand	brand
+casio	brand	brand
+seiko	brand	brand
+tissot	brand	brand
+swatch	brand	brand
+zara	brand	brand
+mango	brand	brand
+uniqlo	brand	brand
+levis	brand	brand
+wrangler	brand	brand
+hilton	brand	brand
+hyatt	brand	brand
+marriott	brand	brand
+ritz	brand	brand
+visa	brand	brand
+amex	brand	brand
+paypal	brand	brand
+uber	brand	brand
+lyft	brand	brand
+airbnb	brand	brand
+netflix	brand	brand
+hulu	brand	brand
+disney	brand	brand
+pixar	brand	brand
+marvel	brand	brand
+mattel	brand	brand
+hasbro	brand	brand
+barbie	brand	brand
+tamagotchi	brand	brand
+pokemon	brand	brand
+tetris	brand	brand
+zelda	brand	brand
+mario	brand	brand
+luigi	brand	brand
+sonic	brand	brand
+yoshi	brand	brand
+kirby	brand	brand
+ebay	brand	brand
+etsy	brand	brand
+tiktok	brand	brand
+twitter	brand	brand
+facebook	brand	brand
+instagram	brand	brand
+whatsapp	brand	brand
+skype	brand	brand
+zoom	brand	brand
+slack	brand	brand
+reddit	brand	brand
+tumblr	brand	brand
+yelp	brand	brand
+oracle	brand	brand
+sap	brand	brand
+ibm	brand	brand
+cisco	brand	brand
+ritalin	brand	pharmaceutical brand
+xanax	brand	pharmaceutical brand
+valium	brand	pharmaceutical brand
+prozac	brand	pharmaceutical brand
+zoloft	brand	pharmaceutical brand
+paxil	brand	pharmaceutical brand
+lexapro	brand	pharmaceutical brand
+celexa	brand	pharmaceutical brand
+effexor	brand	pharmaceutical brand
+wellbutrin	brand	pharmaceutical brand
+lithium	brand	pharmaceutical brand
+adderall	brand	pharmaceutical brand
+vicodin	brand	pharmaceutical brand
+oxycontin	brand	pharmaceutical brand
+percocet	brand	pharmaceutical brand
+tylenol	brand	pharmaceutical brand
+advil	brand	pharmaceutical brand
+aleve	brand	pharmaceutical brand
+motrin	brand	pharmaceutical brand
+aspirin	brand	pharmaceutical brand
+nurofen	brand	pharmaceutical brand
+panadol	brand	pharmaceutical brand
+viagra	brand	pharmaceutical brand
+cialis	brand	pharmaceutical brand
+levitra	brand	pharmaceutical brand
+lipitor	brand	pharmaceutical brand
+zocor	brand	pharmaceutical brand
+crestor	brand	pharmaceutical brand
+nexium	brand	pharmaceutical brand
+prilosec	brand	pharmaceutical brand
+zantac	brand	pharmaceutical brand
+lasix	brand	pharmaceutical brand
+coumadin	brand	pharmaceutical brand
+warfarin	brand	pharmaceutical brand
+insulin	brand	pharmaceutical brand
+metformin	brand	pharmaceutical brand
+ambien	brand	pharmaceutical brand
+lunesta	brand	pharmaceutical brand
+sonata	brand	pharmaceutical brand
+lyrica	brand	pharmaceutical brand
+neurontin	brand	pharmaceutical brand
+tramadol	brand	pharmaceutical brand
+codeine	brand	pharmaceutical brand
+morphine	brand	pharmaceutical brand
+heroin	brand	pharmaceutical brand
+cocaine	brand	pharmaceutical brand
+ketamine	brand	pharmaceutical brand
+valtrex	brand	pharmaceutical brand
+tamiflu	brand	pharmaceutical brand
+relenza	brand	pharmaceutical brand
+humira	brand	pharmaceutical brand
+enbrel	brand	pharmaceutical brand
+remicade	brand	pharmaceutical brand
+ozempic	brand	pharmaceutical brand
+wegovy	brand	pharmaceutical brand

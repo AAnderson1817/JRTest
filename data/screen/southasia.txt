@@ -1,0 +1,54 @@
+# Collision-screen wordlist (Hindi, Urdu, Punjabi (romanized)). Authority C, author-side tooling.
+# Used ONLY to reject coined forms that collide with real words (hel/screen.py).
+# Nothing in this file is, or may become, material for the language.
+# Format: entry<TAB>category<TAB>gloss. Categories and weights: hel/screen.py SEVERITY.
+
+chutiya	obscene	Hindi/Urdu obscenity
+chutia	obscene	Hindi/Urdu obscenity
+chut	obscene	Hindi/Urdu obscenity
+lund	obscene	Hindi/Urdu obscenity
+lauda	obscene	Hindi/Urdu obscenity
+lavda	obscene	Hindi/Urdu obscenity
+loda	obscene	Hindi/Urdu obscenity
+bhosdi	obscene	Hindi/Urdu obscenity
+bhosda	obscene	Hindi/Urdu obscenity
+bhosdike	obscene	Hindi/Urdu obscenity
+madarchod	obscene	Hindi/Urdu obscenity
+behenchod	obscene	Hindi/Urdu obscenity
+bhenchod	obscene	Hindi/Urdu obscenity
+randi	obscene	Hindi/Urdu obscenity
+gandu	obscene	Hindi/Urdu obscenity
+gaand	obscene	Hindi/Urdu obscenity
+gand	obscene	Hindi/Urdu obscenity
+harami	obscene	Hindi/Urdu obscenity
+haramzada	obscene	Hindi/Urdu obscenity
+kutta	obscene	Hindi/Urdu obscenity
+kutti	obscene	Hindi/Urdu obscenity
+kamina	obscene	Hindi/Urdu obscenity
+kamine	obscene	Hindi/Urdu obscenity
+saala	obscene	Hindi/Urdu obscenity
+sala	obscene	Hindi/Urdu obscenity
+tatti	obscene	Hindi/Urdu obscenity
+jhant	obscene	Hindi/Urdu obscenity
+pehal	common	Hindi common word
+pehla	common	Hindi common word
+susu	comic	Hindi comic/common
+potty	comic	Hindi comic/common
+pagal	comic	Hindi comic/common
+ullu	comic	Hindi comic/common
+buddhu	comic	Hindi comic/common
+narasimha	religious	Sanskrit/Hindi sacred name
+narsimha	religious	Sanskrit/Hindi sacred name
+om	religious	Sanskrit/Hindi sacred name
+aum	religious	Sanskrit/Hindi sacred name
+brahma	religious	Sanskrit/Hindi sacred name
+brahman	religious	Sanskrit/Hindi sacred name
+atman	religious	Sanskrit/Hindi sacred name
+karma	religious	Sanskrit/Hindi sacred name
+dharma	religious	Sanskrit/Hindi sacred name
+nirvana	religious	Sanskrit/Hindi sacred name
+moksha	religious	Sanskrit/Hindi sacred name
+mantra	religious	Sanskrit/Hindi sacred name
+tantra	religious	Sanskrit/Hindi sacred name
+guru	religious	Sanskrit/Hindi sacred name
+yoga	religious	Sanskrit/Hindi sacred name

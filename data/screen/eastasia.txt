@@ -1,0 +1,46 @@
+# Collision-screen wordlist (Mandarin (pinyin), Japanese, Korean (romanized)). Authority C, author-side tooling.
+# Used ONLY to reject coined forms that collide with real words (hel/screen.py).
+# Nothing in this file is, or may become, material for the language.
+# Format: entry<TAB>category<TAB>gloss. Categories and weights: hel/screen.py SEVERITY.
+
+cao	obscene	Mandarin obscenity
+caoni	obscene	Mandarin obscenity
+nima	obscene	Mandarin obscenity
+tamade	obscene	Mandarin obscenity
+shabi	obscene	Mandarin obscenity
+jiba	obscene	Mandarin obscenity
+diao	obscene	Mandarin obscenity
+niubi	obscene	Mandarin obscenity
+si	comic	Mandarin comic/loaded
+sile	comic	Mandarin comic/loaded
+guai	comic	Mandarin comic/loaded
+gui	comic	Mandarin comic/loaded
+chinko	obscene	Japanese obscenity
+chinchin	obscene	Japanese obscenity
+manko	obscene	Japanese obscenity
+ketsu	obscene	Japanese obscenity
+kuso	obscene	Japanese obscenity
+baka	obscene	Japanese obscenity
+yariman	obscene	Japanese obscenity
+otera	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+tera	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+hemasu	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+masu	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+desu	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+natsu	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+haru	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+aki	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+fuyu	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+sakura	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+kawaii	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+neko	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+inu	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+kami	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+shinu	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+shine	comic	Japanese common (drift to Japanese shape; A-reserve §10)
+ssibal	obscene	Korean obscenity
+shibal	obscene	Korean obscenity
+sibal	obscene	Korean obscenity
+gaesaekki	obscene	Korean obscenity
+byeongsin	obscene	Korean obscenity
+jot	obscene	Korean obscenity

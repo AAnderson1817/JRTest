@@ -1,0 +1,64 @@
+# Ch-4 — HEL's recited formulae, as the Archive back-transliterates them.
+#
+# Authority C. PRODUCTION (sealed key P-CH4): composed to parse under the grammar;
+# whether they are translated substrate, inherited practice, or both is not
+# represented anywhere, and the fourth position — human composition retro-fitted to
+# substrate grammar by analysts who found structure because they were looking for
+# it — is printed with every one of them (Phase 1 X8).
+#
+# Every formula ends in [41]. [41] is said after the count and is not in it.
+# `cola` is the recited division, which does not respect morpheme boundaries.
+# The two branch recitations of each formula live in hel/diachrony.py.
+
+formulae:
+  - id: custodial
+    name: the custodial attestation
+    text: "sarkile-in-sil · si-lartuki-ol=hilun-sa-kihar · lunkani · [41]"
+    cola: [7, 7, 4]
+    use: "said over a ward at a change of custody"
+    note: "A §8 Example 3. Field paraphrase: 'Under attendance. Not held.'"
+    b_dependent: true
+  - id: departure
+    name: the departure formula
+    text: "harnuli-in-ru · ru-yuntiha-in=hilun-to-hilun · nisarlu · [41]"
+    cola: [6, 6, 6]
+    use: "said by every crew at every departure (Phase 1 Q18)"
+  - id: return
+    name: the return formula
+    text: "tulkahe-halu · ha-lankiro-in=hilun-sa-kihar · rosilpe · [41]"
+    cola: [6, 6, 6]
+    use: "said at emergence, before anyone asks where"
+  - id: sealing
+    name: the sealing
+    text: "nirtoka-pel-sen · pe-olsihe-in=hilun-nu-hilun · tuwalsi · [41]"
+    cola: [6, 6, 6]
+    use: "said when a locus is placed under containment"
+  - id: roll
+    name: the roll
+    text: "inpelu-in-tul · tu-hasilnu-in=hilun-nu-nikur · lunkani · [41]"
+    cola: [6, 6, 6]
+    use: "said after the names of those who did not return"
+  - id: reading
+    name: the reading-room opening
+    text: "lankiro-in-sil · si-lunpeki-ol=hilun-sa-kihar · nisarlu · [41]"
+    cola: [6, 6, 6]
+    use: "said before a record is read aloud"
+  - id: count
+    name: the count
+    text: "telnuro-is-ken · ke-siltoni-in=hilun-sa-kihar · rosilpe · [41]"
+    cola: [6, 6, 6]
+    use: "said before a traversal is counted into the log"
+  - id: dormancy
+    name: the waiting
+    text: "kanirlu-in-ru-nir-kur · ru-yuntiha-in=hilun-to-kihar · tuwalsi · [41]"
+    cola: [7, 7, 6]
+    use: "said when a crew is held at a dormant locus"
+  - id: authorization
+    name: the long word
+    text: "harnuli-in-ru-lan-lun · ru-lankiro-in=hilun-to-hilun · rosilpe · [41]"
+    cola: [7, 7, 6]
+    use: >-
+      Recited only in the Reading Room and never within the Field Protocol distance of an
+      active locus, because it carries an AUTH grade (A §4.3). Its discharge is STANDING.
+      Crews call it 'the long word' and have not heard it.
+    restricted: true

@@ -1,0 +1,118 @@
+# Every figure the A-family states about its own catalogue, and how the verifier measures
+# it against the generated corpus (hel/verify.py). Authority C.
+#
+# expect       the document's figure; `tolerance` for approximate ones ("~", "roughly")
+# repaired_to  the figure contradicted the design (arithmetic, definitions, or another
+#              figure in the same table); the text now says `now`, and the corpus must
+#              reproduce `repaired_to`
+# calibration  the figure is feasible under the design and this build's production rates
+#              give another number; the note says why, and the document is left alone
+
+claims:
+  # ---------------------------------------------------------------- A §2, scale
+  - {id: scale-tokens, where: "A §2", what: "catalogued tokens", says: "~4,100", measure: figures.tokens, expect: 4100, tolerance: 150}
+  - {id: scale-seq3, where: "A §2", what: "tokens in sequences of three or more units", says: "~2,900",
+     measure: tokens_in_sequences_of_3plus_units, expect: 2900, tolerance: 250,
+     calibration: "Counted in units (node words, free units, field and log entries). The build writes more one- and two-word records than the design assumed; the definition of a sequence is not fixed anywhere in A."}
+  - {id: scale-longest, where: "A §2", what: "longest continuous sequence, in units", says: "41; six exceed 30",
+     measure: longest_sequence_units, expect: 41, tolerance: 3,
+     calibration: "The build's longest record is a Stratum III field of 21 units. A 41-unit sequence is possible under the design; nothing the build renders is that long."}
+  - {id: scale-types, where: "A §2; A-reserve §3.3, §4.2, §4.5", what: "distinct units in the functional strata", says: "~610",
+     measure: functional_types, repaired_to: {min: 300, max: 400}, now: "~350", finding: F-15}
+  - {id: scale-types-gt5, where: "A §2", what: "functional units occurring more than five times", says: "~180",
+     measure: figures.functional_types_gt5, repaired_to: {min: 40, max: 90}, now: "~60, most of them bound formatives", finding: F-15}
+  - {id: scale-core, where: "A §2, §6.1c", what: "the analyzable core (roots, ritual units and formatives)", says: "~90",
+     measure: analyzable_core, expect: 90, tolerance: 8}
+  - {id: core-coda-after, where: "A §6.1c", what: "share of the analyzable core carrying a coda after 1988", says: "71 of 90 (79%)",
+     measure: analyzable_core_coda_share, expect: 0.79, tolerance: 0.03}
+  - {id: core-coda-1908, where: "A §6.1c", what: "core units carrying a coda under the 1908 Standard", says: "nine of ~90",
+     measure: roots_with_coda_1908, expect: "9 of 90",
+     calibration: "The build reconstructs the 1908 forms of the 47 roots and ritual units only (3 of 47 had a coda); the formatives' 1908 strings are held in the deprecated register and are not reproduced."}
+
+  # ---------------------------------------------------------------- A §4
+  - {id: broken-share, where: "A §4.2, §4.6b, §10.1a", what: "segments ending in a broken half", says: "~41%",
+     measure: figures.broken_share, expect: 0.41, tolerance: 0.04,
+     calibration: "The build damages fewer records than the figure implies, because every record the documents count exactly is rendered intact. A itself calls 41% an upper bound on damage."}
+  - {id: half-negated, where: "A §4.4", what: "-mun on the tail half alone", says: "23", measure: figures.tail_only_mun, expect: 23}
+  - {id: stacked, where: "A §4.5", what: "stacked warrants", says: "34", measure: figures.stacked_warrants, expect: 34}
+  - {id: stacked-reversed, where: "A §4.5", what: "stacked warrants in the reversed order", says: "11", measure: figures.stacked_reversed, expect: 11}
+  - {id: forty-one-ch1, where: "A §4.5", what: "Ch-1 objects carrying [41]", says: "three", measure: ch1_with_41, expect: 3}
+  - {id: forty-one-ch4, where: "A §4.5", what: "Ch-4 formulae carrying [41]", says: "all nine", measure: ch4_formulae_with_41, expect: 9}
+  - {id: shunt-recur, where: "A §4.6a", what: "catalogued SHUNT and RECUR edges", says: "~380",
+     measure: figures.shunt_recur_edges, expect: 380, tolerance: 40,
+     calibration: "Feasible only in a corpus whose edges are mostly the two G3 classes. The build's world makes PASS and THRU the common edges, as A's G2 grades for them imply."}
+  - {id: ar-intact, where: "A §4.6b", what: "intact Ch-1 objects carrying -ar", says: "more than a hundred",
+     measure: ch1_intact_with_ar, expect: {min: 101}}
+  - {id: junction-map, where: "A §4.6b", what: "nodes on the junction map", says: "214, ~60% by -ar alone",
+     measure: figures.junction_map_nodes, expect: 214, tolerance: 25,
+     calibration: "The build identifies a node by find locus and root; few loci yield two records about the same root, so almost every junction is one by -ar alone."}
+  - {id: adj-only, where: "A §4.6c", what: "edges resting on an ADJ half and nothing else", says: "87",
+     measure: figures.adj_halves, expect: 87, tolerance: 10,
+     calibration: "ADJ arises in this build only where erosion left an interval nobody can read, which is Redfern's reading; 87 would need several times the erosion the condition rates produce."}
+
+  # ---------------------------------------------------------------- A §5, §6
+  - {id: multi-edge-coordinates, where: "A §5.2a, §8 Ex. 1, §12 row 14", what: "segments whose coordinate sits on a chain of two or more edges", says: "419",
+     measure: figures.multi_edge_coordinate_segments, repaired_to: {min: 1, max: 40}, now: "a few dozen at most at this scale", finding: F-09}
+  - {id: confusions, where: "A §6.1b", what: "single-onset confusions, detectable", says: "440, 334 (76%)", measure: confusions.detectable, expect: 334}
+  - {id: confusions-open, where: "A §6.1b", what: "open syllables: confusions, detectable", says: "220, 134", measure: confusions.open, expect: [220, 134]}
+  - {id: confusions-closed, where: "A §6.1b", what: "closed syllables: confusions, detectable", says: "220, 200", measure: confusions.closed, expect: [220, 200]}
+  - {id: bands-open, where: "A §6.1b", what: "vowel bands of the open syllables", says: "h,k {a e i}; l {e i u}; r {a o u}; t {i o u}; n {i u}; p {e u}; s {a i}; y {u}",
+     measure: bands_open, expect: {h: aei, k: aei, l: eiu, n: iu, p: eu, r: aou, s: ai, t: iou, y: u}}
+  - {id: bands-closed, where: "A §6.1b", what: "vowel bands, stated as holding for the whole list", says: "the same bands",
+     measure: bands_closed, repaired_to: {h: ao, k: aeu, l: au, m: u, n: ei, p: e, s: aei, t: eiu, w: a, y: u},
+     now: "stated separately for open and closed syllables", finding: F-13}
+  - {id: core-cap, where: "A §6.1b, §6.1d", what: "the commanded-core ceiling", says: "48, with onsetless syllables licensed as incidence markers only (which gives 44)",
+     measure: commanded_core_cap, repaired_to: 48, now: "48: onsetless syllables licensed root-initially as well", finding: F-01}
+  - {id: core-size, where: "A §6.1d", what: "the commanded core", says: "forty-eight since 1931", measure: commanded_core_size, expect: 48}
+
+  # ---------------------------------------------------------------- A §7, §10
+  - {id: strata-I, where: "A §7", what: "Stratum I share of tokens", says: "~24%", measure: figures.stratum_share.I, expect: 0.24, tolerance: 0.02}
+  - {id: strata-II, where: "A §7", what: "Stratum II share of tokens", says: "~44%", measure: figures.stratum_share.II, expect: 0.44, tolerance: 0.02}
+  - {id: strata-III, where: "A §7; A-reserve §3.3", what: "Stratum III share of tokens", says: "~17%", measure: figures.stratum_share.III, expect: 0.17, tolerance: 0.02}
+  - {id: strata-IV, where: "A §7", what: "Stratum IV share of tokens", says: "~15%", measure: figures.stratum_share.IV, expect: 0.15, tolerance: 0.02}
+  - {id: iii-hapax-share, where: "A §7 (and A-reserve §3.3, which says two-thirds)", what: "Stratum III's share of the corpus's hapax units", says: "~40%",
+     measure: iii_share_of_hapax, repaired_to: {min: 0.6, max: 0.78}, now: "about seven in ten", finding: F-28}
+  - {id: iv-shared, where: "A §7", what: "Stratum IV units shared with Strata I–III", says: "~30", measure: iv_shared_with_functional, expect: 30, tolerance: 4}
+  - {id: env-ch1, where: "A §7.1, §12 row 14", what: "Ch-1 head-absent clusters (of 212 in all)", says: "148 (63 short, 85 undetermined, 31 with a head in the older register)",
+     measure: figures.stratum_II_env.ch1, expect: 148, tolerance: 15,
+     calibration: "The environment needs a vowel-initial destination, and the commanded core has four vowel-initial roots in forty-eight. At this scale the build finds a few dozen; the proportions A argues from (43% short, 36% cut in the older hand) are the rates the build uses."}
+  - {id: kalsira-ru, where: "A §10.1a", what: "kalsira-ru occurrences", says: "27", measure: figures.kalsira_ru.total, expect: 27}
+  - {id: kalsira-ru-completed, where: "A §10.1a", what: "kalsira-ru completed, Stratum I", says: "3", measure: figures.kalsira_ru.completed_I, expect: 3}
+  - {id: kalsira-ru-frozen, where: "A §10.1a", what: "kalsira-ru frozen", says: "24", measure: figures.kalsira_ru.uncompleted, expect: 24}
+  - {id: kalsira-ru-III, where: "A §10.1a", what: "frozen kalsira-ru in Stratum III", says: "\"Strata II–III\"",
+     measure: kalsira_frozen_in_III, repaired_to: 0, now: "Stratum II", finding: F-06}
+  - {id: lartuki-halu, where: "A §10.1b", what: "lartuki-halu occurrences", says: "19", measure: figures.lartuki_halu, expect: 19}
+  - {id: preamble, where: "A §4 preamble", what: "the thirty-five graded items", says: "10 G1 · 15 G2 · 9 G3 · 1 G5", measure: preamble_grades, expect: {G1: 10, G2: 15, G3: 9, G5: 1}}
+
+  # ---------------------------------------------------------------- the reserve
+  - {id: iii-sequences, where: "A-reserve §4.1", what: "Stratum III sequences", says: "79", measure: iii.sequences, expect: 79}
+  - {id: iii-mean, where: "A-reserve §4.1", what: "mean length", says: "8.8", measure: iii.mean_length, expect: 8.8, tolerance: 0.2}
+  - {id: iii-range, where: "A-reserve §4.1", what: "length range", says: "6 to 21", measure: iii.length_range, expect: [6, 21]}
+  - {id: iii-div3, where: "A-reserve §4.1", what: "sequences divisible by three", says: "74 of 79", measure: iii.divisible_by_three, expect: 74}
+  - {id: iii-contested, where: "A-reserve §4.1", what: "lengths of the three shortest non-divisible sequences", says: "\"6-unit provisionals\"",
+     measure: iii_nondivisible_provisional_lengths, repaired_to: [7, 7, 7], now: "7-unit provisionals (six under the contested boundary)", finding: F-11}
+  - {id: iii-types, where: "A-reserve §4.2", what: "distinct Stratum III types", says: "412", measure: iii.types, expect: 412, tolerance: 30}
+  - {id: iii-one-seq, where: "A-reserve §4.2, §3.3", what: "Stratum III types in exactly one sequence", says: "301 (73%)",
+     measure: iii_one_sequence_share, repaired_to: {min: 0.95, max: 1.0}, now: "~98%", finding: F-10}
+  - {id: iii-within, where: "A-reserve §4.2", what: "P(a type recurs within its own sequence)", says: "0.61", measure: iii.p_recur_within, expect: 0.61, tolerance: 0.05}
+  - {id: iii-elsewhere, where: "A-reserve §4.2", what: "P(a type recurs in any other sequence)", says: "0.04", measure: iii.p_recur_elsewhere, expect: 0.04, tolerance: 0.02}
+  - {id: fn-one-seq, where: "A-reserve §4.2", what: "functional types in exactly one sequence", says: "~24%",
+     measure: functional_one_sequence_share, repaired_to: {min: 0.35, max: 0.55}, now: "~45%", finding: F-10}
+  - {id: fn-within, where: "A-reserve §4.2", what: "functional P(recurs within its sequence)", says: "0.09",
+     measure: functional_p_within, repaired_to: {min: 0.08, max: 0.2}, now: "~0.14", finding: F-10}
+  - {id: fn-elsewhere, where: "A-reserve §4.2", what: "functional P(recurs in another sequence)", says: "0.58",
+     measure: functional_p_elsewhere, repaired_to: {min: 0.85, max: 1.0}, now: "~0.94", finding: F-10}
+  - {id: iii-positions, where: "A-reserve §4.3", what: "after a completed segment · no trace · Ch-2 whole record · Ch-4", says: "41 · 30 · 6 · 2",
+     measure: iii.position, expect: {"after completed segment": 41, "no trace": 30, "whole record": 6, "recitation": 2}}
+  - {id: iii-channel, where: "A-reserve §4.4", what: "Stratum III by channel", says: "88% · 9% · 3%",
+     measure: iii_channel_pct, repaired_to: {Ch-1: 90, Ch-2: 8, Ch-4: 3}, now: "90% · 8% · 3% (71, 6 and 2 of 79, §4.3's own counts)", finding: F-12}
+  - {id: iii-loci, where: "A-reserve §4.4", what: "find loci", says: "31", measure: iii.find_loci, expect: 31}
+  - {id: iii-syllables, where: "A-reserve §4.6", what: "Stratum III mean syllables per unit", says: "3.1", measure: figures.profile_III.mean_syllables, expect: 3.1, tolerance: 0.1}
+  - {id: iii-coda, where: "A-reserve §4.6", what: "Stratum III tokens ending in a coda", says: "84%", measure: figures.profile_III.coda_final_share, expect: 0.84, tolerance: 0.04}
+  - {id: fn-coda, where: "A-reserve §4.6, §8.2", what: "functional roots ending in a coda", says: "11%",
+     measure: root_coda_final_share, repaired_to: 0.0, now: "roots 0% (vowel-final by A's shape rule); all functional tokens ~54% (the formatives are closed)", finding: F-02}
+  - {id: fn-syllables, where: "A-reserve §4.6, §8.2", what: "functional roots, mean syllables", says: "2.0",
+     measure: root_mean_syllables, repaired_to: {min: 2.8, max: 3.0}, now: "roots 2.9; all functional tokens 1.6", finding: F-02}
+  - {id: csc1146, where: "A-reserve §8.2", what: "CSC-1146: tokens, types, types in no other sequence, refrain positions", says: "9 · 6 · 4 · 3, 6, 9",
+     measure: csc1146, expect: {tokens: 9, types: 6, types_in_no_other_sequence: 4, refrain_positions: [3, 6, 9]}}
+  - {id: chronology, where: "07 §7.3; data/chronology.yaml", what: "years the A-family cites that are missing from the Archive of works", says: "none", measure: chronology_missing_years, expect: []}

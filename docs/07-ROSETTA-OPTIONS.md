@@ -277,33 +277,42 @@ grade in the G0–G3 apparatus, which is a *published* judgement by a named body
 style manual. The design has been citing an institution's output continuously without
 that output existing as an object.
 
-**The gap is smaller than it looks.** Canon already carries **272 dated in-world
-citations** across the architecture documents and the handoff — excluding document
-metadata — and they name **at least fourteen distinct works**, not merely years:
+**The gap is smaller than it looks.** The A-family — architecture A and its Stratum III
+reserve — already carries **200 dated in-world citations**, excluding document metadata
+and the canon's own 2024, and they name **some twenty-five distinct works and events**,
+not merely years. A selection:
 
-| Date | Work already named in canon |
+| Date | Work already named in the A-family |
 | --- | --- |
-| 1874 | Branch notebooks first recording the recitations |
-| 1883 | The Table, and the committee that compiled it from the recitation |
-| 1908 | The Standard / Transcription: consolidation of the branch registers, the committee cut, the sanctioned syllabary, the Chicago manual |
-| 1911 | The Remission Protocol |
-| 1938 | Board minutes |
-| 1948 | The revision that secured orientation against IMP |
-| 1949 | The Standard, the Archive revision, and the policy barring citation |
-| 1952 | A review; the route table's magnitude column printed from this year |
-| 1961 | The Fusion Revision; the Quiet Sixteen incident |
-| 1963 | Keele bound-pair review; field manual double printing (1963–67) |
-| 1969 | Adoption |
-| 1979 | The Archive's reply, still the standing position |
-| 1984 | Ashcroft segmentation reading and the register re-collation behind it |
-| 1988 | The Reformed List, and the minimum coda rate it introduced |
+| 1897 | The accession register entry for CSC-1146: "ornament, non-linguistic" (R §8.3) |
+| 1908 | The Transcription Standard: consolidation of the branch registers, the committee cut, the notch-to-syllable stipulation (A §2.3, §7.1) |
+| 1911 | The Long Reading of the Ladder plaque as the Archive standard (A §8) |
+| 1931 | The Sowerby debrief transcript; the 1934 cylinder and 1939 disc follow (R §8.3) |
+| 1948 | The Cardwell revision (A §4.4, §8) |
+| 1949 | The Archive revision and re-catalogue; Rowntree's defeated mnemonic revision; the policy barring citation forms (A §5.7, §6.1e) |
+| 1952 | The route table, printed with its magnitude column empty; the post-Cardwell review of unlisted accessions (A §5.2b; R §8.3) |
+| 1958 | Sturge on chain-initial anchoring; the first instruction against the threshold practice (A §5.2a; R §8.3) |
+| 1963 | Keele's bound-pair review; the field manual's double printing, 1963–67 (A §10.1a) |
+| 1971 | Onslow's merger proposal; the resegmentation attempt on CSC-1146 (A §4.6a; R §8.2) |
+| 1976 | Hallam's incompleteness reading; the Hessell redefinition of Stratum III (A §4.6b; R §1) |
+| 1984 | Ashcroft's segmentation reading and the register re-collation behind it (A §7.1) |
+| 1988 | The Reformed List, and the minimum coda rate it introduced (A §6.1b–e) |
+| 1993 | Redfern's damage-convention reading of ADJ (A §4.6c) |
+
+**Corrected 24 September 2026 (Phase 2, engine finding F-14).** The first version of
+this table, of 13 August, counted 272 citations across all three architecture documents
+and the handoff, and five of its fourteen rows — 1874, 1883, the Remission Protocol, the
+1938 board minutes and the Fusion Revision — came from architectures B and C, which
+Phase 1 rejected. None of them is HEL's history under A′. The A-family alone carries 200.
 
 **So the Archive of works is largely written already, in fragments, as citations.**
 Building it is mostly extraction and reconciliation — and the reconciliation is the
-valuable half. 285 dates asserted across documents that have never been checked against
-each other is a consistency hazard of precisely the kind §6 warns about: contradictions
-arising from drift are indistinguishable from contradictions that were designed, right up
-until someone checks.
+valuable half. Two hundred dates asserted across documents that have never been checked
+against each other is a consistency hazard of precisely the kind §6 warns about:
+contradictions arising from drift are indistinguishable from contradictions that were
+designed, right up until someone checks. **Built in Phase 2:** `data/chronology.yaml`
+holds every A-family event in order, marks the events the build added, and the verifier
+checks that every year the A-family cites is in it.
 
 **Recommend it as a Phase 2 workstream**, sequenced before any Rosetta object is sited in
 the corpus. It is cheap, it is mostly already determined, and it converts R-c from

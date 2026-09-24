@@ -1,0 +1,48 @@
+# The Reading Room's "start here" notes. Each is matched to its accession at build time
+# (catalogue numbers are assigned by the 1949 renumbering, so they are looked up, not assumed).
+# The first entry is the card the page opens on.
+# Authority C. In-world facts are cited to the A-family; nothing here is sealed.
+
+loci:
+  L-31: the Long Wait
+
+featured:
+  - match: {translit: "harnuli-in-ken · ke-telnuro-is-ru · ru-kalsira-in=hilun-to-pukal · tir lekur"}
+    title: Example 1 · a route label
+    body:
+      - "The first worked example of A §8, catalogued here as it came out of the build: an object from L-105, accessioned 1911. Every layer on this card is derived by the engine from the transliteration; none is hand-set."
+      - "Read the cartouche. The first compartment is <b>ruled empty</b> — <i>hilun</i>: the record declines to say where the traveller comes out. The third carries <i>pukal</i>, a displacement stated as measured, with no magnitude in this record or any other (A §5.2b)."
+      - "Then press <b>Reverse the last edge</b>. The coordinate stops composing (E-ANCHOR): the record is reversible, the network is not."
+  - match: {field_name: the Ladder}
+    title: The Ladder · four readings, none eliminable
+    body:
+      - "Stratum II has lost the scope clitic <i>-he</i>, so nothing on the plaque says whether <i>-sen</i> closes the edge or the whole segment. The Long Reading (1911–1948): passage withheld. Cardwell (1948–): <b>you may go; you may not come back this way</b>. The Instrument minority: a status report addressed to no one. Hallam: <i>-ar</i> says only that the record stops here, and the dispute has no object (A §8, Example 2)."
+      - "Field Protocol treats the plaque as though both A and B hold. The name comes from the Long Reading’s picture of the trace and cannot be changed, because routes are catalogued under it."
+  - match: {ref: CSC-1146}
+    title: The 1897 underside · no gloss, and none exists
+    body:
+      - "Recovered in 1897 at L-31, the Long Wait. The accession clerk filed it as “ornament, non-linguistic”, and it sat on an open shelf for fifty-five years. In 1952 an assistant matched its underside to the nine units Ada Sowerby had recited at her debrief in 1931, thirty-one hours after she came back from L-9. Asked where she learned them: “I did not learn it. I came back with it.” She never repeated the claim."
+      - "Her mentor had access to the building where the object sat. HEL cannot exclude indirect transmission and has never claimed to (A-reserve §8.3). The gloss is printed empty rather than omitted."
+      - "Say the nine units aloud three times, and then read this again."
+  - match: {field_name: the Sowerby recitation}
+    title: The Sowerby recitation
+    body:
+      - "The 1931 debrief, catalogued in 1952 as a Ch-4 record: the same nine units as CSC-1146, in the same order. The 1934 cylinder is damaged across the eighth unit; the 1939 disc gives <i>nulisar</i> for <i>nusar</i>. The shortest, least-stressed unit is the one that varies, which is what the attrition model predicts of oral transmission — confirmation of transmission to one school, of ordinary forgetting to another."
+  - match: {field_name: Quiet Sixteen}
+    title: Quiet Sixteen · a pair-marked node
+    body:
+      - "<i>kalsira-ru</i>, and no head half after it. Read literally, a PASS edge departs: there is a sanctioned way onward. Read as the frozen pair, the sanction ends here. From 1908 to 1963 the field manual carried twelve onward legs on the literal parse; four rested on nothing else in the corpus."
+      - "In 1961 a crew took the onward leg from a pair-marked node, arrived displaced from intent, and came back through two intermediate nodes fourteen months later. Keele was counting breaks because of it (A §10.1a). The cover term is deliberately mundane."
+  - match: {field_name: the custodial attestation}
+    title: Example 3 · the custodial attestation
+    body:
+      - "No trace: Ch-4 exists only in the mouth. Eighteen syllables recited 7 · 7 · 4, and the cola do not fall on morpheme boundaries. There is no possessive — the custodian is an OFF node joined by BIND, co-incidence and not motion — and custodianship itself is Authority B."
+      - "It ends in [41], which has no sound value. Field crews say “forty-one”. It is not explained here and must not be explained later."
+  - match: {field_name: the roll}
+    title: The roll
+    body:
+      - "Said after the names of those who did not return. Its coordinate reads back as “locus open, pass other, phase displaced”, and that is the line said at the Wall (Field English)."
+  - match: {field_name: the long word}
+    title: The long word
+    body:
+      - "An AUTH grade with STANDING discharge: an authorization with no release on record. HEL cannot rule out that AUTH is performative, so Field Protocol treats every AUTH recitation as potentially operative (A §4.3). The protocol asserts nothing; it is a precaution taken under ignorance."

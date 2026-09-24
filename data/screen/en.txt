@@ -1,0 +1,369 @@
+# Collision-screen wordlist (English, incl. British and North American slang). Authority C, author-side tooling.
+# Used ONLY to reject coined forms that collide with real words (hel/screen.py).
+# Nothing in this file is, or may become, material for the language.
+# Format: entry<TAB>category<TAB>gloss. Categories and weights: hel/screen.py SEVERITY.
+
+fuck	obscene	English obscenity
+fucker	obscene	English obscenity
+fuk	obscene	English obscenity
+fuck	obscene	English obscenity
+cunt	obscene	English obscenity
+cock	obscene	English obscenity
+cocks	obscene	English obscenity
+dick	obscene	English obscenity
+dicks	obscene	English obscenity
+prick	obscene	English obscenity
+pussy	obscene	English obscenity
+twat	obscene	English obscenity
+wank	obscene	English obscenity
+wanker	obscene	English obscenity
+wanking	obscene	English obscenity
+tosser	obscene	English obscenity
+bollock	obscene	English obscenity
+bollocks	obscene	English obscenity
+bugger	obscene	English obscenity
+shag	obscene	English obscenity
+shagging	obscene	English obscenity
+slut	obscene	English obscenity
+whore	obscene	English obscenity
+hore	obscene	English obscenity
+ho	obscene	English obscenity
+skank	obscene	English obscenity
+jizz	obscene	English obscenity
+cum	obscene	English obscenity
+spunk	obscene	English obscenity
+boner	obscene	English obscenity
+bonk	obscene	English obscenity
+dildo	obscene	English obscenity
+porn	obscene	English obscenity
+porno	obscene	English obscenity
+rimjob	obscene	English obscenity
+blowjob	obscene	English obscenity
+handjob	obscene	English obscenity
+titty	obscene	English obscenity
+titties	obscene	English obscenity
+tits	obscene	English obscenity
+boobs	obscene	English obscenity
+boob	obscene	English obscenity
+knob	obscene	English obscenity
+knobs	obscene	English obscenity
+bellend	obscene	English obscenity
+minge	obscene	English obscenity
+fanny	obscene	English obscenity
+clit	obscene	English obscenity
+clitoris	obscene	English obscenity
+vagina	obscene	English obscenity
+penis	obscene	English obscenity
+penises	obscene	English obscenity
+testicle	obscene	English obscenity
+scrotum	obscene	English obscenity
+anus	obscene	English obscenity
+anal	obscene	English obscenity
+rectum	obscene	English obscenity
+semen	obscene	English obscenity
+sperm	obscene	English obscenity
+erection	obscene	English obscenity
+orgasm	obscene	English obscenity
+horny	obscene	English obscenity
+kinky	obscene	English obscenity
+fetish	obscene	English obscenity
+nipple	obscene	English obscenity
+nipples	obscene	English obscenity
+arse	obscene	English obscenity
+arsehole	obscene	English obscenity
+asshole	obscene	English obscenity
+butthole	obscene	English obscenity
+shit	vulgar	English vulgar
+shite	vulgar	English vulgar
+shitty	vulgar	English vulgar
+crap	vulgar	English vulgar
+crappy	vulgar	English vulgar
+piss	vulgar	English vulgar
+pissed	vulgar	English vulgar
+pisser	vulgar	English vulgar
+turd	vulgar	English vulgar
+fart	vulgar	English vulgar
+farts	vulgar	English vulgar
+farting	vulgar	English vulgar
+damn	vulgar	English vulgar
+hell	vulgar	English vulgar
+bloody	vulgar	English vulgar
+bastard	vulgar	English vulgar
+bitch	vulgar	English vulgar
+sod	vulgar	English vulgar
+git	vulgar	English vulgar
+twit	vulgar	English vulgar
+prat	vulgar	English vulgar
+pillock	vulgar	English vulgar
+plonker	vulgar	English vulgar
+berk	vulgar	English vulgar
+numpty	vulgar	English vulgar
+minger	vulgar	English vulgar
+slag	vulgar	English vulgar
+slapper	vulgar	English vulgar
+tart	vulgar	English vulgar
+douche	vulgar	English vulgar
+douchebag	vulgar	English vulgar
+jerk	vulgar	English vulgar
+moron	vulgar	English vulgar
+retard	vulgar	English vulgar
+idiot	vulgar	English vulgar
+nigger	slur	English slur
+nigga	slur	English slur
+niger	slur	English slur
+negro	slur	English slur
+nig	slur	English slur
+coon	slur	English slur
+spic	slur	English slur
+spick	slur	English slur
+kike	slur	English slur
+chink	slur	English slur
+gook	slur	English slur
+wop	slur	English slur
+dago	slur	English slur
+paki	slur	English slur
+raghead	slur	English slur
+towelhead	slur	English slur
+kaffir	slur	English slur
+kafir	slur	English slur
+wetback	slur	English slur
+beaner	slur	English slur
+honky	slur	English slur
+cracker	slur	English slur
+gringo	slur	English slur
+redskin	slur	English slur
+squaw	slur	English slur
+injun	slur	English slur
+halfbreed	slur	English slur
+fag	slur	English slur
+faggot	slur	English slur
+dyke	slur	English slur
+tranny	slur	English slur
+homo	slur	English slur
+poof	slur	English slur
+poofter	slur	English slur
+spaz	slur	English slur
+spastic	slur	English slur
+mong	slur	English slur
+mongol	slur	English slur
+cripple	slur	English slur
+gyp	slur	English slur
+gypped	slur	English slur
+gypsy	slur	English slur
+poo	bodily	English bodily/comic
+poop	bodily	English bodily/comic
+pooh	bodily	English bodily/comic
+poopy	bodily	English bodily/comic
+pee	bodily	English bodily/comic
+peepee	bodily	English bodily/comic
+wee	bodily	English bodily/comic
+weewee	bodily	English bodily/comic
+wees	bodily	English bodily/comic
+tinkle	bodily	English bodily/comic
+puke	bodily	English bodily/comic
+vomit	bodily	English bodily/comic
+barf	bodily	English bodily/comic
+snot	bodily	English bodily/comic
+booger	bodily	English bodily/comic
+burp	bodily	English bodily/comic
+belch	bodily	English bodily/comic
+toot	bodily	English bodily/comic
+tush	bodily	English bodily/comic
+tushie	bodily	English bodily/comic
+tushy	bodily	English bodily/comic
+bum	bodily	English bodily/comic
+bums	bodily	English bodily/comic
+butt	bodily	English bodily/comic
+butts	bodily	English bodily/comic
+buttock	bodily	English bodily/comic
+bottom	bodily	English bodily/comic
+rump	bodily	English bodily/comic
+loo	bodily	English bodily/comic
+potty	bodily	English bodily/comic
+diarrhea	bodily	English bodily/comic
+diarrhoea	bodily	English bodily/comic
+urine	bodily	English bodily/comic
+feces	bodily	English bodily/comic
+faeces	bodily	English bodily/comic
+stool	bodily	English bodily/comic
+enema	bodily	English bodily/comic
+pus	bodily	English bodily/comic
+boil	bodily	English bodily/comic
+wart	bodily	English bodily/comic
+warts	bodily	English bodily/comic
+zit	bodily	English bodily/comic
+pimple	bodily	English bodily/comic
+boob	comic	English comic
+looney	comic	English comic
+loony	comic	English comic
+nutter	comic	English comic
+nuts	comic	English comic
+nutty	comic	English comic
+dork	comic	English comic
+dweeb	comic	English comic
+nerd	comic	English comic
+noob	comic	English comic
+wally	comic	English comic
+plonk	comic	English comic
+bonkers	comic	English comic
+wonky	comic	English comic
+wacky	comic	English comic
+ninny	comic	English comic
+nincompoop	comic	English comic
+hoo	comic	English comic
+hooha	comic	English comic
+hooters	comic	English comic
+tata	comic	English comic
+tatas	comic	English comic
+kaka	comic	English comic
+caca	comic	English comic
+popo	comic	English comic
+nono	comic	English comic
+hoho	comic	English comic
+haha	comic	English comic
+hehe	comic	English comic
+lol	comic	English comic
+lulz	comic	English comic
+meh	comic	English comic
+duh	comic	English comic
+doh	comic	English comic
+derp	comic	English comic
+herp	comic	English comic
+yolo	comic	English comic
+boobie	comic	English comic
+booty	comic	English comic
+bootie	comic	English comic
+hiney	comic	English comic
+heinie	comic	English comic
+willy	comic	English comic
+willie	comic	English comic
+winkie	comic	English comic
+weenie	comic	English comic
+wiener	comic	English comic
+tallywhacker	comic	English comic
+hootenanny	comic	English comic
+hanky	comic	English comic
+panky	comic	English comic
+honk	comic	English comic
+honky	comic	English comic
+tonk	comic	English comic
+kook	comic	English comic
+kooky	comic	English comic
+loopy	comic	English comic
+dopey	comic	English comic
+dope	comic	English comic
+sillybilly	comic	English comic
+tutu	comic	English comic
+nana	comic	English comic
+nanu	comic	English comic
+noodle	comic	English comic
+poodle	comic	English comic
+nazi	loaded	English loaded
+hitler	loaded	English loaded
+reich	loaded	English loaded
+jihad	loaded	English loaded
+isis	loaded	English loaded
+klan	loaded	English loaded
+kkk	loaded	English loaded
+slave	loaded	English loaded
+slavery	loaded	English loaded
+rape	loaded	English loaded
+rapist	loaded	English loaded
+incest	loaded	English loaded
+pedo	loaded	English loaded
+paedo	loaded	English loaded
+molest	loaded	English loaded
+murder	loaded	English loaded
+kill	loaded	English loaded
+killer	loaded	English loaded
+death	loaded	English loaded
+dead	loaded	English loaded
+corpse	loaded	English loaded
+grave	loaded	English loaded
+tomb	loaded	English loaded
+coffin	loaded	English loaded
+kill	loaded	English loaded
+genocide	loaded	English loaded
+holocaust	loaded	English loaded
+lynch	loaded	English loaded
+lynching	loaded	English loaded
+noose	loaded	English loaded
+satan	loaded	English loaded
+satanic	loaded	English loaded
+devil	loaded	English loaded
+demon	loaded	English loaded
+hell	loaded	English loaded
+lucifer	loaded	English loaded
+antichrist	loaded	English loaded
+sin	loaded	English loaded
+sinner	loaded	English loaded
+cult	loaded	English loaded
+curse	loaded	English loaded
+cursed	loaded	English loaded
+hex	loaded	English loaded
+jinx	loaded	English loaded
+voodoo	loaded	English loaded
+hoodoo	loaded	English loaded
+occult	loaded	English loaded
+lunar	astro	English celestial (cheating semantics, A-reserve §10)
+luna	astro	English celestial (cheating semantics, A-reserve §10)
+moon	astro	English celestial (cheating semantics, A-reserve §10)
+moons	astro	English celestial (cheating semantics, A-reserve §10)
+sun	astro	English celestial (cheating semantics, A-reserve §10)
+sunny	astro	English celestial (cheating semantics, A-reserve §10)
+solar	astro	English celestial (cheating semantics, A-reserve §10)
+stellar	astro	English celestial (cheating semantics, A-reserve §10)
+star	astro	English celestial (cheating semantics, A-reserve §10)
+stars	astro	English celestial (cheating semantics, A-reserve §10)
+astral	astro	English celestial (cheating semantics, A-reserve §10)
+astra	astro	English celestial (cheating semantics, A-reserve §10)
+astro	astro	English celestial (cheating semantics, A-reserve §10)
+cosmos	astro	English celestial (cheating semantics, A-reserve §10)
+cosmic	astro	English celestial (cheating semantics, A-reserve §10)
+comet	astro	English celestial (cheating semantics, A-reserve §10)
+orbit	astro	English celestial (cheating semantics, A-reserve §10)
+orbital	astro	English celestial (cheating semantics, A-reserve §10)
+galaxy	astro	English celestial (cheating semantics, A-reserve §10)
+nebula	astro	English celestial (cheating semantics, A-reserve §10)
+planet	astro	English celestial (cheating semantics, A-reserve §10)
+planets	astro	English celestial (cheating semantics, A-reserve §10)
+meteor	astro	English celestial (cheating semantics, A-reserve §10)
+sirius	astro	English celestial (cheating semantics, A-reserve §10)
+vega	astro	English celestial (cheating semantics, A-reserve §10)
+orion	astro	English celestial (cheating semantics, A-reserve §10)
+polaris	astro	English celestial (cheating semantics, A-reserve §10)
+nova	astro	English celestial (cheating semantics, A-reserve §10)
+supernova	astro	English celestial (cheating semantics, A-reserve §10)
+eclipse	astro	English celestial (cheating semantics, A-reserve §10)
+zenith	astro	English celestial (cheating semantics, A-reserve §10)
+nadir	astro	English celestial (cheating semantics, A-reserve §10)
+god	religious	English religious
+gods	religious	English religious
+jesus	religious	English religious
+christ	religious	English religious
+christian	religious	English religious
+church	religious	English religious
+amen	religious	English religious
+allah	religious	English religious
+buddha	religious	English religious
+krishna	religious	English religious
+shiva	religious	English religious
+vishnu	religious	English religious
+rama	religious	English religious
+sita	religious	English religious
+hanuman	religious	English religious
+ganesh	religious	English religious
+lord	religious	English religious
+holy	religious	English religious
+saint	religious	English religious
+sacred	religious	English religious
+heaven	religious	English religious
+angel	religious	English religious
+angels	religious	English religious
+bible	religious	English religious
+koran	religious	English religious
+quran	religious	English religious
+torah	religious	English religious
+talmud	religious	English religious
+munki	comic	reads as English monkey (A-reserve §10)
+nicker	comic	English; also British slang

@@ -7,6 +7,13 @@ two of the three architectures invented it, and it is a self-issued approval gat
 
 **Governing:** `docs/00-CANON-HANDOFF.md`. **Standard for later rounds:** §7 below.
 
+**Phase 2 status, 24 September 2026.** The user asked for the language to be built out.
+The §5 plan is now working code — engine, generated corpus, verifier, collision screen,
+diachronic layer, Field English, script renderer — described in
+`docs/08-THE-ENGINE.md`, `docs/09-DIACHRONY.md` and `docs/10-FIELD-ENGLISH.md`. All of it
+is Authority C. Nothing in it resolves an Authority D question, and the approvals this
+document asks for (§8) are still the user's to give.
+
 ---
 
 ## The decision, in sixty seconds
@@ -24,7 +31,9 @@ score, cost, and its own admission that it is weakest if players must solve it; 
 salvage its documentation standard. **Two hard preconditions before Phase 2:** A has
 never been canon-audited and must be (§5 item 0) — **done**, `critique/A1` — and the
 transliteration layer must pass a collision screen; `kum` and `we` are unshippable
-(§4.5) and **this one is still open**, no screen exists in `tools/`. **The six Tier 1
+(§4.5) and **this one is done too**: `hel/screen.py` runs on every coinage and on every
+fixed form, with twelve lists and a structural Indigenous-material screen (Phase 2,
+24 September 2026; the statement is `docs/08-THE-ENGINE.md` §5). **The six Tier 1
 questions are answered** (§6); five took the recommended default and Q2 was amended
 upward, which adds §5 item 3b.
 

@@ -1,0 +1,164 @@
+# Collision-screen wordlist (invented languages and fictional names). Authority C, author-side tooling.
+# Used ONLY to reject coined forms that collide with real words (hel/screen.py).
+# Nothing in this file is, or may become, material for the language.
+# Format: entry<TAB>category<TAB>gloss. Categories and weights: hel/screen.py SEVERITY.
+
+sauron	fiction	Tolkien
+mordor	fiction	Tolkien
+gondor	fiction	Tolkien
+rohan	fiction	Tolkien
+arnor	fiction	Tolkien
+eriador	fiction	Tolkien
+elrond	fiction	Tolkien
+elros	fiction	Tolkien
+legolas	fiction	Tolkien
+aragorn	fiction	Tolkien
+gandalf	fiction	Tolkien
+frodo	fiction	Tolkien
+bilbo	fiction	Tolkien
+samwise	fiction	Tolkien
+pippin	fiction	Tolkien
+arwen	fiction	Tolkien
+galadriel	fiction	Tolkien
+celeborn	fiction	Tolkien
+saruman	fiction	Tolkien
+melkor	fiction	Tolkien
+morgoth	fiction	Tolkien
+ilmarin	fiction	Tolkien
+ilmaren	fiction	Tolkien
+palantir	fiction	Tolkien
+silmaril	fiction	Tolkien
+silmarillion	fiction	Tolkien
+valar	fiction	Tolkien
+maiar	fiction	Tolkien
+vala	fiction	Tolkien
+maia	fiction	Tolkien
+lorien	fiction	Tolkien
+lothlorien	fiction	Tolkien
+rivendell	fiction	Tolkien
+moria	fiction	Tolkien
+khazad	fiction	Tolkien
+numenor	fiction	Tolkien
+valinor	fiction	Tolkien
+tirion	fiction	Tolkien
+taniquetil	fiction	Tolkien
+feanor	fiction	Tolkien
+fingolfin	fiction	Tolkien
+turgon	fiction	Tolkien
+gondolin	fiction	Tolkien
+nargothrond	fiction	Tolkien
+doriath	fiction	Tolkien
+luthien	fiction	Tolkien
+beren	fiction	Tolkien
+hurin	fiction	Tolkien
+turin	fiction	Tolkien
+morwen	fiction	Tolkien
+nienor	fiction	Tolkien
+glaurung	fiction	Tolkien
+smaug	fiction	Tolkien
+balrog	fiction	Tolkien
+nazgul	fiction	Tolkien
+uruk	fiction	Tolkien
+orc	fiction	Tolkien
+orcs	fiction	Tolkien
+ent	fiction	Tolkien
+ents	fiction	Tolkien
+shire	fiction	Tolkien
+hobbit	fiction	Tolkien
+hobbits	fiction	Tolkien
+eru	fiction	Tolkien
+iluvatar	fiction	Tolkien
+manwe	fiction	Tolkien
+varda	fiction	Tolkien
+ulmo	fiction	Tolkien
+aule	fiction	Tolkien
+yavanna	fiction	Tolkien
+mandos	fiction	Tolkien
+namo	fiction	Tolkien
+nienna	fiction	Tolkien
+orome	fiction	Tolkien
+tulkas	fiction	Tolkien
+sindarin	fiction	Tolkien
+quenya	fiction	Tolkien
+elvish	fiction	Tolkien
+mellon	fiction	Tolkien
+namarie	fiction	Tolkien
+elbereth	fiction	Tolkien
+gilthoniel	fiction	Tolkien
+anduril	fiction	Tolkien
+narsil	fiction	Tolkien
+sting	fiction	Tolkien
+mithril	fiction	Tolkien
+arda	fiction	Tolkien
+middleearth	fiction	Tolkien
+istari	fiction	Tolkien
+radagast	fiction	Tolkien
+jedi	fiction	other fiction
+sith	fiction	other fiction
+yoda	fiction	other fiction
+luke	fiction	other fiction
+leia	fiction	other fiction
+vader	fiction	other fiction
+anakin	fiction	other fiction
+padme	fiction	other fiction
+hoth	fiction	other fiction
+endor	fiction	other fiction
+naboo	fiction	other fiction
+tatooine	fiction	other fiction
+kashyyyk	fiction	other fiction
+wookiee	fiction	other fiction
+ewok	fiction	other fiction
+klingon	fiction	other fiction
+vulcan	fiction	other fiction
+romulan	fiction	other fiction
+qapla	fiction	other fiction
+spock	fiction	other fiction
+kirk	fiction	other fiction
+borg	fiction	other fiction
+ferengi	fiction	other fiction
+arrakis	fiction	other fiction
+fremen	fiction	other fiction
+atreides	fiction	other fiction
+harkonnen	fiction	other fiction
+kwisatz	fiction	other fiction
+haderach	fiction	other fiction
+melange	fiction	other fiction
+cthulhu	fiction	other fiction
+rlyeh	fiction	other fiction
+yog	fiction	other fiction
+sothoth	fiction	other fiction
+nyarlathotep	fiction	other fiction
+azathoth	fiction	other fiction
+shoggoth	fiction	other fiction
+dagon	fiction	other fiction
+khaleesi	fiction	other fiction
+dothraki	fiction	other fiction
+valyrian	fiction	other fiction
+drogon	fiction	other fiction
+targaryen	fiction	other fiction
+lannister	fiction	other fiction
+stark	fiction	other fiction
+winterfell	fiction	other fiction
+hodor	fiction	other fiction
+lumos	fiction	other fiction
+nox	fiction	other fiction
+accio	fiction	other fiction
+expelliarmus	fiction	other fiction
+avada	fiction	other fiction
+kedavra	fiction	other fiction
+alohomora	fiction	other fiction
+hogwarts	fiction	other fiction
+voldemort	fiction	other fiction
+muggle	fiction	other fiction
+pikachu	fiction	other fiction
+narnia	fiction	other fiction
+aslan	fiction	other fiction
+tardis	fiction	other fiction
+dalek	fiction	other fiction
+gallifrey	fiction	other fiction
+skynet	fiction	other fiction
+matrix	fiction	other fiction
+neo	fiction	other fiction
+morpheus	fiction	other fiction
+navi	fiction	other fiction
+pandora	fiction	other fiction

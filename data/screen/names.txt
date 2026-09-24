@@ -1,0 +1,252 @@
+# Collision-screen wordlist (given names and famous surnames (residual class)). Authority C, author-side tooling.
+# Used ONLY to reject coined forms that collide with real words (hel/screen.py).
+# Nothing in this file is, or may become, material for the language.
+# Format: entry<TAB>category<TAB>gloss. Categories and weights: hel/screen.py SEVERITY.
+
+maria	person	given name
+mario	person	given name
+marisa	person	given name
+marisol	person	given name
+marisel	person	given name
+sara	person	given name
+sarah	person	given name
+salma	person	given name
+samir	person	given name
+samira	person	given name
+sami	person	given name
+samia	person	given name
+rashid	person	given name
+rasul	person	given name
+nur	person	given name
+nuri	person	given name
+nour	person	given name
+nura	person	given name
+nihal	person	given name
+nihat	person	given name
+kemal	person	given name
+kamal	person	given name
+kamil	person	given name
+kamila	person	given name
+karim	person	given name
+karima	person	given name
+kasim	person	given name
+hasan	person	given name
+hassan	person	given name
+hussein	person	given name
+husein	person	given name
+hamid	person	given name
+hamida	person	given name
+halim	person	given name
+halima	person	given name
+latif	person	given name
+latifa	person	given name
+laila	person	given name
+leila	person	given name
+lina	person	given name
+lana	person	given name
+luna	person	given name
+lulu	person	given name
+lola	person	given name
+lolita	person	given name
+lupe	person	given name
+lupita	person	given name
+luis	person	given name
+lucas	person	given name
+luca	person	given name
+lucia	person	given name
+luciana	person	given name
+luka	person	given name
+leo	person	given name
+leon	person	given name
+lena	person	given name
+lene	person	given name
+lisa	person	given name
+liza	person	given name
+lise	person	given name
+lara	person	given name
+laura	person	given name
+lauren	person	given name
+lauri	person	given name
+lars	person	given name
+lasse	person	given name
+leif	person	given name
+lene	person	given name
+linnea	person	given name
+sven	person	given name
+svea	person	given name
+nils	person	given name
+nisse	person	given name
+nora	person	given name
+nina	person	given name
+nika	person	given name
+nikita	person	given name
+niko	person	given name
+nikolai	person	given name
+nuno	person	given name
+tiago	person	given name
+tomas	person	given name
+tomasz	person	given name
+tomi	person	given name
+toni	person	given name
+tina	person	given name
+tino	person	given name
+tito	person	given name
+tita	person	given name
+tulsi	person	given name
+tara	person	given name
+tarun	person	given name
+tanvi	person	given name
+tanya	person	given name
+taro	person	given name
+kenta	person	given name
+kenji	person	given name
+keiko	person	given name
+kaito	person	given name
+haruki	person	given name
+haruto	person	given name
+hana	person	given name
+hina	person	given name
+hiro	person	given name
+hiroshi	person	given name
+yuki	person	given name
+yuko	person	given name
+yumi	person	given name
+yuna	person	given name
+yuri	person	given name
+yusuf	person	given name
+yunus	person	given name
+yasmin	person	given name
+yasmina	person	given name
+ravi	person	given name
+raja	person	given name
+rani	person	given name
+rahul	person	given name
+ramesh	person	given name
+suresh	person	given name
+sunil	person	given name
+sunita	person	given name
+anil	person	given name
+anita	person	given name
+arun	person	given name
+asha	person	given name
+amit	person	given name
+ashok	person	given name
+sanjay	person	given name
+sonia	person	given name
+sita	person	given name
+ganesh	person	given name
+lakshmi	person	given name
+priya	person	given name
+pooja	person	given name
+kiran	person	given name
+karan	person	given name
+kavita	person	given name
+manisha	person	given name
+nisha	person	given name
+rekha	person	given name
+ritu	person	given name
+ruhi	person	given name
+rupa	person	given name
+sapna	person	given name
+seema	person	given name
+shanti	person	given name
+usha	person	given name
+vinod	person	given name
+aisha	person	given name
+fatima	person	given name
+hana	person	given name
+huda	person	given name
+imran	person	given name
+irfan	person	given name
+jamal	person	given name
+jamila	person	given name
+kareem	person	given name
+khalid	person	given name
+layla	person	given name
+mariam	person	given name
+maryam	person	given name
+mona	person	given name
+munir	person	given name
+nadia	person	given name
+nasir	person	given name
+omar	person	given name
+rami	person	given name
+reem	person	given name
+rania	person	given name
+rashida	person	given name
+salim	person	given name
+sana	person	given name
+selim	person	given name
+selin	person	given name
+serkan	person	given name
+emre	person	given name
+elif	person	given name
+ayse	person	given name
+aylin	person	given name
+can	person	given name
+cem	person	given name
+deniz	person	given name
+hakan	person	given name
+kaan	person	given name
+kerem	person	given name
+mehmet	person	given name
+murat	person	given name
+onur	person	given name
+ozan	person	given name
+yusuf	person	given name
+sinan	person	given name
+tolga	person	given name
+ilker	person	given name
+hulya	person	given name
+pelin	person	given name
+smith	person	surname or public figure
+jones	person	surname or public figure
+taylor	person	surname or public figure
+brown	person	surname or public figure
+wilson	person	surname or public figure
+nielsen	person	surname or public figure
+nissen	person	surname or public figure
+hansen	person	surname or public figure
+larsen	person	surname or public figure
+jensen	person	surname or public figure
+petersen	person	surname or public figure
+olsen	person	surname or public figure
+hilton	person	surname or public figure
+trump	person	surname or public figure
+obama	person	surname or public figure
+biden	person	surname or public figure
+putin	person	surname or public figure
+stalin	person	surname or public figure
+lenin	person	surname or public figure
+mao	person	surname or public figure
+gandhi	person	surname or public figure
+nehru	person	surname or public figure
+modi	person	surname or public figure
+merkel	person	surname or public figure
+macron	person	surname or public figure
+castro	person	surname or public figure
+che	person	surname or public figure
+marx	person	surname or public figure
+engels	person	surname or public figure
+freud	person	surname or public figure
+jung	person	surname or public figure
+darwin	person	surname or public figure
+newton	person	surname or public figure
+einstein	person	surname or public figure
+tesla	person	surname or public figure
+edison	person	surname or public figure
+musk	person	surname or public figure
+jobs	person	surname or public figure
+gates	person	surname or public figure
+bezos	person	surname or public figure
+thakur	person	surname or public figure
+tagore	person	surname or public figure
+khan	person	surname or public figure
+kapoor	person	surname or public figure
+sharma	person	surname or public figure
+singh	person	surname or public figure
+patel	person	surname or public figure
+kumar	person	surname or public figure
+reddy	person	surname or public figure
+rao	person	surname or public figure
+gupta	person	surname or public figure

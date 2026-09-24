@@ -1,0 +1,36 @@
+# Collision-screen wordlist (Arabic (romanized)). Authority C, author-side tooling.
+# Used ONLY to reject coined forms that collide with real words (hel/screen.py).
+# Nothing in this file is, or may become, material for the language.
+# Format: entry<TAB>category<TAB>gloss. Categories and weights: hel/screen.py SEVERITY.
+
+sharmouta	obscene	Arabic obscenity
+sharmoota	obscene	Arabic obscenity
+kuss	obscene	Arabic obscenity
+kus	obscene	Arabic obscenity
+ayre	obscene	Arabic obscenity
+ayri	obscene	Arabic obscenity
+zeb	obscene	Arabic obscenity
+zebi	obscene	Arabic obscenity
+manyak	obscene	Arabic obscenity
+kalb	comic	Arabic insult
+kelb	comic	Arabic insult
+hmar	comic	Arabic insult
+himar	comic	Arabic insult
+tizak	obscene	Arabic obscenity
+teez	obscene	Arabic obscenity
+khara	obscene	Arabic obscenity
+allah	religious	Arabic sacred/loaded
+rasul	religious	Arabic sacred/loaded
+rasool	religious	Arabic sacred/loaded
+nabi	religious	Arabic sacred/loaded
+nur	religious	Arabic sacred/loaded
+noor	religious	Arabic sacred/loaded
+kafir	religious	Arabic sacred/loaded
+kufr	religious	Arabic sacred/loaded
+haram	religious	Arabic sacred/loaded
+halal	religious	Arabic sacred/loaded
+jihad	religious	Arabic sacred/loaded
+shahid	religious	Arabic sacred/loaded
+shaheed	religious	Arabic sacred/loaded
+imam	religious	Arabic sacred/loaded
+mullah	religious	Arabic sacred/loaded

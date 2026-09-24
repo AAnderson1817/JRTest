@@ -1,0 +1,248 @@
+# SEALED KEY — author-side. Authority C. Never shipped. See sealed/README.md.
+#
+# Read the three section headers before reading anything else.
+
+version: 1
+
+# =================================================================================
+TRUTH:
+# =================================================================================
+  principle: >-
+    TRUTH fixes correlation, never reference and never authorship. A root is true of
+    a coordinate when records bearing it occur where the network is in the stated
+    condition. Why records correlate with the network, what made them, and whether
+    they are "about" it at all are not represented here (Phase 1 X4 stays D).
+
+  # --- the functional core: what each root correlates with ------------------------
+  # feature: the network-observable condition of a coordinate (a locus at a pass).
+  # archive: the Archive's standing gloss. verdict: how that gloss fares against the
+  # feature — right / partial / wrong / none (no gloss proposed).
+  roots:
+    harnuli:  {feature: standing_junction, archive: in.standing, verdict: partial,
+               def: "two or more open departures, in at least four passes of five"}
+    kalsira:  {feature: held, archive: sealed, verdict: partial,
+               def: "arrivals dwell: no departure is available in the arrival phase"}
+    telnuro:  {feature: through, archive: counted, verdict: wrong,
+               def: "the intermediate of a forced path; entered only to be left"}
+    sarkile:  {feature: standing, archive: bearing, verdict: wrong,
+               def: "standing patterns (Ch-2) form here during traversal states"}
+    lartuki:  {feature: periodic, archive: attendance, verdict: wrong,
+               def: "departures are available on a period; unavailable between"}
+    kurhali:  {feature: quiet, archive: unattended, verdict: partial,
+               def: "rarely arrived at (bottom fifth of arrivals)"}
+    hasilnu:  {feature: sink, archive: held, verdict: partial,
+               def: "no departure exists at all"}
+    hekasni:  {feature: convergent, archive: gathered, verdict: right,
+               def: "arrivals from two or more distinct origins"}
+    kanirlu:  {feature: dormant, archive: resting, verdict: right,
+               def: "every departure is dormant this pass"}
+    ketirnu:  {feature: closed_departure, archive: barred, verdict: right,
+               def: "at least one departure is closed this pass"}
+    likasru:  {feature: on_recur, archive: returning, verdict: right,
+               def: "a returning link departs here"}
+    lutirka:  {feature: displaced_arrival, archive: strayed, verdict: right,
+               def: "a displacing link lands here instead of at its nominal destination"}
+    petirsa:  {feature: arrive_ahead, archive: late, verdict: partial,
+               def: "arrivals here emerge ahead of their departure phase"}
+    rasilke:  {feature: arrive_behind, archive: early, verdict: partial,
+               def: "arrivals here emerge behind their departure phase"}
+    rukalti:  {feature: busy, archive: worn, verdict: partial,
+               def: "top fifth of traversals"}
+    sihoslu:  {feature: source, archive: first, verdict: partial,
+               def: "no arrival exists; reached, when reached, only by displacement"}
+    tisenlu:  {feature: volatile, archive: unsettled, verdict: right,
+               def: "some link status here changes between passes"}
+    tuharli:  {feature: nested, archive: enclosed, verdict: right,
+               def: "on a cycle enclosed by another cycle"}
+    yuhosli:  {feature: singular, archive: once, verdict: wrong,
+               def: "reached by exactly one link (not: occurring once)"}
+    kasluhi:  {feature: modulating, archive: sounding, verdict: partial,
+               def: "traversals departing here are recordable in Ch-3"}
+    kentuli:  {feature: phase_split, archive: forked, verdict: partial,
+               def: "departures emerge at different phase signs"}
+    lankiro:  {feature: stable, archive: kept, verdict: partial,
+               def: "no link status here has changed in any recorded pass"}
+    lunpeki:  {feature: bound, archive: twinned, verdict: right,
+               def: "the coordinate carries a second description (a BIND partner)"}
+    lusnuhe:  {feature: deep, archive: far, verdict: partial,
+               def: "four or more links from the nearest junction"}
+    munhilu:  {feature: peripheral, archive: outer, verdict: right,
+               def: "one link in total"}
+    nirtoka:  {feature: closed_arrival, archive: shut, verdict: right,
+               def: "every arrival is closed this pass"}
+    pelhanu:  {feature: two_departures, archive: divided, verdict: right,
+               def: "exactly two departures"}
+    senlihe:  {feature: cycle_entry, archive: turning, verdict: partial,
+               def: "where a path from outside joins a cycle"}
+    siltoni:  {feature: transit, archive: passed, verdict: partial,
+               def: "one arrival, one departure, no dwell, not forced"}
+    tulkahe:  {feature: level, archive: level, verdict: right,
+               def: "arrivals emerge at the departure phase"}
+    yuntiha:  {feature: waking, archive: waking, verdict: right,
+               def: "dormant last pass, open this pass"}
+    arhesi:   {feature: shared, archive: common, verdict: partial,
+               def: "two or more arrivals and two or more departures"}
+    inpelu:   {feature: scattering, archive: lost, verdict: partial,
+               def: "departures land at varying loci across passes"}
+    istuha:   {feature: mixed_kinds, archive: mixed, verdict: right,
+               def: "departures of two or more link kinds"}
+    olsihe:   {feature: still, archive: still, verdict: right,
+               def: "no traversal in or out this pass"}
+    tokalhi:  {feature: gathering, archive: anchored, verdict: wrong,
+               def: "four or more arrivals"}
+    nukenra:  {feature: no_return, archive: turned-back, verdict: wrong,
+               def: "no departure leads back to any arrival's origin within three links"}
+    hitulke:  {feature: forced_end, archive: null, verdict: none,
+               def: "the last node of a forced path"}
+    puhosle:  {feature: patterned, archive: watched, verdict: wrong,
+               def: "both standing (Ch-2) and modulating (Ch-3)"}
+    walsenti: {feature: closed_every, archive: null, verdict: none,
+               def: "a departure closed at every recurrence"}
+    keharsi:  {feature: corridor, archive: narrow, verdict: right,
+               def: "exactly one arrival and one departure"}
+    isnuke:   {feature: departs_behind, archive: null, verdict: none,
+               def: "departures emerge behind their departure phase"}
+    arlutu:   {feature: long_cycle, archive: old, verdict: wrong,
+               def: "on a cycle of eight links or more"}
+
+  # --- formatives whose Archive gloss departs from what the data correlate with ----
+  warrants:
+    nes:   {truth: "the record was made remote from the coordinate it describes",
+            archive: "entered without a human attestor", verdict: wrong,
+            note: "The 1949 restyle removed one wrong presupposition and kept another."}
+    tir:   {truth: "the record was made at the coordinate it describes", verdict: right}
+    lekur: {truth: "the link's status was the same in every pass the record covers", verdict: right}
+    hos:   {truth: "the link was not traversed in the record's pass and is entailed by links that were",
+            verdict: right}
+    wal:   {truth: "the record carries no making-context at all", verdict: right}
+  grades:
+    kas:  {truth: "the link was traversed in the record's pass", verdict: right}
+    lan:  {truth: "the link was open and not traversed in the record's pass",
+           note: "Correlation only. Whether uttering it opens anything is PRODUCTION P-AUTH."}
+    ka:   {truth: "the link opens in the next pass"}
+    ti:   {truth: "the link was unavailable in the record's pass and is described anyway"}
+  discharge:     # H1
+    lun:  {truth: "the graded status persists in every later pass"}
+    ro:   {truth: "the status ended with a traversal"}
+    sar:  {truth: "the status ended without a traversal"}
+    ki:   {truth: "the status tracks another link's status"}
+    le:   {truth: "unstated"}
+  unent:         # H2
+    lar:  {truth: "the edge is graded AUTH/EXEC in a pass where the link was closed",
+           note: "A disagreement between grade and status inside one record. No agent is implied."}
+  rscope:        # H3
+    li:   {truth: "the polarity holds in this pass and not in every pass"}
+    kur:  {truth: "the polarity holds in every pass"}
+    ra:   {truth: "unstated"}
+  phase:
+    nikur: {truth: "the displacement's sign differs between passes", archive: "displaced, unmeasured",
+            verdict: partial}
+
+  # --- the paradigm ----------------------------------------------------------------
+  paradigm:
+    edge_classes: [PASS, THRU, SHUNT, BAR, RECUR, BIND]
+    note: >-
+      Six classes. ADJ is not a class (Redfern). SHUNT and RECUR are two (Onslow wrong).
+    link_kinds: {direct: PASS, forced: THRU, displacing: SHUNT, returning: RECUR}
+    bar: "a link described from its destination end: present, not traversable that way"
+    bind: "two descriptions of one coordinate; not a link"
+
+  # --- the standing disputes: verdicts ---------------------------------------------
+  disputes:
+    - id: onslow-1971
+      question: "Are SHUNT and RECUR one class split by the 1908 consolidation?"
+      verdict: "No. Two link kinds, two flick forms. Aubrey (2007) is right about the skew and right about why."
+      consequence: "The risk table's SHUNT/RECUR distinction is sound. The Archive is right and does not know it."
+    - id: hallam-1976
+      question: "Does -ar mark a junction, or that the record stops here?"
+      verdict: >-
+        Split. On Ch-1 objects -ar marks a true junction (the Archive's 1979 reply stands).
+        In pre-photographic Ch-2 hand copies, copyists wrote -ar where their page ended, as a
+        continuation mark. Hallam's page-end correlation is real and her conclusion is right
+        for Ch-2 and wrong for Ch-1.
+      consequence: "Junction-map nodes resting only on a Ch-2 hand copy's -ar are not known junctions."
+    - id: redfern-1993
+      question: "Is ADJ a class, or a nineteenth-century damage convention?"
+      verdict: >-
+        Redfern is right. A branch-register mark meaning 'an edge half stood here and is lost'
+        was consolidated into the paradigm in 1908. On surviving objects the position bears an
+        eroded half of some other class, or nothing.
+      consequence: "Every ADJ-only edge is a hole. The minority reading that was right and ignored."
+    - id: cardwell-1948
+      question: "The Ladder plaque: is -sen segment-scoped (Long) or edge-scoped (Cardwell)?"
+      verdict: "Cardwell. The reverse is closed; the approach is open."
+      consequence: >-
+        Nobody has made the approach since 1948, because Field Protocol applies both readings.
+        The correction was right and has never been tested.
+    - id: keele-1963
+      question: "Is kalsira-ru a frozen pair?"
+      verdict: "Yes. It occurs where a held coordinate has no direct departure."
+    - id: sowerby-halu-1969
+      question: "lartuki-halu: 'the attendance-state lapsed and was not resumed'?"
+      verdict: >-
+        The form is right (no edge is claimed) and the content is wrong: the period of the
+        coordinate's availability is longer than the record's span. Nothing lapsed.
+    - id: locative-stative
+      question: "Do high-frequency roots designate nodes, or conditions?"
+      verdict: >-
+        Conditions (Stative). Conditions are sticky — a sink stays a sink — which is the whole
+        of the Locative school's evidence and why it has never lost.
+    - id: reg-1949
+      question: "REG: 'registered by the system itself' / 'entered without a human attestor'?"
+      verdict: "Both wrong. REG marks a record made remote from what it describes."
+
+  # --- H1–H3 in-world provenance (they need dates; A′ imports have none in A) ------
+  imports:
+    H1: {analyst: Treloar, year: 1926, note: "Discharge identified; the Open Register opened the same year."}
+    H2: {analyst: Thaxter, year: 1957, note: "The unentitled marker."}
+    H3: {analyst: Merrow, year: 1972, note: "Recurrence scope on polarity."}
+
+  # --- designed undecidability: truths that make a dispute unsettleable by construction
+  undecidable_by_construction:
+    - id: sturge-1958
+      mechanism: >-
+        Every multi-leg chain in the world displaces with one sign along its length, so the
+        sign measured from either candidate anchor is the same. There is no fact of the matter
+        about which tail-bearer anchors a chain — for HEL, for players, or for the author.
+
+# =================================================================================
+PRODUCTION:
+# =================================================================================
+  principle: >-
+    Each entry is a procedure that produces data for a question the canon protects. It
+    carries no truth value. The author holds no answer and the generator was built so
+    that none is implied. No Rosetta object may ever touch one.
+  items:
+    - {id: P-STRATA, question: "Are Strata I and II a chronology, registers, or unrelated systems?",
+       procedure: "Profile assigned per object by a seeded draw weighted by find-locus; no clock, no register, no provenance behind it."}
+    - {id: P-SEGMENTATION, question: "Is the Stratum II head-half environment the corpus's or the 1908 cut's? (A §7.1)",
+       procedure: "The trace carries a flick-terminal mark of indeterminate status before vowel-initial roots; its depth is drawn, never decided."}
+    - {id: P-III, question: "What is Stratum III?",
+       procedure: "Composed under the poetics in hel/poetics.py; the sealed register records the rule for each text and never a meaning."}
+    - {id: P-IV, question: "Is Stratum IV (Ch-3) the same system as I–III?",
+       procedure: "Generated by its own sequencing procedure over thirty shared units; built to fit a one-system and a two-system story equally."}
+    - {id: P-SHADOW, question: "Are shadow segments records of untaken traversals, or misparsed damage? (A §5.5)",
+       procedure: "SIM-on-OFF parses produced at a fixed rate on intact and on damaged objects alike."}
+    - {id: P-MAGNITUDE, question: "What was the PHASE magnitude, and how did it leave the record? (A §5.2b)",
+       procedure: "The world has displacements (HEL logs them); records are rendered with signs only. Why is not represented."}
+    - {id: P-41, question: "What is [41]?", procedure: "Placed in every Ch-4 formula and on three Ch-1 objects."}
+    - {id: P-RITUAL, question: "What are the ritual-only units?", procedure: "Placed in Ch-4 formulae by the metre."}
+    - {id: P-AUTH, question: "Is a spoken AUTH form operative?", procedure: "Nothing in the world responds to utterance; nothing is represented that could."}
+    - {id: P-CH4, question: "Are the formulae translated substrate, inherited practice, or both?",
+       procedure: "Composed to parse; transmitted by the recitation model in hel/diachrony.py."}
+    - {id: P-REFERENCE, question: "Does the corpus refer to this network? Why does it correlate?",
+       procedure: "Records are rendered from network conditions. That is a production fact, not a claim."}
+
+# =================================================================================
+WITHHOLDING:
+# =================================================================================
+  principle: "Published gaps = entries here. A gap without an entry is a defect (benchmark F2)."
+  entries:
+    - {gap: "the PHASE magnitude", exists: "per-traversal displacement in HEL's own arrival logs", withheld: "not in any record", cause: "P-MAGNITUDE"}
+    - {gap: "the find-site register for the anchor locus", exists: "HEL's departure locus in the world model",
+       withheld: "whether any CSC material came from it", cause: "prohibited shortcut #15"}
+    - {gap: "the nine unpublished bound pairs", exists: "rendered in the corpus as uncompleted tails", withheld: "not yet identified by HEL", cause: "the break inventory has not been re-audited since 1963"}
+    - {gap: "the Open Register's extents", exists: "AUTH-STANDING links in the world", withheld: "which loci they open", cause: "no release is attested"}
+    - {gap: "Stratum III meaning", exists: "a compositional rule per text", withheld: "there is no meaning to withhold", cause: "P-III"}
+    - {gap: "[41] and the ritual-only units", exists: "their placement rule", withheld: "everything else", cause: "P-41, P-RITUAL"}
+    - {gap: "the roll", exists: "every expedition outcome in the world model", withheld: "names of those not returned", cause: "the roll is not reproduced outside the Archive"}

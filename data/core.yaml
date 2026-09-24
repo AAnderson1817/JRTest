@@ -1,0 +1,87 @@
+# The analyzable core — PUBLISHED FIELDS ONLY.
+#
+# Authority C. The Archive's unit register for the roots of the ~90-unit
+# analyzable core (A §2.3), plus the ritual-only units of Ch-4. Formatives are
+# specified in hel/grammar.py. What each root *correlates with* is sealed
+# (sealed/key.yaml) and never appears here.
+#
+# gloss  — the Archive's standing gloss, printed queried: CSC.0012(sealed?).
+#          null = no-gloss zone (A §4.10, P13), printed CSC.0311(?).
+# grade  — the Locative–Stative dispute caps every root frequent enough to argue
+#          about at G3 (A §4.1). G4 = single analyst, unreplicated.
+# commanded — may lawfully appear in a spoken route command; the commanded core
+#          is full at forty-eight (A §6.1d), so its thirty-five roots use every
+#          sanctioned syllable not taken by a filler or warrant as an initial,
+#          exactly once.
+#
+# Screened: see hel/screen.py and docs/08-THE-ENGINE.md §screen.
+
+units:
+  # --- the seven roots of A's worked examples -------------------------------
+  - {cid: CSC-0007, form: harnuli, kind: root, gloss: in.standing, grade: G3, core: true, commanded: true,
+     channels: [Ch-1, Ch-2], note: "The Ladder plaque. Locative reading: a node designator.",
+     readings: [[Stative, "a node in standing"], [Locative, "designates one node; looks stative"]]}
+  - {cid: CSC-0012, form: kalsira, kind: root, gloss: sealed, grade: G3, core: true, commanded: true,
+     channels: [Ch-1, Ch-2], note: "Bound pair kalsira-ru (A §10.1a): frozen since Keele 1963.",
+     readings: [[Stative, "held closed / sealed"], [Locative, "a node designator"]]}
+  - {cid: CSC-0031, form: telnuro, kind: root, gloss: counted, grade: G3, core: true, commanded: true,
+     channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0058, form: sarkile, kind: root, gloss: bearing, grade: G3, core: true, commanded: true,
+     channels: [Ch-1, Ch-2, Ch-4], note: "Opens the custodial attestation (A §8 Example 3)."}
+  - {cid: CSC-0077, form: lartuki, kind: root, gloss: attendance, grade: G3, core: true, commanded: true,
+     channels: [Ch-1, Ch-2, Ch-4], note: "Bound pair lartuki-halu (A §10.1b); paraphrase adopted 1969, G4."}
+  - {cid: CSC-0104, form: kurhali, kind: root, gloss: unattended, grade: G3, core: true, commanded: true,
+     channels: [Ch-1, Ch-2], note: "The Ladder plaque's destination."}
+  # --- the rest of the commanded core ----------------------------------------
+  - {cid: CSC-0003, form: rukalti, kind: root, gloss: worn, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0005, form: lankiro, kind: root, gloss: kept, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0009, form: siltoni, kind: root, gloss: passed, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0014, form: hekasni, kind: root, gloss: gathered, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0016, form: hasilnu, kind: root, gloss: held, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2],
+     note: "The commonest root at loci the map shows with no outbound edge."}
+  - {cid: CSC-0019, form: likasru, kind: root, gloss: returning, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0022, form: kentuli, kind: root, gloss: forked, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0024, form: kanirlu, kind: root, gloss: resting, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0027, form: tisenlu, kind: root, gloss: unsettled, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0029, form: ketirnu, kind: root, gloss: barred, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0033, form: lutirka, kind: root, gloss: strayed, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0036, form: pelhanu, kind: root, gloss: divided, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0038, form: arhesi, kind: root, gloss: common, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2],
+     note: "Vowel-initial: the Stratum II head-half environment (A §7.1)."}
+  - {cid: CSC-0041, form: senlihe, kind: root, gloss: turning, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0044, form: petirsa, kind: root, gloss: late, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0046, form: rasilke, kind: root, gloss: early, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0049, form: inpelu, kind: root, gloss: lost, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2],
+     note: "Vowel-initial."}
+  - {cid: CSC-0052, form: nirtoka, kind: root, gloss: shut, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0055, form: tuharli, kind: root, gloss: enclosed, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0061, form: istuha, kind: root, gloss: mixed, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2],
+     note: "Vowel-initial."}
+  - {cid: CSC-0063, form: sihoslu, kind: root, gloss: first, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0066, form: olsihe, kind: root, gloss: still, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2],
+     note: "Vowel-initial."}
+  - {cid: CSC-0069, form: munhilu, kind: root, gloss: outer, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0072, form: lunpeki, kind: root, gloss: twinned, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0081, form: tulkahe, kind: root, gloss: level, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0086, form: yuhosli, kind: root, gloss: once, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0089, form: lusnuhe, kind: root, gloss: far, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0093, form: kasluhi, kind: root, gloss: sounding, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  - {cid: CSC-0097, form: yuntiha, kind: root, gloss: waking, grade: G3, core: true, commanded: true, channels: [Ch-1, Ch-2]}
+  # --- analyzable, not commanded ---------------------------------------------
+  - {cid: CSC-0112, form: tokalhi, kind: root, gloss: anchored, grade: G4, core: true, channels: [Ch-1]}
+  - {cid: CSC-0128, form: nukenra, kind: root, gloss: turned-back, grade: G4, core: true, channels: [Ch-1]}
+  - {cid: CSC-0141, form: hitulke, kind: root, gloss: null, grade: G1, core: true, channels: [Ch-1, Ch-2],
+     note: "Distribution secure (always TERM, never carries a coordinate); no semantic hypothesis."}
+  - {cid: CSC-0157, form: puhosle, kind: root, gloss: watched, grade: G4, core: true, channels: [Ch-1]}
+  - {cid: CSC-0173, form: walsenti, kind: root, gloss: null, grade: G1, core: true, channels: [Ch-1]}
+  - {cid: CSC-0186, form: keharsi, kind: root, gloss: narrow, grade: G4, core: true, channels: [Ch-1]}
+  - {cid: CSC-0204, form: isnuke, kind: root, gloss: null, grade: G1, core: true, channels: [Ch-1, Ch-2],
+     note: "Vowel-initial."}
+  - {cid: CSC-0219, form: arlutu, kind: root, gloss: old, grade: G4, core: true, channels: [Ch-1],
+     note: "Vowel-initial. The gloss is one analyst's and the Archive prints it with a warning."}
+  # --- ritual-only units: Ch-4 and nowhere else; numbered and left ----------
+  - {cid: CSC-0311, form: lunkani, kind: ritual, gloss: null, grade: "—", channels: [Ch-4],
+     note: "The custodial attestation (A §8 Example 3). Not translated."}
+  - {cid: CSC-0327, form: nisarlu, kind: ritual, gloss: null, grade: "—", channels: [Ch-4]}
+  - {cid: CSC-0348, form: rosilpe, kind: ritual, gloss: null, grade: "—", channels: [Ch-4]}
+  - {cid: CSC-0366, form: tuwalsi, kind: ritual, gloss: null, grade: "—", channels: [Ch-4]}

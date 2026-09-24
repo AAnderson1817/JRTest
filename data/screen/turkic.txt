@@ -1,0 +1,29 @@
+# Collision-screen wordlist (Turkish). Authority C, author-side tooling.
+# Used ONLY to reject coined forms that collide with real words (hel/screen.py).
+# Nothing in this file is, or may become, material for the language.
+# Format: entry<TAB>category<TAB>gloss. Categories and weights: hel/screen.py SEVERITY.
+
+sik	obscene	Turkish obscenity
+sikis	obscene	Turkish obscenity
+sikik	obscene	Turkish obscenity
+siktir	obscene	Turkish obscenity
+amk	obscene	Turkish obscenity
+amina	obscene	Turkish obscenity
+orospu	obscene	Turkish obscenity
+pic	obscene	Turkish obscenity
+pezevenk	obscene	Turkish obscenity
+got	obscene	Turkish obscenity
+gotveren	obscene	Turkish obscenity
+yarak	obscene	Turkish obscenity
+yarrak	obscene	Turkish obscenity
+tasak	obscene	Turkish obscenity
+kahpe	obscene	Turkish obscenity
+pekala	common	Turkish common word
+peki	common	Turkish common word
+kaka	comic	Turkish comic/common
+cis	comic	Turkish comic/common
+osur	comic	Turkish comic/common
+osuruk	comic	Turkish comic/common
+hisar	place	Turkish common noun
+kale	place	Turkish common noun
+saray	place	Turkish common noun

@@ -5,8 +5,13 @@
 > approval, not canon and not working canon. **The user has approved nothing in
 > it** — no target, no architecture, no table, figure, gloss, paradigm, or
 > example. Nothing here may be cited downstream as settled.
-> **Phase 2 has not begun** and must not begin until the user approves a language
-> target and an architecture (handoff §10, brief §9).
+> **Phase 2 status, 24 September 2026.** The user answered the six Tier 1 questions
+> on 13 August 2026 (`06-PHASE1-RECOMMENDATION.md` §6) and on 24 September asked for
+> the language to be built out. The build that followed — engine, corpus, verifier,
+> collision screen, diachrony, Field English (`docs/08-THE-ENGINE.md`) — is Authority C
+> exactly as this document is: a working proposal, not approved canon. Running it found
+> places where this document contradicted itself; each is repaired in place and marked
+> **engine finding F-nn**, and the full list is in `docs/08-THE-ENGINE.md` §4.
 > This document uses the canon handoff's four authority levels — A established,
 > B working, C recommendation, D open — and **does not extend them.** Where an
 > item is Authority D, this document offers options and does not decide; only the
@@ -93,7 +98,11 @@ Archive; consolidated from earlier branch registers in 1908, re-catalogued 1949.
 **Scale:**
 - ~4,100 catalogued tokens
 - ~2,900 occur in sequences of three or more units
-- ~610 distinct recurring units; ~180 occur more than five times
+- ~350 distinct units in the functional strata; ~60 occur more than five times, most
+  of them bound formatives (engine finding F-15: an earlier text said ~610 and ~180,
+  which the template cannot produce at 4,100 tokens — a root is about a quarter of
+  the functional tokens. The scale is Authority D and the user may set it higher;
+  the ratio is what the template fixes)
 - productive analyzable core: ~90 units
 - longest continuous sequence: 41 units; only six sequences exceed 30
 - **the corpus does not grow on demand.** New material enters only by recovery on
@@ -188,7 +197,13 @@ itself an overt marker.**
 
 **5. Orientation-invariant reading.** Because orientation lives in the
 *attachment* of the edge halves and not in linear order, a chain read from either
-end yields the same directed graph.
+end yields the same directed graph. **That holds of the trace, where the departure
+flick points, and of any transliteration that writes both halves; it does not hold
+of a Stratum II transliteration** (engine finding F-04). Where the head half is
+absent, nothing written says which neighbour the edge enters, and the Standard
+supplies it by convention — every chain is transcribed from its first tail-bearer,
+and a reduced edge enters the next word. Read such a transliteration backwards and
+the reduced edge points the other way; read the trace backwards and it does not.
 
 > **Say it exactly, and this document says it exactly everywhere the property is
 > invoked: the *record* is reversible; the *network* is not.** What survives
@@ -351,6 +366,13 @@ head-bearing — and §5.2a sets out the reading the Archive puts on it: the
 coordinate is *carried* by the destination and *measured from* the origin. **The
 distribution is G2; the reading of it is the anchor question**, and that is where
 the argument belongs rather than here.
+
+**The 100% includes a ruling (engine finding F-07).** Where the Stratum II cut (§7.1)
+would remove the head half before a vowel-initial root that carries a coordinate,
+the 1908 committee ruled the head present, on the ground that a cartouche after the
+cluster proves an edge arrives. The figure is to that extent a fact about the
+Standard as well as about the corpus, and the Segmentation reading of §7.1 is
+entitled to count it as the cut's second signature.
 
 **Incidence** — how the path meets this node:
 
@@ -705,8 +727,10 @@ immediately preceding one (Example 1 anchors on `telnuro`), and **Sturge (1958)*
 argues for the chain-initial TERM node (`harnuli`), on the ground that a record
 describing a whole route would measure from where the route began. The two
 readings coincide on single-edge segments, which is most of the corpus, and
-disagree on the **419 catalogued segments** whose coordinate sits on a chain of
-more than one edge. **The dispute cannot be settled, and the reason is §5.2b: a
+disagree on every catalogued segment whose coordinate sits on a chain of more than
+one edge — **a few dozen at most** at this scale, since each needs at least nine
+tokens (engine finding F-09: an earlier text said 419, which would need more
+tokens than the functional strata hold). **The dispute cannot be settled, and the reason is §5.2b: a
 single recovered magnitude would decide it in an afternoon, and there is no
 recovered magnitude anywhere in the corpus.** The structural guarantee in
 consequence 2 is unaffected either way — both readings anchor on a tail-bearer, so
@@ -1133,13 +1157,23 @@ prohibited shortcut #14 is clean here affirmatively rather than by absence**, an
 it is the claim to cite. The Chicago anchor supplies HEL's institutional history
 and supplies no linguistic material of any kind (handoff §3.2).
 
-#### 6.1b The 1908 sanctioned syllable list
+#### 6.1b The sanctioned syllable list (the Reformed List of 1988)
 
 The committee did not license the template's full output. It published a **closed
 list of forty-eight syllables**, and **every transliterated unit in the Standard is
 built from that list and from nothing else.** The list is the code book; a string
 that uses an unlisted syllable is not a mis-transliteration, it is not a
 transliteration.
+
+**Dated correctly in Phase 2 (engine finding F-08).** An earlier text called this the
+1908 list. It cannot be: §6.1e records that the 1908 mnemonic strings stayed in
+service until 1988, and not one of them can be spelled from these forty-eight
+syllables. The 1908 inventory was larger and never closed; the list printed here is
+the Reformed List's, and "the committee" in this section is the 1988 committee. The
+commanded core had stood at forty-eight since 1931, and the 1988 committee closed
+the list at forty-eight so that the core still fitted (§6.1d). Every transliteration
+in this document is in the 1988 spelling, which §6.1e explains cost nothing
+analytic.
 
 **Open — twenty-two:**
 
@@ -1151,17 +1185,29 @@ transliteration.
 > **har hos kal kas ken kur lan lar lun lus mun nes nir pel sar sen sil tel tir
 > tul wal yun**
 
-**Onsetless — four**, the incidence markers only, admitted because node roots are
-vowel-final and the resulting hiatus is itself a boundary cue:
+**Onsetless — four**, admitted as the incidence markers and at the start of a
+root, never inside one. Node roots are vowel-final, so an onsetless syllable after a
+root is a hiatus the ear can find, and one at the start of a root is a boundary cue
+for the same reason:
 
 > **ar in is ol**
+
+**Corrected in Phase 2 (engine finding F-01).** An earlier text licensed these four
+as "the incidence markers only". Then only forty-four syllables could open a
+commanded unit, the ceiling at §6.1d would be forty-four rather than forty-eight,
+and there would be no vowel-initial roots for the Stratum II environment (§7.1) to
+be stated over. Everything else in this document already assumed the root-initial
+licence.
 
 Three properties of the list are engineering decisions with minutes behind them,
 and all three do work elsewhere in this document.
 
-- **Each consonant is licensed with a restricted vowel band.** /h/ and /k/ take
-  {a e i}; /l/ takes {e i u}; /r/ takes {a o u}; /t/ takes {i o u}; /n/ {i u};
-  /p/ {e u}; /s/ {a i}; /y/ only {u}. A mis-heard onset therefore *usually* lands
+- **Each consonant is licensed with a restricted vowel band.** In the open
+  syllables /h/ and /k/ take {a e i}; /l/ takes {e i u}; /r/ takes {a o u}; /t/
+  takes {i o u}; /n/ {i u}; /p/ {e u}; /s/ {a i}; /y/ only {u}. The closed syllables
+  keep bands of their own — /h/ {a o}, /k/ {a e u}, /l/ {a u}, /n/ {e i}, /s/
+  {a e i}, /t/ {e i u}, /p/ {e}, /m/ {u}, /w/ {a}, /y/ {u} (engine finding F-13: an
+  earlier text stated the open bands as the whole list's). A mis-heard onset therefore *usually* lands
   on a syllable that is not on the list, so the commonest channel error tends to
   produce a detectable non-syllable rather than a different real word. **The list
   is a checkable code, which is the whole reason to close it.**
@@ -1250,8 +1296,9 @@ syllables, no exceptions.
 **The rule has teeth because it has a hard ceiling, and the Archive hit it.** A
 list of forty-eight syllables can guarantee initial distinctness for at most
 forty-eight units. **The commanded core has stood at forty-eight since 1931.**
-Every admission since has required a retirement, which is a standing committee
-fight with minutes, and it is the reason the Archive resists promoting newly
+Every admission since has required a retirement — by committee policy until 1988,
+and since then because the closed list leaves no alternative (§6.1b) — which is a
+standing committee fight with minutes, and it is the reason the Archive resists promoting newly
 recovered units into route-command status even when the parse is clean.
 
 **And this is the reason the readback ritual exists.** The guarantee covers the
@@ -1449,7 +1496,7 @@ Four strata, defined by systematic formal difference (Authority C):
 | --- | --- | --- | --- |
 | **I — Long** | Both edge halves always overt; warrants obligatory and frequently stacked; coordinates fully specified with explicit `hilun` in every unfilled slot; scope clitic `-he` present | ~24% | **G2** — the profile is positive, checkable on the objects, and the material HEL has routed on most |
 | **II — Reduced** | Head halves regularly absent where the following unit is **vowel-initial in the 1908 Transcription Standard** — a graphotactic environment, stated in HEL's transcription and not in the source; no warrant stacking; PHASE frequently `hilun`; **scope clitic `-he` absent entirely** | ~44% | **G2 for the profile as a distribution** — the pattern is real, countable and repeatedly checked. **G3 for reading it as conditioned loss**, which is a different claim and the one the language-hood argument needs: see **§7.1** |
-| **III — Reserve** | **Material that resolves to no topological function at all**: no unit assignable to any edge class, incidence marker, grade, polarity, coordinate slot or warrant, in an intact field where damage is excluded, six units or longer. Contains ~40% of the corpus's hapax units. **Full specification: `docs/arch/A-stratum-III-reserve.md`** | ~17% | **G1 as a reading, G2 as a partition** — the class is defined by a mechanical three-condition test two clerks can run to the same answer, so *membership* is checkable; what the material **is** has no reading at all, and that is the definition rather than a gap in it |
+| **III — Reserve** | **Material that resolves to no topological function at all**: no unit assignable to any edge class, incidence marker, grade, polarity, coordinate slot or warrant, in an intact field where damage is excluded, six units or longer. Contains about seven in ten of the corpus's hapax units (A-reserve §3.3, corrected by engine finding F-10; an earlier text here said ~40% — engine finding F-28). **Full specification: `docs/arch/A-stratum-III-reserve.md`** | ~17% | **G1 as a reading, G2 as a partition** — the class is defined by a mechanical three-condition test two clerks can run to the same answer, so *membership* is checkable; what the material **is** has no reading at all, and that is the definition rather than a gap in it |
 | **IV — Divergent** | The Ch-3 modulation material. Shares ~30 units with I–III; obeys sequencing constraints the others violate | ~15% | **G3** — whether IV belongs to the system at all is the Palimpsest question (§2.2), and §4.6a shows it is load-bearing: two of the only contrasts that would keep SHUNT and RECUR apart are here |
 
 Strata are not formatives and these four grades are not counted among the
@@ -1698,7 +1745,7 @@ secure beneath it:
   edge's tail (§5.2a). Under Sturge (1958) it would be measured from `harnuli`
   instead. **Nothing on this object decides between them, and nothing could,
   because deciding it needs a magnitude.** This is a three-node chain, so it is one
-  of the 419 segments where the two readings come apart.
+  of the few dozen segments where the two readings come apart.
 - **All three roots: G3**, capped there by the Locative–Stative dispute (§4.1), and
   written above in catalog form. *kalsira* = "held closed / sealed" is the Stative
   reading; the Locative school treats CSC-0012 as a node designator, in which case
@@ -2083,8 +2130,9 @@ sanctioned way onward from here — take it.* Attested: *the sanction ends here 
 not go on.* Not a shade of meaning. The other direction.
 
 **Distribution.** 27 occurrences. Three are Stratum I and each is completed by a
-following `ru-` head half — fully compositional. Twenty-four are Strata II–III and
-not one is completed. From 1908 those 24 were catalogued `-ru ⌀`, filed as damage,
+following `ru-` head half — fully compositional. Twenty-four are Stratum II and
+not one is completed (an earlier text said Strata II–III; Stratum III contains no
+assignable unit by definition — engine finding F-06). From 1908 those 24 were catalogued `-ru ⌀`, filed as damage,
 and fed into the graph as inferred missing nodes.
 
 **How it was found, in 1963, by someone looking at something else.** Keele was
@@ -2411,7 +2459,7 @@ deliberately):
 
 | # | Assumption | Level |
 | --- | --- | --- |
-| 6 | Corpus scale: ~4,100 tokens, ~610 recurring units, ~90-unit analyzable core. Answers handoff §9.2's "How large is the recovered corpus?", which is **Authority D**; proposed for the user to set, with the tradeoff stated in §2.3 | C |
+| 6 | Corpus scale: ~4,100 tokens, ~350 functional units (corrected from ~610, engine finding F-15), ~90-unit analyzable core. Answers handoff §9.2's "How large is the recovered corpus?", which is **Authority D**; proposed for the user to set, with the tradeoff stated in §2.3 | C |
 | 7 | Four-stratum internal variation and the specific formal profile of each; **the graphotactic statement of the Stratum II head-half environment, and the standing Transmission-versus-Segmentation dispute over whether that environment belongs to the corpus or to the 1908 cut (§7.1)**. **Added by this revision: the redefinition of Stratum III as material resolving to no topological function at all** — null functional parse, damage excluded, six units or longer — replacing a definition by absence that graded G1 and did no work; membership becomes mechanically checkable (G2 as a partition) while the material itself stays unread. Full specification in `docs/arch/A-stratum-III-reserve.md`, which is Authority C and carries its own ledger | C |
 | 8 | Edge-class inventory (7 — six under §4.6c), incidence (4), grade (4), polarity (4), warrant (5 + `[41]`), scope clitic `-he`; **and the per-value confidence grade assigned to every one of them** in §4 and §5.2 | C |
 | 9 | Three-slot coordinate LOCUS·PASS·PHASE, with obligatory overt gap marking. **Added by this revision: the PHASE anchor (§5.2a)** — that a coordinate is carried by the head-bearing node word and measured from the tail-bearing node word of the same edge (**G2**), that PHASE is therefore origin-relative and the system grammaticalizes no other frame, and that a reversal edit collapses carrier and anchor so the segment does not compose. **Which** tail-bearer anchors a multi-edge chain is **G3** and unsettleable (Standard vs. Sturge 1958) | C |
@@ -2419,7 +2467,7 @@ deliberately):
 | 11 | Archive confidence grades G0–G5, **and their application to every paradigm value rather than only to readings of objects** (§4 preamble, §5.4) | C |
 | 12 | Institutional apparatus: the three schools, the Cardwell revision, the Onslow merger (1971), the Vance recollation (2004), the Aubrey defence (2007), the Hallam incompleteness reading (1976) and the Archive's 1979 reply, the Redfern damage-convention reading (1993), the 1949 restyling of the REG gloss, branch pronunciation traditions, the double return, truncated citation. **Added by this revision: the Ashcroft segmentation reading (1984) and the register re-collation behind it; the Keele bound-pair review (1963), the 1961 Quiet Sixteen incident that prompted it, and the field manual's 1963–1967 double printing; the 1969 adoption of the `lartuki-halu` paraphrase. **Added by this revision: Sturge (1958) on chain-initial anchoring (§5.2a); the route table's empty *magnitude* column, printed since 1952 (§5.2b); and the 1949 policy barring citation forms from the CSC (§5.7). **Also added: Rowntree's 1949 mnemonic revision and the 11–7 vote that defeated it; the Reformed List of 1988 that finally carried it; the field manual's double printing of both spellings until 1994; and the Archive's deprecated register, in which the retired strings are held and from which operational documents do not reproduce them (§6.1e)** | C |
 | 13 | Root glosses used in the examples and their catalog identifiers (CSC-0007, -0012, -0031, -0058, -0077, -0104, -0311) — all G3 or worse, all written in queried catalog form on the gloss lines per §6.3. **The transliterated forms themselves changed at the Reformed List of 1988 and are `harnuli`, `kalsira`, `telnuro`, `sarkile`, `lartuki`, `kurhali`, `lunkani`; the identifiers, glosses, grades and every reading built on them are unaffected, which is §5.7's stable-identifier policy doing exactly the job it was written for** | C |
-| 14 | The Archive's counts and register figures used to state the disputes: ~380 risk-flagged SHUNT/RECUR edges, 214 junction-map nodes, 87 ADJ-only edges, 34 stacked warrants. **Added by this revision:** 212 Stratum II head-absent environments, 148 of them Ch-1, 63 too short by notch count to have held a head, 85 undetermined and 31 of those cut with a head present in the branch registers (§7.1); 27 occurrences of `kalsira-ru` — 3 completed in Stratum I, 24 uncompleted in II–III; 12 affected route commands and 4 unattested onward legs; 19 occurrences of `lartuki-halu`. **Also added: 419 catalogued segments whose coordinate sits on a chain of more than one edge, where the Standard and Sturge anchors come apart (§5.2a)** | C |
+| 14 | The Archive's counts and register figures used to state the disputes: ~380 risk-flagged SHUNT/RECUR edges, 214 junction-map nodes, 87 ADJ-only edges, 34 stacked warrants. **Added by this revision:** 212 Stratum II head-absent environments, 148 of them Ch-1, 63 too short by notch count to have held a head, 85 undetermined and 31 of those cut with a head present in the branch registers (§7.1); 27 occurrences of `kalsira-ru` — 3 completed in Stratum I, 24 uncompleted in Stratum II (F-06); 12 affected route commands and 4 unattested onward legs; 19 occurrences of `lartuki-halu`. **Also added: the catalogued segments whose coordinate sits on a chain of more than one edge, where the Standard and Sturge anchors come apart — a few dozen at most (§5.2a; 419 before engine finding F-09)** | C |
 | 15 | The two bound pairs set out in full at §10.1 — `kalsira-ru` and `lartuki-halu` — their literal parses, attested readings, distributions and grades, and the claim that the Archive identifies eleven such pairs of which nine remain unpublished. **No attender, closer, or authority is named for either pair, and §10.1(b) states that the style manual forbids supplying one** | C |
 
 **Deliberately not resolved, and to stay that way:** the builders in every
@@ -2635,7 +2683,7 @@ else in this document, and the audit itself is a review artifact and not canon.
 | 16 | "Reversibility property" — a name that invites the inference prohibited shortcut #4 forbids | **FIXED** — renamed **orientation-invariant reading** throughout, with *the record is reversible; the network is not* stated at first use (§3.5), in the script section (§9), and in §13 item 4 |
 | 17 | Target mislabeled "Black Box substrate", which implies the Box is the source of the corpus | **REJECTED, with the reason on record.** The label is the governing document's own — handoff §5.1 names the target "Recovered Black Box substrate" and §9.1 recommends it — and this file may not diverge from the handoff's terminology on its own authority. The underlying risk is answered where it actually lives rather than by renaming: §2.3 takes **no corpus from the casing**, asserts neither yes nor no on whether the casing bears inscriptions, and describes the material as *emitted material of unknown agency* rather than as the Box's output. If the user prefers a different target name, that is a handoff-level change and this document will follow it |
 | 18 | Find-site register withheld rather than optioned | **DEFERRED — to the user, not to Phase 2.** §2.3 withholds whether any CSC material was recovered from the Chicago anchor locus, specifically so this design cannot be read as equating the burial-mound connection with alien authorship (prohibited shortcut #15). Withholding is compliant with Authority D — it decides nothing — but the audit is right that *offering options* is the stronger form of the same discipline. It is not done here because the option set would have to include "yes, material came from the anchor locus," and drafting that option in a document the user has not yet read risks normalising the one reading the canon most wants kept cold. **Waits on:** an explicit user instruction to option it, at which point §12.1's format is the template |
-| 19 | Institutional inventory under-declared — the Archive's counts, dates, named analysts and figures used to state the disputes were not in the ledger | **FIXED** — §12 rows 12 and 14, which now carry the schools, every named analyst and date, the double return, truncated citation, the branch traditions, the deprecated register, and every count the disputes rest on (~380 risk-flagged edges, 214 junction nodes, 87 ADJ-only edges, 34 stacked warrants, 212/148/63/85/31 on the Stratum II environments, 27 and 19 on the two bound pairs, 12 route commands and 4 unattested legs, 419 multi-edge coordinate segments) |
+| 19 | Institutional inventory under-declared — the Archive's counts, dates, named analysts and figures used to state the disputes were not in the ledger | **FIXED** — §12 rows 12 and 14, which now carry the schools, every named analyst and date, the double return, truncated citation, the branch traditions, the deprecated register, and every count the disputes rest on (~380 risk-flagged edges, 214 junction nodes, 87 ADJ-only edges, 34 stacked warrants, 212/148/63/85/31 on the Stratum II environments, 27 and 19 on the two bound pairs, 12 route commands and 4 unattested legs, and the multi-edge coordinate segments — a few dozen, corrected from 419 by engine finding F-09) |
 | 20 | Cross-record LOCUS identity — the document never says whether the same root in two records is the same node | **FIXED** — §4.1. The converse of the no-gazetteer consequence is now stated: if roots name states, two records bearing the same root attest two occasions, and nothing in either identifies them with each other. Cross-record identity is an inference HEL makes constantly and cannot license from the corpus; **the graph HEL draws has more identified nodes than the corpus asserts** |
 | 21 | Prohibited shortcut #16 — clean at system level, but the unit-to-syllable mapping could still be read as a cipher table | **FIXED** — the mapping is unit → catalog identifier → *queried* gloss, and §6.3 requires the queried catalog form on the primary data line for every root in this document. With §6.1b's closed syllable list the transliteration is a code book for **sounds**, not for meanings: there is no semantic layer for a cipher to decode, which is what "many-to-none" means at §13 item 16 |
 | 22 | Prohibited shortcut #17 — clean, but the document's stated defence misses the point | **FIXED** — the old defence (no voiced obstruents, no clusters) answered a phonetic charge that nobody made. Faux-Latin is a matter of register and morphology, and §6.1e now owns the one real breach — Latin mnemonics in the 1908 strings — while §6.1f puts Latinate coinage on the rejects list by name and §13 item 17 states both |
