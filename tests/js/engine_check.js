@@ -25,7 +25,7 @@ if (rb[2] !== "Confirmed, edge seven, edge one.") fail.push('readback C: ' + rb[
 if (!HEL.check(HEL.reverse(s1, 1)).map(f => f.code).includes('E-ANCHOR')) fail.push('reversal edit does not give E-ANCHOR');
 const roll = HEL.parseSegment("inpelu-in-tul · tu-hasilnu-in=hilun-nu-nikur · lunkani · [41]");
 if (HEL.recite(roll, 'second') !== "ˈinfilu-in-tul · ˈhasilnu-in=hilun-nu-nikur · ˈlunkani · ˈfɔɹti ˈwʌn") fail.push('Second-branch roll: ' + HEL.recite(roll, 'second'));
-const sealing = HEL.parseSegment("nirtoka-pel-sen · pe-olsihe-in=hilun-nu-hilun · tuwalsi · [41]");
+const sealing = HEL.parseSegment("nirtoka-pel-sen · pe-olsihe-in=hilun-nu-hilun · nisarlu · [41]");
 if (!HEL.recite(sealing, 'second').includes('-fil-sen')) fail.push('Second branch must keep sen (F-27): ' + HEL.recite(sealing, 'second'));
 const tr = HEL.translate(s1).text;
 if (!tr.startsWith("Route: HARNULI → via TELNURO → KALSIRA. ")) fail.push('translation: ' + tr);

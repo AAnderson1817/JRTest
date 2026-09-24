@@ -30,7 +30,7 @@ formulae:
     use: "said at emergence, before anyone asks where"
   - id: sealing
     name: the sealing
-    text: "nirtoka-pel-sen · pe-olsihe-in=hilun-nu-hilun · tuwalsi · [41]"
+    text: "nirtoka-pel-sen · pe-olsihe-in=hilun-nu-hilun · nisarlu · [41]"
     cola: [6, 6, 6]
     use: "said when a locus is placed under containment"
   - id: roll
@@ -40,7 +40,7 @@ formulae:
     use: "said after the names of those who did not return"
   - id: reading
     name: the reading-room opening
-    text: "lankiro-in-sil · si-lunpeki-ol=hilun-sa-kihar · nisarlu · [41]"
+    text: "lankiro-in-sil · si-lunpeki-ol=hilun-sa-kihar · tuwalsi · [41]"
     cola: [6, 6, 6]
     use: "said before a record is read aloud"
   - id: count

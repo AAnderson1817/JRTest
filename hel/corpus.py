@@ -34,7 +34,7 @@ P_STRATUM_I = 0.36
 QUOTA = {
     "kalsira_completed": 3, "kalsira_frozen": 24, "lartuki_halu": 19, "half_negation": 23,
     "shadow": 14, "unent": 5, "authorization": 22, "bind": 16, "labels": 118,
-    "stack": 37, "reversed": 14,   # tuned: the catalogue lands on A §4.5's 34 and 11
+    "stack": 32, "reversed": 12,   # tuned: the catalogue lands on A §4.5's 34 and 11
 }
 III_LENGTHS = [6] * 21 + [9] * 38 + [12] * 11 + [15] * 2 + [18] + [21]     # 74, all ≡ 0 mod 3
 III_EXCEPTIONS = ["contested-7"] * 3 + ["extent-judged"] * 2
@@ -165,14 +165,39 @@ class Build:
         for _ in range(QUOTA["labels"]):
             ch1.append((R.label(ep(), strat(), stack_quota=st),
                         {"condition": rng.choices(("intact", "worn"), (0.9, 0.1))[0], "label": True}))
-        # [41] on three Ch-1 objects (A §4.5; sealed P-41): ordinary records whose warrant
-        # slot holds the unit nobody can pronounce
-        for _ in range(3):
-            r = R.status(ep(), strat())
-            while r is None:
-                r = R.status(ep(), strat())
+        # Records placed by rule rather than drawn, rendered from their own stream so that
+        # placing them disturbs nothing else. [41] sits on three Ch-1 objects (A §4.5;
+        # sealed P-41) of three unrelated kinds with no polarity, because the blind trial
+        # found that placing it on closure records made it read as a closure warrant.
+        R9, r9 = Renderer(self.world, self.core_roots, self.noncore, self.seed + 9), random.Random(self.seed + 19)
+        ep9 = lambda: r9.randrange(EPOCHS)
+        for make in (lambda: R9.label(ep9(), "II"), lambda: R9.bind(ep9(), "I"), lambda: R9.label(ep9(), "I")):
+            r = make()
             r.seg.warrants = ["[41]"]
             ch1.append((r, {"condition": "intact", "single": True, "p41": True}))
+        # the nine bound pairs nobody has identified (sealed TRUTH.bound_pairs_unpublished)
+        for bp in self.key["TRUTH"]["bound_pairs_unpublished"]:
+            root = bp["pair"].split("-")[0]
+            made = 0
+            for _ in range(200):
+                r = R9.frozen_pair(ep9(), root, bp["feature"], bp["kind"])
+                if r is not None:
+                    ch1.append((r, {"condition": "intact", "single": True}))
+                    made += 1
+                    if made == 2:
+                        break
+            if made < 2:
+                raise RuntimeError(f"bound pair {bp['pair']} could not be placed")
+        # every glossed root occurs: a gloss graded by operational correlation needs records
+        # to rest on (the blind trial found eight glossed roots with none)
+        used = Counter(w.root for r, _ in ch1 + ch2 for w in r.seg.words)
+        for form, d in sorted(self.key["TRUTH"]["roots"].items()):
+            if d.get("archive") and used[form] < 2:
+                for _ in range(2 - used[form]):
+                    r = R9.label_where(form, d["feature"], "I" if r9.random() < 0.4 else "II")
+                    if r is None:
+                        raise RuntimeError(f"no locus where {form} ({d['feature']}) holds")
+                    ch1.append((r, {"condition": "intact", "single": True}))
         budget = TARGET_TOKENS - 700 - 610 - 100 - CH2_FUNCTIONAL_TOKENS
         used = sum(len(r.seg.tokens()) for r, _ in ch1)
         while used < budget:

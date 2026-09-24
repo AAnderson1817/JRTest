@@ -48,7 +48,7 @@ claims:
      calibration: "The build identifies a node by find locus and root; few loci yield two records about the same root, so almost every junction is one by -ar alone."}
   - {id: adj-only, where: "A §4.6c", what: "edges resting on an ADJ half and nothing else", says: "87",
      measure: figures.adj_halves, expect: 87, tolerance: 10,
-     calibration: "ADJ arises in this build only where erosion left an interval nobody can read, which is Redfern's reading; 87 would need several times the erosion the condition rates produce."}
+     calibration: "87 would need several times the damage the published condition rates produce."}
 
   # ---------------------------------------------------------------- A §5, §6
   - {id: multi-edge-coordinates, where: "A §5.2a, §8 Ex. 1, §12 row 14", what: "segments whose coordinate sits on a chain of two or more edges", says: "419",

@@ -186,6 +186,10 @@ def figures(entries: list[Entry], lex_forms: dict) -> dict:
             term_broken += 1
     F["functional_segments"] = len(fsegs)
     F["segments_ending_in_broken_half"] = term_broken
+    # of which the Archive's identified constructions (bound pairs, half negation)
+    F["broken_halves_by_kind"] = dict(Counter(
+        ("construction" if g.construction(s.words[x.origin]) else "damage or unidentified")
+        for s in fsegs for x in g.edges_of(s) if x.kind == "broken-tail"))
     F["broken_share"] = round(term_broken / max(1, len(fsegs)), 3)
     # warrants
     stacked = [s.warrants for s in fsegs if len(s.warrants) > 1]

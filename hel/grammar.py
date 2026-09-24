@@ -332,6 +332,21 @@ def edges_of(seg: Segment) -> list[Edge]:
     return out
 
 
+def construction(w) -> Optional[tuple[str, str]]:
+    """The tail-only forms the Archive has identified as constructions rather than damage.
+    They present exactly like a broken half (-TAIL ⌀) and are catalogued as what they are.
+    (Found by the blind trial: the first Phase 2 engine flagged them D-BROKEN, sixty years
+    after Keele. The nine pairs HEL has not identified are still flagged: that is the
+    re-audit nobody has run.)"""
+    if w.root == "kalsira" and w.tail == "PASS":
+        return "N-PAIR", "the bound pair kalsira-ru: the tail projects no edge (Keele 1963, A §10.1a)"
+    if w.root == "lartuki" and w.tail == "RECUR":
+        return "N-PAIR", "the bound pair lartuki-halu (the 1969 paraphrase, A §10.1b)"
+    if w.polarity == "mun" and w.tail:
+        return "N-HALFNEG", "-mun on the tail half alone: a half-negated edge (A §4.4)"
+    return None
+
+
 def check(seg: Segment, channel: str = "Ch-1") -> list[Finding]:
     f: list[Finding] = []
     ws = seg.words
@@ -382,8 +397,12 @@ def check(seg: Segment, channel: str = "Ch-1") -> list[Finding]:
             f.append(Finding("E-AGREE", "ill-formed", f"words {e.origin + 1}-{e.dest + 1}",
                              "edge halves disagree in class"))
         elif e.kind == "broken-tail":
-            f.append(Finding("D-BROKEN", "damaged", f"word {e.origin + 1}",
-                             f"-{EDGE_CLASSES[e.cls][0]} ⌀"))
+            known = construction(seg.words[e.origin])
+            if known:
+                f.append(Finding(known[0], "note", f"word {e.origin + 1}", known[1]))
+            else:
+                f.append(Finding("D-BROKEN", "damaged", f"word {e.origin + 1}",
+                                 f"-{EDGE_CLASSES[e.cls][0]} ⌀"))
         elif e.kind == "broken-head":
             f.append(Finding("D-BROKEN", "damaged", f"word {e.dest + 1}",
                              f"⌀ {EDGE_CLASSES[e.cls][1]}-"))

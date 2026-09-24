@@ -25,7 +25,7 @@ What exists now, all of it deterministic from one seed (1908):
 | Renderer | `hel/render.py` | records rendered from the world under the sealed key |
 | Taphonomy | `hel/taphonomy.py` | damage by stated rule, every loss logged (benchmark design rule 3) |
 | Transcription | `hel/archive.py` | the 1908 Standard applied with its known errors: the Stratum II cut, the ADJ convention, copyists' h/k swaps, page-end *-ar* |
-| Corpus | `hel/corpus.py` → `corpus/` | 530 accessions, 4,016 tokens, 309 registered units, numbered in the 1949 re-catalogue's accession order |
+| Corpus | `hel/corpus.py` → `corpus/` | 558 accessions, 4,086 tokens, 308 registered units, numbered in the 1949 re-catalogue's accession order |
 | Coinage and screen | `hel/coin.py`, `hel/screen.py`, `data/screen/` | coined forms screened before they exist (§5) |
 | Poetics | `hel/poetics.py` | Stratum III texts composed by rule; CSC-1146 pinned verbatim |
 | Stratum IV | `hel/stratum_iv.py` | the Ch-3 logs |
@@ -42,7 +42,7 @@ What exists now, all of it deterministic from one seed (1908):
    (Example 1, the Ladder, CSC-1146, the nine formulae), and those pass through the same
    pipeline.
 2. **Nothing sealed ships.** The corpus export and the page build both refuse to write
-   if any of 286 strings drawn from the sealed key appears in what they would publish.
+   if any of 292 strings drawn from the sealed key appears in what they would publish.
 3. **Every figure the documents state is checked.** 60 claims; the verifier exits
    non-zero if one fails.
 
@@ -93,7 +93,7 @@ Design decisions the documents did not make and the engine had to:
 
 ## 4. What running it found
 
-Twenty-one findings, numbered like catalogue entries: stable, never reused, gaps where a
+Twenty-four findings, numbered like catalogue entries: stable, never reused, gaps where a
 finding was withdrawn. The full text of each — what the document said, what the engine
 showed, the repair — is in `data/findings.yaml` and on the Reading Room's Findings tab.
 Every document repair is marked **engine finding F-nn** in place.
@@ -117,13 +117,16 @@ Every document repair is marked **engine finding F-nn** in place.
 | F-15 | A §2, §12; A-reserve | ~610 types with ~180 over five cannot fit the template at 4,100 tokens |
 | F-28 | A §7 | "~40% of the hapax units" against the reserve's two-thirds (now seven in ten) |
 
-**Where this build was wrong about itself (7):** F-14 (the 07 §7.3 table mixed in works
+**Where this build was wrong about itself (10):** F-14 (the 07 §7.3 table mixed in works
 from the rejected architectures), F-21 (the build filed three Stratum III texts its own
 classifier had rejected), F-22 (four exactly-stated figures not reproduced), F-25 (two
 drafts of the recitation reconstruction withdrawn by the Algonquian check), F-26 (the
 list can spell *sh* across a syllable boundary), F-27 (the regular Second-branch closure
 marker is English *sin*), F-29 (four of the build's own coinages collided with
-something).
+something), and three found by the blind trial (§8): F-30 (`[41]` and the ritual units
+had patterns a reader could read), F-31 (the sealed key promised nine bound pairs the
+build never rendered) and F-32 (the engine filed the Archive's own identified
+constructions as damage, and eight glossed roots had no records).
 
 **Withdrawn on review (6):** F-03, F-16 to F-20 — first logged as contradictions,
 reclassified as calibration differences: the figure is feasible under the design and
@@ -135,19 +138,20 @@ this build's production rates give a different number.
 
 | Status | Count | Meaning |
 | --- | --- | --- |
-| holds | 37 | the corpus reproduces the figure — including 23 half-negated edges, 27 *kalsira-ru* (3 completed, 24 frozen), 19 *lartuki-halu*, 34 stacked warrants with 11 reversed, `[41]` on three Ch-1 objects and all nine formulae, *-ar* on 101 intact Ch-1 objects, 74 of 79 Stratum III sequences divisible by three, 31 find loci, P(elsewhere) = 0.04, CSC-1146's 9 · 6 · 4, the confusion table (440 · 334), the grade preamble (10 · 15 · 9 · 1), the four strata shares, and every year the A-family cites present in the Archive of works |
+| holds | 37 | the corpus reproduces the figure — including 23 half-negated edges, 27 *kalsira-ru* (3 completed, 24 frozen), 19 *lartuki-halu*, 34 stacked warrants with 11 reversed, `[41]` on three Ch-1 objects and all nine formulae, *-ar* on 111 intact Ch-1 objects, 74 of 79 Stratum III sequences divisible by three, 31 find loci, P(elsewhere) = 0.04, CSC-1146's 9 · 6 · 4, the confusion table (440 · 334), the grade preamble (10 · 15 · 9 · 1), the four strata shares, and every year the A-family cites present in the Archive of works |
 | repaired | 15 | the figure contradicted the design; the text was corrected and the corpus reproduces the correction |
 | calibration | 8 | feasible under the design; this build's rates differ, and the documents keep their figures |
 | fails | 0 | |
 
 The eight calibration differences, stated so nobody mistakes them for agreement: tokens
-in sequences of three or more units (~2,900 said, 1,947 built); the longest sequence (41
+in sequences of three or more units (~2,900 said, 1,953 built); the longest sequence (41
 units said, 21 built); the 1908 coda count (nine of ~90 said; the build reconstructs 3
 of 47 roots and ritual units and not the formatives); the broken-half share (~41% said,
-~24% built, because every counted record is rendered intact — A itself calls 41% an upper
-bound); SHUNT/RECUR edges (~380 said, 54 built); junction-map nodes (214 said, ~160
-built); ADJ-only edges (87 said, 18 built); and the Stratum II environment (148 Ch-1
-clusters said, 13 built — the proportions A argues from are the rates the build uses).
+~26% built, because every counted record is rendered intact — A itself calls 41% an upper
+bound — and 66 of the build's broken halves are the Archive's identified constructions);
+SHUNT/RECUR edges (~380 said, 57 built); junction-map nodes (214 said, 173 built);
+ADJ-only edges (87 said, 14 built); and the Stratum II environment (148 Ch-1 clusters
+said, 9 built — the proportions A argues from are the rates the build uses).
 
 ## 5. The collision screen — statement
 
@@ -262,7 +266,28 @@ sealed and says so in its footer, with the count of strings it was checked again
 
 ## 8. The blind decipherment trial
 
-*Results pending; see `critique/B1-blind-decipherment-trial.md`.*
+Three independent readers — a philologist, a signals engineer and a skeptical auditor —
+were given the published packet and nothing else, and every one of their 206 tool calls
+was audited afterwards for paths outside it (none). Scored against the sealed key
+(`critique/B1-blind-decipherment-trial.md`; raw reports in `critique/B1-trial/`):
+
+- **The Etruscan condition held where it was designed to.** No root meaning came out:
+  all three concluded, with statistics, that the roots have distributional roles and no
+  recoverable reference. No Stratum III reading came out: all three recovered its form
+  — about twenty repetition templates in a handful of families, which is the sealed
+  composition procedure found from outside — and all three said no reading is
+  supportable. **The undecidable dispute stayed undecidable**: all three said Sturge
+  cannot be settled, for the key's reason.
+- **Five disputes the world decides were decided**, correctly, by at least two readers
+  each: Keele, Redfern, Stative over Locative, Cardwell, and Onslow (two classes).
+  Hallam's Ch-1 half was found by all three and its Ch-2 half by none — the evidence is
+  two tokens in fifteen hand copies, a calibration fault in the build. REG was found by
+  no one, and its evidence is not in the published catalogue at all.
+- **The trial's yield was four production defects** (F-30 to F-32): `[41]` and the
+  ritual units carried patterns a reader could read; the sealed key promised nine bound
+  pairs the build had never rendered; and the engine filed the Archive's own identified
+  constructions as damage while eight glossed roots had no records. All fixed. The
+  corrected corpus has not been re-trialled blind, and should be.
 
 ## 9. What is still open
 

@@ -6,6 +6,10 @@
 #       withdrawn  — first flagged as a contradiction, reclassified on review as a
 #                    calibration difference (the figure is feasible; this build's rates differ)
 # Numbers are stable, like catalogue numbers: a withdrawn finding keeps its number.
+# page: false — held author-side: the finding's own text would reveal what the sealed key
+#               holds (a dispute's verdict, or a PRODUCTION rule), so the published page
+#               omits it and says how many it omits. The leak check matches strings; this
+#               flag is the review that catches paraphrase.
 
 findings:
   - id: F-01
@@ -111,13 +115,13 @@ findings:
     where: "A §2, §12 row 6; A-reserve §3.3, §4.2, §4.5"
     title: "~610 types with ~180 over five does not fit the template at 4,100 tokens"
     says: "~610 distinct recurring units; ~180 occur more than five times."
-    finds: "In A's template a root is about a quarter of the functional tokens: ~650 of ~2,700. With ~545 root types among them, at most ~20 roots can occur six times or more; with the ~65 formatives and fillers that is ~85 types, not 180. The build gets 341 types, 53 of them over five, most of them formatives."
+    finds: "In A's template a root is about a quarter of the functional tokens: ~650 of ~2,700. With ~545 root types among them, at most ~20 roots can occur six times or more; with the ~65 formatives and fillers that is ~85 types, not 180. The build gets 348 types, 59 of them over five, most of them formatives."
     repair: "~350 distinct units in the functional strata, ~60 occurring more than five times. Corpus scale is Authority D and the user may set it higher; the ratio is what the template fixes."
   - id: F-16
     kind: withdrawn
     where: "A §4.2"
     title: "“41% of sequences end in a broken half” (withdrawn)"
-    finds: "The build gets about 24%, because every record the documents count exactly is rendered intact. A calls the figure an upper bound on damage; it is feasible with a harder damage model."
+    finds: "The build gets about a quarter, because every record the documents count exactly is rendered intact. A calls the figure an upper bound on damage; it is feasible with a harder damage model."
     repair: "None. Listed as calibration."
   - id: F-17
     kind: withdrawn
@@ -129,9 +133,10 @@ findings:
     kind: withdrawn
     where: "A §4.6b"
     title: "214 junction-map nodes, ~60% by -ar alone (withdrawn)"
-    finds: "The build now reproduces the fact the reply to Hallam rests on (-ar on 101 intact Ch-1 objects). Its junction map is ~160 nodes, almost all by -ar alone, because few find loci yield two records about one root."
+    finds: "The build now reproduces the fact the reply to Hallam rests on (-ar on 111 intact Ch-1 objects). Its junction map is ~170 nodes, almost all by -ar alone, because few find loci yield two records about one root."
     repair: "None. Listed as calibration."
   - id: F-19
+    page: false          # author-side: the text would reveal the sealed key
     kind: withdrawn
     where: "A §4.6c"
     title: "87 ADJ-only edges (withdrawn)"
@@ -144,12 +149,14 @@ findings:
     finds: "First flagged when the build produced 38 and 10. The figure is feasible; the build's stacking rates were tuned and it now reproduces 34 and 11 exactly."
     repair: "None needed."
   - id: F-21
+    page: false          # author-side: the text would reveal the sealed key
     kind: self
     where: "hel/corpus.py, hel/poetics.py"
     title: "The build filed three texts its own classifier had rejected"
     finds: "The three contested-boundary Stratum III texts were made by splitting one unit in two, and the split left a bare warrant, grade or recurrence formative (nes, lan, kur). The classifier rejected them under Condition 1; the build overrode it and filed them as III."
     repair: "Both halves of a contested split must be unassignable and pass the screen, and the classifier's verdict is final. The three are now 7-unit provisionals, as F-11 says they must be."
   - id: F-22
+    page: false          # author-side: the text would reveal the sealed key
     kind: self
     where: "hel/corpus.py, hel/render.py, hel/taphonomy.py"
     title: "The build did not reproduce four figures the documents state exactly"
@@ -178,7 +185,7 @@ findings:
     where: "A §7 (against A-reserve §3.3)"
     title: "Forty percent or two-thirds"
     says: "Stratum III “contains ~40% of the corpus's hapax units.”"
-    finds: "The reserve, which A names as the full specification, said about two-thirds (301 of ~450); with its table corrected (F-10) the engine gets 72%."
+    finds: "The reserve, which A names as the full specification, said about two-thirds (301 of ~450); with its table corrected (F-10) the engine gets 70%."
     repair: "“About seven in ten” — the reserve's own figure once F-10 corrected its inputs."
   - id: F-29
     kind: self
@@ -186,3 +193,24 @@ findings:
     title: "Four of this build's own coinages collided with something"
     finds: "The ritual unit ropelki contained the brand Opel (and the English rope); the root hitulsa contained Tulsa; two invented scholars shared names with a famous actor and a novel's family. And the Field English reduction of nikur, [ˈnɪkəɹ], sat one voicing feature from an English slur."
     repair: "ropelki is now rosilpe (still four units with Chicago p against Second f), hitulsa is hitulke, the scholars are Treloar (1926) and Tredgold (1967), and nikur keeps its Standard stress in the field — the one loan that never reduces."
+  - id: F-30
+    page: false          # author-side: the text would reveal the sealed key
+    kind: self
+    where: "hel/corpus.py, data/formulae.yaml (sealed P-41, P-RITUAL); critique/B1"
+    title: "Two things with no meaning had patterns a reader could read"
+    finds: "The blind trial found that [41] occurred in writing only on closure records (three of three, p ≈ 5×10⁻⁵), and two readers took it for a closure warrant; and that the ritual unit before [41] co-varied with polarity. Both are placed by rules with no truth value, and the handbook says [41] must never be explained. The patterns were accidents of placement."
+    repair: "[41] sits on records of three unrelated kinds with no polarity, drawn from a separate random stream; two formulae swap ritual units, so each ends formulae of mixed polarity."
+  - id: F-31
+    page: false          # author-side: the text would reveal the sealed key
+    kind: self
+    where: "sealed/key.yaml WITHHOLDING; hel/render.py; critique/B1"
+    title: "The sealed key promised nine bound pairs the build never rendered"
+    finds: "All three trial readers re-ran Keele's method on the break inventory and found no further frozen pairs. The key says nine are there. They were not: a withholding entry with nothing behind it."
+    repair: "The nine are listed in the key's TRUTH register and rendered, two of each, bare and where their condition holds. Keele's method now finds them."
+  - id: F-32
+    kind: self
+    where: "hel/grammar.py, reading_room/engine.js, hel/corpus.py; critique/B1"
+    title: "The engine filed the Archive's own identifications as damage"
+    finds: "The catalogue flagged kalsira-ru, lartuki-halu and the half-negated tails D-BROKEN — sixty years after Keele — so 66 of 101 broken halves were constructions the Archive had identified. And eight glossed roots never occurred in the catalogue at all, though a gloss graded by operational correlation needs records to rest on."
+    repair: "Identified constructions are catalogued as N-PAIR and N-HALFNEG notes, and the figures split broken halves into constructions and the rest; every glossed root now occurs in the catalogue."
+

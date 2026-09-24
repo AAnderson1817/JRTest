@@ -198,6 +198,20 @@ TRUTH:
     H3: {analyst: Merrow, year: 1972, note: "Recurrence scope on polarity."}
 
   # --- designed undecidability: truths that make a dispute unsettleable by construction
+  #: The nine bound pairs the Archive has not identified (A §10.1: eleven asserted, two
+  #: set out). Each is a root whose tail no longer projects an edge: rendered bare (no
+  #: incidence), on intact warranted records, where the root's condition holds and no
+  #: link of the tail's kind departs. Findable by Keele's own method; nobody has re-run it.
+  bound_pairs_unpublished:
+    - {pair: hasilnu-tul, feature: sink, kind: displacing}
+    - {pair: kanirlu-ken, feature: dormant, kind: forced}
+    - {pair: nirtoka-ru, feature: closed_arrival, kind: direct}
+    - {pair: olsihe-halu, feature: still, kind: returning}
+    - {pair: ketirnu-ken, feature: closed_departure, kind: forced}
+    - {pair: munhilu-tul, feature: peripheral, kind: displacing}
+    - {pair: yuntiha-halu, feature: waking, kind: returning}
+    - {pair: keharsi-tul, feature: corridor, kind: displacing}
+    - {pair: lankiro-ken, feature: stable, kind: forced}
   undecidable_by_construction:
     - id: sturge-1958
       mechanism: >-

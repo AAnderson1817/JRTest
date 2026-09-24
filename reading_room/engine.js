@@ -177,6 +177,16 @@
   }
   HEL.edges = edges;
 
+  /* Tail-only forms the Archive has identified as constructions, not damage
+     (hel/grammar.py construction). The nine pairs HEL has not identified stay D-BROKEN. */
+  function construction(w) {
+    if (w.root === "kalsira" && w.tail === "PASS") return ["N-PAIR", "the bound pair kalsira-ru: the tail projects no edge (Keele 1963, A §10.1a)"];
+    if (w.root === "lartuki" && w.tail === "RECUR") return ["N-PAIR", "the bound pair lartuki-halu (the 1969 paraphrase, A §10.1b)"];
+    if (w.polarity === "mun" && w.tail) return ["N-HALFNEG", "-mun on the tail half alone: a half-negated edge (A §4.4)"];
+    return null;
+  }
+  HEL.construction = construction;
+
   HEL.check = function (seg, channel) {
     channel = channel || "Ch-1";
     var f = [], ws = seg.words, es = edges(seg);
@@ -214,7 +224,11 @@
     });
     es.forEach(function (e) {
       if (e.kind === "mismatch") add("E-AGREE", "ill-formed", "words " + (e.origin + 1) + "–" + (e.dest + 1), "edge halves disagree in class");
-      if (e.kind === "broken-tail") add("D-BROKEN", "damaged", "word " + (e.origin + 1), "-" + INV.edge_classes[e.cls].tail + " ⌀ (broken half)");
+      if (e.kind === "broken-tail") {
+        var known = construction(ws[e.origin]);
+        if (known) add(known[0], "note", "word " + (e.origin + 1), known[1]);
+        else add("D-BROKEN", "damaged", "word " + (e.origin + 1), "-" + INV.edge_classes[e.cls].tail + " ⌀ (broken half)");
+      }
       if (e.kind === "broken-head") add("D-BROKEN", "damaged", "word " + (e.dest + 1), "⌀ " + INV.edge_classes[e.cls].head + "- (broken half)");
     });
     if (!seg.warrants.length) add("D-WARRANT", "damaged", "segment", "no warrant: catalogued as damaged");

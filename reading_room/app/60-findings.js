@@ -15,7 +15,8 @@ RENDER.findings = function () {
     '<p class="intro">A specification in prose can say things a working system cannot do. Running the language found ' + plural(n("doc"), "place") +
     " where the Phase 1 documents contradict themselves or state a figure their own design cannot produce, and " + plural(n("self"), "place") +
     " where this build was wrong about itself. Each is listed with its repair. The document repairs change wording and numbers; none changes a canon fact, and none resolves an Authority D question. Numbers are stable, like catalogue numbers: " +
-    plural(n("withdrawn"), "finding") + " first logged as contradictions were reclassified on review as calibration differences and keep their numbers.</p>" +
+    plural(n("withdrawn"), "finding") + " first logged as contradictions were reclassified on review as calibration differences and keep their numbers." +
+    (D.findings_withheld ? " " + plural(D.findings_withheld, "finding is", "findings are") + " held author-side and not shown here, because saying what was wrong would say what the sealed key holds; the gaps in the numbering are theirs." : "") + "</p>" +
     L.filter(function (f) { return f.kind !== "withdrawn"; }).map(card).join("") +
     '<h2>Withdrawn</h2><p class="intro">Feasible under the design; this build’s production rates give a different number. They are listed in the Figures table as calibration, and the documents keep their figures.</p>' +
     L.filter(function (f) { return f.kind === "withdrawn"; }).map(card).join("");

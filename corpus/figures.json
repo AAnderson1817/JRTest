@@ -1,34 +1,38 @@
 {
  "figures": {
-  "tokens": 4016,
+  "tokens": 4086,
   "channel_share": {
-   "Ch-1": 0.634,
-   "Ch-2": 0.183,
-   "Ch-3": 0.153,
+   "Ch-1": 0.64,
+   "Ch-2": 0.181,
+   "Ch-3": 0.151,
    "Ch-4": 0.029
   },
   "stratum_share": {
-   "I": 0.23,
+   "I": 0.235,
    "II": 0.441,
-   "III": 0.176,
-   "IV": 0.153
+   "III": 0.173,
+   "IV": 0.151
   },
   "stratum_tokens": {
-   "I": 922,
+   "I": 962,
+   "II": 1802,
    "III": 707,
-   "II": 1772,
    "IV": 615
   },
-  "sequences": 560,
-  "tokens_in_seq_ge3": 4012,
-  "longest_sequence": 25,
+  "sequences": 583,
+  "tokens_in_seq_ge3": 4082,
+  "longest_sequence": 29,
   "sequences_over_30": 0,
-  "functional_types": 341,
-  "functional_types_gt5": 53,
-  "functional_seq_hapax": 146,
-  "functional_segments": 417,
-  "segments_ending_in_broken_half": 101,
-  "broken_share": 0.242,
+  "functional_types": 348,
+  "functional_types_gt5": 59,
+  "functional_seq_hapax": 161,
+  "functional_segments": 440,
+  "segments_ending_in_broken_half": 114,
+  "broken_halves_by_kind": {
+   "construction": 66,
+   "damage or unidentified": 39
+  },
+  "broken_share": 0.259,
   "stacked_warrants": 34,
   "stacked_reversed": 11,
   "tail_only_mun": 23,
@@ -41,35 +45,35 @@
    }
   },
   "lartuki_halu": 19,
-  "multi_edge_coordinate_segments": 12,
-  "shunt_recur_edges": 54,
-  "adj_halves": 18,
+  "multi_edge_coordinate_segments": 11,
+  "shunt_recur_edges": 57,
+  "adj_halves": 14,
   "adj_pairs": 0,
-  "junction_map_nodes": 157,
-  "junction_by_ar_only": 153,
+  "junction_map_nodes": 173,
+  "junction_by_ar_only": 171,
   "stratum_II_env": {
-   "total": 24,
-   "ch1": 13,
-   "ch1_short": 4,
-   "ch1_undetermined": 9,
+   "total": 16,
+   "ch1": 9,
+   "ch1_short": 1,
+   "ch1_undetermined": 8,
    "ch1_undetermined_with_register": 3,
-   "older_branch_cut_present": 2
+   "older_branch_cut_present": 1
   },
   "profile_functional": {
-   "coda_final_share": 0.546,
-   "mean_syllables": 1.61
+   "coda_final_share": 0.543,
+   "mean_syllables": 1.6
   },
   "profile_III": {
    "coda_final_share": 0.85,
    "mean_syllables": 3.06
   },
-  "open_register": 4,
-  "unentitled": 2,
-  "shadow_parses": 12,
+  "open_register": 5,
+  "unentitled": 3,
+  "shadow_parses": 8,
   "imports": {
-   "H1_discharge": 29,
-   "H2_unent": 2,
-   "H3_rscope": 13
+   "H1_discharge": 35,
+   "H2_unent": 3,
+   "H3_rscope": 16
   }
  },
  "iii": {

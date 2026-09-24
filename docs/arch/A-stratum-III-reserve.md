@@ -260,8 +260,8 @@ meaning. That method needs repetition *between* records.
 Stratum III repeats *within* records and almost never between them (§4.2). Of ~400
 distinct Stratum III types, **all but a handful occur in exactly one sequence** — and
 Stratum III holds about seven in ten of the whole corpus's hapax units in 17% of its
-tokens. (In the engine's build: 381 of 387 Stratum III types, against 147 of 341 in the
-functional strata — 381 of 528, or 72%. §4.2 carries both columns; an earlier text gave
+tokens. (In the engine's build: 381 of 387 Stratum III types, against 161 of 348 in the
+functional strata — 381 of 542, or 70%. §4.2 carries both columns; an earlier text gave
 301 of 412, which §4.2's own probabilities rule out — engine finding F-10.) There is no
 paradigm to build, because there are no minimal pairs across contexts to build one from.
 

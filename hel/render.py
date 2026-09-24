@@ -50,7 +50,7 @@ class Record:
 #: Share of label objects placed at a node with two or more open departures.
 LABEL_AT_JUNCTION = 0.9
 #: Chance that a stacked warrant pair is written in the reversed order (hos lekur).
-REVERSED_P = 0.45
+REVERSED_P = 0.5
 
 class Renderer:
     def __init__(self, world: World, core_roots: dict, noncore: dict, seed: int = 1949):
@@ -385,6 +385,42 @@ class Renderer:
         wr = [rng.choice(("tir", "nes", "hos"))]
         return Record(g.Segment(words, wr), "kalsira-ru", e, stratum, {
             "loci": [v], "links": [], "features": ["held"], "pair": "frozen"})
+
+    def frozen_pair(self, e: int, root: str, feature: str, kind: str, stratum: str = "II") -> Optional[Record]:
+        """One of the nine unpublished bound pairs (sealed TRUTH.bound_pairs_unpublished):
+        the root bare, its tail projecting nothing, where the root's condition holds and
+        no link of the tail's kind departs."""
+        rng, w = self.rng, self.w
+        cls = KIND_CLASS[kind]
+        cands = [v for v in range(1, len(w.loci))
+                 if feature in w.features(v, e) and not any(l.kind == kind for l in w.out[v])]
+        if not cands:
+            return None
+        v = rng.choice(cands)
+        words = []
+        prev = [l for l in w.inn[v] if l.src != 0]
+        if prev and rng.random() < 0.5:
+            l0 = rng.choice(prev)
+            a = self.root_for(l0.src, e, avoid=(root,))
+            c0 = KIND_CLASS[l0.kind]
+            words.append(g.NodeWord(a[0], incidence="in", tail=c0))
+            words.append(g.NodeWord(root, head=c0, tail=cls))
+        else:
+            words.append(g.NodeWord(root, tail=cls))
+        return Record(g.Segment(words, [rng.choice(("tir", "nes", "hos"))]), "frozen-pair", e, stratum, {
+            "loci": [v], "links": [], "features": [feature], "pair": "frozen-unpublished"})
+
+    def label_where(self, root: str, feature: str, stratum: str, tries: int = 400) -> Optional[Record]:
+        """A label for ``root`` at a node and pass where its condition holds."""
+        rng, w = self.rng, self.w
+        for _ in range(tries):
+            v, e = rng.randrange(1, len(w.loci)), rng.randrange(EPOCHS)
+            if feature in w.features(v, e):
+                inc = "ar" if len(w.departures(v, e)) >= 2 else rng.choice(("in", "in", "ol"))
+                wr = [rng.choices(("nes", "tir", "lekur", "hos", "wal"), (40, 30, 14, 8, 8))[0]]
+                return Record(g.Segment([g.NodeWord(root, incidence=inc)], wr), "label", e, stratum, {
+                    "loci": [v], "links": [], "features": [feature]})
+        return None
 
     def lartuki_halu(self, e: int, stratum: str) -> Optional[Record]:
         """The bound pair nothing turns on (A §10.1b): coordinate hilun-nu-hilun in every one."""

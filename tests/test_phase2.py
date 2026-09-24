@@ -117,6 +117,40 @@ class Corpus(unittest.TestCase):
         self.assertEqual([e.ref for e in a.entries], [e.ref for e in b.entries])
 
 
+
+class TrialFixes(unittest.TestCase):
+    """critique/B1: the production defects the blind trial found stay fixed."""
+
+    def test_41_carries_no_polarity(self):              # F-30
+        for e in catalogue():
+            for s in e["segments"]:
+                if "[41]" in s["translit"] and e["channel"] == "Ch-1":
+                    seg = parse.parse_segment(s["translit"], lexicon())
+                    self.assertFalse(any(w.polarity for w in seg.words), e["ref"])
+
+    def test_ritual_units_do_not_track_polarity(self):  # F-30
+        F = yaml.safe_load((ROOT / "data" / "formulae.yaml").read_text(encoding="utf-8"))["formulae"]
+        by_unit = {}
+        for f in F:
+            seg = parse.parse_segment(f["text"], lexicon())
+            by_unit.setdefault(seg.free[0], set()).add(any(w.polarity for w in seg.words))
+        self.assertTrue(all(len(v) == 2 or len(v) == 1 and False in v for v in by_unit.values()), by_unit)
+
+    def test_nine_bound_pairs_rendered(self):           # F-31
+        key = yaml.safe_load((ROOT / "sealed" / "key.yaml").read_text(encoding="utf-8"))
+        text = (ROOT / "corpus" / "csc.json").read_text(encoding="utf-8")
+        for bp in key["TRUTH"]["bound_pairs_unpublished"]:
+            self.assertGreaterEqual(text.count(bp["pair"] + " "), 1, bp["pair"])
+
+    def test_identified_constructions_are_not_damage(self):   # F-32
+        from hel import grammar as g
+        seg = parse.parse_segment("kalsira-ru · hos", lexicon())
+        codes = [f.code for f in g.check(seg)]
+        self.assertIn("N-PAIR", codes)
+        self.assertNotIn("D-BROKEN", codes)
+        seg = parse.parse_segment("hasilnu-tul · hos", lexicon())   # unidentified: still a break
+        self.assertIn("D-BROKEN", [f.code for f in g.check(seg)])
+
 @unittest.skipUnless(shutil.which("node"), "node not installed")
 class BrowserEngine(unittest.TestCase):
     def test_agrees_with_python(self):

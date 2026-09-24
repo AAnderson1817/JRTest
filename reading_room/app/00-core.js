@@ -49,9 +49,11 @@ function unitLink(form) {
 
 function sevClass(sev) { return sev === "ill-formed" ? "ill-formed" : sev === "damaged" ? "damaged" : "note"; }
 function findingChips(list) {
-  var shown = list.filter(function (f) { return f.severity !== "note"; });
-  if (!shown.length) return '<div class="findings"><span class="fnd ok">well-formed · no damage recorded</span></div>';
+  var shown = list.filter(function (f) { return f.severity !== "note" || f.code !== "N-UNREG"; });
+  var hard = shown.filter(function (f) { return f.severity !== "note"; });
+  if (!hard.length) shown.unshift({ code: "OK", severity: "ok", where: "segment", message: "well-formed · no damage recorded" });
   return '<div class="findings">' + shown.map(function (f) {
+    if (f.code === "OK") return '<span class="fnd ok">' + esc(f.message) + "</span>";
     return '<span class="fnd ' + sevClass(f.severity) + '" title="' + esc(f.where) + '">' + esc(f.code) + " · " + esc(f.where) + " · " + esc(f.message) + "</span>";
   }).join("") + "</div>";
 }
